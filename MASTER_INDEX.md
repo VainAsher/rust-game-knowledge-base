@@ -12,6 +12,12 @@ Catalogue of every document in the Rust (Facepunch) Game Knowledge Base. Owned b
 | rust-server-administration-foundation | Rust Server Administration: Foundation | Dedicated server setup | 1 | Global | 1.0.0 | frozen | Medium | `docs/server-administration/rust-server-administration-foundation.md` |
 | rust-modding-plugins-foundation | Rust Modding and Plugins: Foundation | Oxide/uMod and Carbon frameworks | 1 | Global | 1.0.0 | frozen | Medium | `docs/modding-plugins/rust-modding-plugins-foundation.md` |
 | rust-updates-meta-foundation | Rust Updates and Meta: Foundation | Update cadence and release history | 1 | Global | 1.0.0 | frozen | Medium | `docs/updates-meta/rust-updates-meta-foundation.md` |
+| rust-update-timeline-2026 | Rust Update Timeline 2026 | 2026 update timeline | 2 | Global | 1.0.0 | frozen | Medium | `docs/updates-meta/rust-update-timeline-2026.md` |
+| rust-server-convars-reference | Rust Server Convars Reference | Server convars and config | 2 | Global | 1.0.0 | frozen | Medium | `docs/server-administration/rust-server-convars-reference.md` |
+| rust-raiding-costs-defence | Rust Raiding Costs and Base Defence | Raid costs and defence | 2 | Global | 0.1.0 | in-review | Low | `docs/building-raiding/rust-raiding-costs-defence.md` |
+| rust-combat-damage-model | Rust Combat and Damage Model | Combat and damage | 2 | Global | 1.0.0 | frozen | Medium | `docs/game-mechanics/rust-combat-damage-model.md` |
+| rust-plugin-development-hooks | Rust Plugin Development and Hooks | Plugin development | 2 | Global | 1.0.0 | frozen | Medium | `docs/modding-plugins/rust-plugin-development-hooks.md` |
+| rust-weapons-ammo | Rust Weapons and Ammunition | Weapons and ammo | 2 | Global | 1.0.0 | frozen | Medium | `docs/items-crafting/rust-weapons-ammo.md` |
 
 ## Knowledge graph
 
@@ -32,6 +38,12 @@ Catalogue of every document in the Rust (Facepunch) Game Knowledge Base. Owned b
 - `rust-server-administration-foundation` *related* `rust-modding-plugins-foundation`
 - `rust-updates-meta-foundation` *informs* `rust-server-administration-foundation`
 - `rust-updates-meta-foundation` *informs* `rust-modding-plugins-foundation`
+- `rust-update-timeline-2026` *deepens* `rust-updates-meta-foundation`
+- `rust-server-convars-reference` *deepens* `rust-server-administration-foundation`
+- `rust-raiding-costs-defence` *deepens* `rust-building-raiding-foundation`
+- `rust-combat-damage-model` *deepens* `rust-game-mechanics-foundation`
+- `rust-plugin-development-hooks` *deepens* `rust-modding-plugins-foundation`
+- `rust-weapons-ammo` *deepens* `rust-items-crafting-foundation`
 
 ## Proposed taxonomy (pending human approval, nothing generated yet)
 

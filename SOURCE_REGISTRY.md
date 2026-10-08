@@ -93,3 +93,69 @@ reddit.com, x.com / twitter.com, discord.com, youtube.com, steamcommunity.com, s
 | S65 | Facepunch | Primary | Facepunch | https://rust.facepunch.com/news/lunar-new-year-2026 |
 | S66 | Steam | Primary | Steam | https://store.steampowered.com/app/252490/Rust/ |
 | S67 | Wikipedia | Practitioner | Wikipedia | https://en.wikipedia.org/wiki/Rust_(video_game) |
+| S68 | Facepunch | Primary | Facepunch | https://rust.facepunch.com/news/devblog-117 |
+| S69 | Facepunch Rust Wiki | Primary | Facepunch Rust Wiki | https://wiki.facepunch.com/rust/item/rifle.ak |
+| S70 | Facepunch Rust Wiki | Primary | Facepunch Rust Wiki | https://wiki.facepunch.com/rust/item/rifle.bolt |
+| S71 | Facepunch Rust Wiki | Primary | Facepunch Rust Wiki | https://wiki.facepunch.com/rust/item/rifle.l96 |
+| S72 | Facepunch Rust Wiki | Primary | Facepunch Rust Wiki | https://wiki.facepunch.com/rust/item/smg.thompson |
+| S73 | Facepunch Rust Wiki | Primary | Facepunch Rust Wiki | https://wiki.facepunch.com/rust/item/shotgun.pump |
+| S74 | Facepunch Rust Wiki | Primary | Facepunch Rust Wiki | https://wiki.facepunch.com/rust/item/bow.hunting |
+| S75 | Facepunch Rust Wiki | Primary | Facepunch Rust Wiki | https://wiki.facepunch.com/rust/item/salvaged.sword |
+| S76 | Facepunch Rust Wiki | Primary | Facepunch Rust Wiki | https://wiki.facepunch.com/rust/item/stone.pickaxe |
+| S77 | Facepunch Rust Wiki | Primary | Facepunch Rust Wiki | https://wiki.facepunch.com/rust/item/metal.facemask |
+| S78 | Facepunch Rust Wiki | Primary | Facepunch Rust Wiki | https://wiki.facepunch.com/rust/item/roadsign.jacket |
+| S79 | Facepunch Rust Wiki | Primary | Facepunch Rust Wiki | https://wiki.facepunch.com/rust/item/hazmatsuit |
+| S80 | Facepunch Rust Wiki | Primary | Facepunch Rust Wiki | https://wiki.facepunch.com/rust/item/ammo.rocket.basic |
+| S81 | GamerBlurb | Practitioner | GamerBlurb | https://gamerblurb.com/articles/how-bleeding-works-in-rust |
+| S82 | Rustafied | Practitioner | Rustafied | https://www.rustafied.com/rust-experimental-frequently-asked-questions |
+| S83 | Rust Wiki (Facepunch) | Primary | Rust Wiki (Facepunch) | https://wiki.facepunch.com/rust/item/ammo.rifle |
+| S84 | Rust Wiki (Facepunch) | Primary | Rust Wiki (Facepunch) | https://wiki.facepunch.com/rust/item/ammo.rifle.hv |
+| S85 | Rust Wiki (Facepunch) | Primary | Rust Wiki (Facepunch) | https://wiki.facepunch.com/rust/item/ammo.rifle.explosive |
+| S86 | Rust Wiki (Facepunch) | Primary | Rust Wiki (Facepunch) | https://wiki.facepunch.com/rust/item/pistol.revolver |
+| S87 | Rust Wiki (Facepunch) | Primary | Rust Wiki (Facepunch) | https://wiki.facepunch.com/rust/item/pistol.python |
+| S88 | Rust Wiki (Facepunch) | Primary | Rust Wiki (Facepunch) | https://wiki.facepunch.com/rust/item/pistol.semiauto |
+| S89 | Rust Wiki (Facepunch) | Primary | Rust Wiki (Facepunch) | https://wiki.facepunch.com/rust/item/shotgun.waterpipe |
+| S90 | Rust Wiki (Facepunch) | Primary | Rust Wiki (Facepunch) | https://wiki.facepunch.com/rust/item/rifle.lr300 |
+| S91 | Rust Wiki (Facepunch) | Primary | Rust Wiki (Facepunch) | https://wiki.facepunch.com/rust/item/lmg.m249 |
+| S92 | Rust Wiki (Facepunch) | Primary | Rust Wiki (Facepunch) | https://wiki.facepunch.com/rust/item/crossbow |
+| S93 | Rust Wiki (Facepunch) | Primary | Rust Wiki (Facepunch) | https://wiki.facepunch.com/rust/item/arrow.wooden |
+| S94 | Rust Wiki (Facepunch) | Primary | Rust Wiki (Facepunch) | https://wiki.facepunch.com/rust/item/ammo.pistol |
+| S95 | Rust Wiki (Facepunch) | Primary | Rust Wiki (Facepunch) | https://wiki.facepunch.com/rust/item/ammo.shotgun |
+| S96 | Facepunch | Primary | Facepunch | https://rust.facepunch.com/news/devblog-189 |
+| S97 | GameServerKings | Practitioner | GameServerKings | https://www.gameserverkings.com/knowledge-base/rust/rust-raid-chart/ |
+| S98 | XGamingServer | Practitioner | XGamingServer | https://xgamingserver.com/blog/rust-raid-cost-chart-how-much-c4-rockets/ |
+| S99 | Physgun | Practitioner | Physgun | https://physgun.com/tools/rust-raid-calculator/ |
+| S100 | Codefling | Practitioner | Codefling | https://codefling.com/plugins/offline-raid-limiter |
+| S101 | Facepunch Wiki | Primary | Facepunch Wiki | https://wiki.facepunch.com/rust/rust-companion-server |
+| S102 | Facepunch Wiki | Primary | Facepunch Wiki | https://wiki.facepunch.com/rust/server-gamemodes |
+| S103 | Facepunch | Primary | Facepunch | https://rust.facepunch.com/news/harder-core |
+| S104 | Facepunch | Primary | Facepunch | https://rust.facepunch.com/news/maintenance |
+| S105 | Oxide | Primary | Oxide | https://docs.oxidemod.com/guides/developers/getting-started |
+| S106 | Oxide | Primary | Oxide | https://docs.oxidemod.com/guides/developers/my-first-plugin |
+| S107 | Oxide | Primary | Oxide | https://docs.oxidemod.com/guides/developers/plugin-lifecycle |
+| S108 | Oxide | Primary | Oxide | https://docs.oxidemod.com/guides/developers/attributes |
+| S109 | Oxide | Primary | Oxide | https://docs.oxidemod.com/guides/developers/permissions |
+| S110 | Oxide | Primary | Oxide | https://docs.oxidemod.com/core/libraries/permissions |
+| S111 | Oxide | Primary | Oxide | https://docs.oxidemod.com/guides/developers/data-storage |
+| S112 | Oxide | Primary | Oxide | https://docs.oxidemod.com/guides/developers/plugin-guidelines |
+| S113 | Oxide | Primary | Oxide | https://docs.oxidemod.com/guides/developers/best-practices |
+| S114 | Oxide | Primary | Oxide | https://docs.oxidemod.com/guides/developers/development-environment |
+| S115 | Oxide | Primary | Oxide | https://docs.oxidemod.com/hooks/ |
+| S116 | Oxide | Primary | Oxide | https://docs.oxidemod.com/hooks/entity/CanLootEntity |
+| S117 | Oxide | Primary | Oxide | https://docs.oxidemod.com/hooks/server/OnServerInitialized |
+| S118 | Oxide | Primary | Oxide | https://docs.oxidemod.com/hooks/permission/OnUserPermissionGranted |
+| S119 | Oxide | Primary | Oxide | https://docs.oxidemod.com/hooks/player/OnPlayerConnected |
+| S120 | Oxide | Primary | Oxide | https://docs.oxidemod.com/guides/owners/configure-plugins |
+| S121 | Oxide | Primary | Oxide | https://docs.oxidemod.com/guides/owners/data-files |
+| S122 | Oxide | Primary | Oxide | https://docs.oxidemod.com/guides/owners/localization |
+| S123 | Carbon | Primary | Carbon | https://carbonmod.gg/devs/creating-your-first-plugin |
+| S124 | Carbon | Primary | Carbon | https://carbonmod.gg/devs/creating-hooks |
+| S125 | Carbon | Primary | Carbon | https://carbonmod.gg/devs/features/commands |
+| S126 | Carbon | Primary | Carbon | https://carbonmod.gg/devs/features/permissions |
+| S127 | Carbon | Primary | Carbon | https://carbonmod.gg/owners/oxide-porting |
+| S128 | Carbon | Primary | Carbon | https://carbonmod.gg/references/hooks/ |
+| S129 | Carbon | Primary | Carbon | https://carbonmod.gg/devs/local-server-hosting |
+| S130 | Facepunch | Primary | Facepunch | https://rust.facepunch.com/news/2 |
+| S131 | Facepunch | Primary | Facepunch | https://rust.facepunch.com/news/surviving-12-years |
+| S132 | Facepunch | Primary | Facepunch | https://rust.facepunch.com/news/community-update-268 |
+| S133 | Facepunch | Primary | Facepunch | https://rust.facepunch.com/news/naval |

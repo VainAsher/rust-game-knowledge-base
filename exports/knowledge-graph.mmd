@@ -7,6 +7,14 @@ graph LR
     rust_server_administration_foundation["rust-server-administration-foundation"]
     rust_updates_meta_foundation["rust-updates-meta-foundation"]
   end
+  subgraph Tier2["Tier 2"]
+    rust_combat_damage_model["rust-combat-damage-model"]
+    rust_plugin_development_hooks["rust-plugin-development-hooks"]
+    rust_raiding_costs_defence["rust-raiding-costs-defence"]
+    rust_server_convars_reference["rust-server-convars-reference"]
+    rust_update_timeline_2026["rust-update-timeline-2026"]
+    rust_weapons_ammo["rust-weapons-ammo"]
+  end
   rust_game_mechanics_foundation -->|related| rust_items_crafting_foundation
   rust_game_mechanics_foundation -->|related| rust_building_raiding_foundation
   rust_game_mechanics_foundation -->|related| rust_server_administration_foundation
@@ -22,6 +30,12 @@ graph LR
   rust_server_administration_foundation -->|related| rust_modding_plugins_foundation
   rust_updates_meta_foundation -->|informs| rust_server_administration_foundation
   rust_updates_meta_foundation -->|informs| rust_modding_plugins_foundation
+  rust_update_timeline_2026 -->|deepens| rust_updates_meta_foundation
+  rust_server_convars_reference -->|deepens| rust_server_administration_foundation
+  rust_raiding_costs_defence -->|deepens| rust_building_raiding_foundation
+  rust_combat_damage_model -->|deepens| rust_game_mechanics_foundation
+  rust_plugin_development_hooks -->|deepens| rust_modding_plugins_foundation
+  rust_weapons_ammo -->|deepens| rust_items_crafting_foundation
   rust_items_crafting_foundation -->|related| rust_game_mechanics_foundation
   rust_building_raiding_foundation -->|related| rust_game_mechanics_foundation
   rust_building_raiding_foundation -->|related| rust_items_crafting_foundation
@@ -37,3 +51,63 @@ graph LR
   rust_updates_meta_foundation -->|related| rust_game_mechanics_foundation
   rust_updates_meta_foundation -->|related| rust_items_crafting_foundation
   rust_updates_meta_foundation -->|related| rust_building_raiding_foundation
+  rust_update_timeline_2026 -->|related| rust_game_mechanics_foundation
+  rust_update_timeline_2026 -->|related| rust_items_crafting_foundation
+  rust_update_timeline_2026 -->|related| rust_building_raiding_foundation
+  rust_update_timeline_2026 -->|related| rust_server_administration_foundation
+  rust_update_timeline_2026 -->|related| rust_modding_plugins_foundation
+  rust_update_timeline_2026 -->|related| rust_combat_damage_model
+  rust_update_timeline_2026 -->|related| rust_weapons_ammo
+  rust_update_timeline_2026 -->|related| rust_raiding_costs_defence
+  rust_update_timeline_2026 -->|related| rust_server_convars_reference
+  rust_update_timeline_2026 -->|related| rust_plugin_development_hooks
+  rust_server_convars_reference -->|related| rust_game_mechanics_foundation
+  rust_server_convars_reference -->|related| rust_items_crafting_foundation
+  rust_server_convars_reference -->|related| rust_building_raiding_foundation
+  rust_server_convars_reference -->|related| rust_modding_plugins_foundation
+  rust_server_convars_reference -->|related| rust_updates_meta_foundation
+  rust_server_convars_reference -->|related| rust_combat_damage_model
+  rust_server_convars_reference -->|related| rust_weapons_ammo
+  rust_server_convars_reference -->|related| rust_raiding_costs_defence
+  rust_server_convars_reference -->|related| rust_plugin_development_hooks
+  rust_server_convars_reference -->|related| rust_update_timeline_2026
+  rust_raiding_costs_defence -->|related| rust_game_mechanics_foundation
+  rust_raiding_costs_defence -->|related| rust_items_crafting_foundation
+  rust_raiding_costs_defence -->|related| rust_server_administration_foundation
+  rust_raiding_costs_defence -->|related| rust_modding_plugins_foundation
+  rust_raiding_costs_defence -->|related| rust_updates_meta_foundation
+  rust_raiding_costs_defence -->|related| rust_combat_damage_model
+  rust_raiding_costs_defence -->|related| rust_weapons_ammo
+  rust_raiding_costs_defence -->|related| rust_server_convars_reference
+  rust_raiding_costs_defence -->|related| rust_plugin_development_hooks
+  rust_raiding_costs_defence -->|related| rust_update_timeline_2026
+  rust_combat_damage_model -->|related| rust_items_crafting_foundation
+  rust_combat_damage_model -->|related| rust_building_raiding_foundation
+  rust_combat_damage_model -->|related| rust_server_administration_foundation
+  rust_combat_damage_model -->|related| rust_modding_plugins_foundation
+  rust_combat_damage_model -->|related| rust_updates_meta_foundation
+  rust_combat_damage_model -->|related| rust_weapons_ammo
+  rust_combat_damage_model -->|related| rust_raiding_costs_defence
+  rust_combat_damage_model -->|related| rust_server_convars_reference
+  rust_combat_damage_model -->|related| rust_plugin_development_hooks
+  rust_combat_damage_model -->|related| rust_update_timeline_2026
+  rust_plugin_development_hooks -->|related| rust_game_mechanics_foundation
+  rust_plugin_development_hooks -->|related| rust_items_crafting_foundation
+  rust_plugin_development_hooks -->|related| rust_building_raiding_foundation
+  rust_plugin_development_hooks -->|related| rust_server_administration_foundation
+  rust_plugin_development_hooks -->|related| rust_updates_meta_foundation
+  rust_plugin_development_hooks -->|related| rust_combat_damage_model
+  rust_plugin_development_hooks -->|related| rust_weapons_ammo
+  rust_plugin_development_hooks -->|related| rust_raiding_costs_defence
+  rust_plugin_development_hooks -->|related| rust_server_convars_reference
+  rust_plugin_development_hooks -->|related| rust_update_timeline_2026
+  rust_weapons_ammo -->|related| rust_game_mechanics_foundation
+  rust_weapons_ammo -->|related| rust_building_raiding_foundation
+  rust_weapons_ammo -->|related| rust_server_administration_foundation
+  rust_weapons_ammo -->|related| rust_modding_plugins_foundation
+  rust_weapons_ammo -->|related| rust_updates_meta_foundation
+  rust_weapons_ammo -->|related| rust_combat_damage_model
+  rust_weapons_ammo -->|related| rust_raiding_costs_defence
+  rust_weapons_ammo -->|related| rust_server_convars_reference
+  rust_weapons_ammo -->|related| rust_plugin_development_hooks
+  rust_weapons_ammo -->|related| rust_update_timeline_2026

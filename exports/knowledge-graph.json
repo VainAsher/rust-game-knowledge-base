@@ -131,6 +131,174 @@
         "rust-server-administration-foundation",
         "rust-modding-plugins-foundation"
       ]
+    },
+    {
+      "id": "rust-update-timeline-2026",
+      "title": "Rust Update Timeline 2026",
+      "topic": "2026 update timeline",
+      "tier": "2",
+      "market": "Global",
+      "version": "1.0.0",
+      "status": "frozen",
+      "confidence": "Medium",
+      "path": "docs/updates-meta/rust-update-timeline-2026.md",
+      "category": "Game Updates & Meta",
+      "document_type": "deep-dive",
+      "review_due": "2026-11-08",
+      "created": "2026-10-08",
+      "related": [
+        "rust-updates-meta-foundation",
+        "rust-game-mechanics-foundation",
+        "rust-items-crafting-foundation",
+        "rust-building-raiding-foundation",
+        "rust-server-administration-foundation",
+        "rust-modding-plugins-foundation",
+        "rust-combat-damage-model",
+        "rust-weapons-ammo",
+        "rust-raiding-costs-defence",
+        "rust-server-convars-reference",
+        "rust-plugin-development-hooks"
+      ]
+    },
+    {
+      "id": "rust-server-convars-reference",
+      "title": "Rust Server Convars Reference",
+      "topic": "Server convars and config",
+      "tier": "2",
+      "market": "Global",
+      "version": "1.0.0",
+      "status": "frozen",
+      "confidence": "Medium",
+      "path": "docs/server-administration/rust-server-convars-reference.md",
+      "category": "Server Administration",
+      "document_type": "deep-dive",
+      "review_due": "2026-11-08",
+      "created": "2026-10-08",
+      "related": [
+        "rust-server-administration-foundation",
+        "rust-game-mechanics-foundation",
+        "rust-items-crafting-foundation",
+        "rust-building-raiding-foundation",
+        "rust-modding-plugins-foundation",
+        "rust-updates-meta-foundation",
+        "rust-combat-damage-model",
+        "rust-weapons-ammo",
+        "rust-raiding-costs-defence",
+        "rust-plugin-development-hooks",
+        "rust-update-timeline-2026"
+      ]
+    },
+    {
+      "id": "rust-raiding-costs-defence",
+      "title": "Rust Raiding Costs and Base Defence",
+      "topic": "Raid costs and defence",
+      "tier": "2",
+      "market": "Global",
+      "version": "0.1.0",
+      "status": "in-review",
+      "confidence": "Low",
+      "path": "docs/building-raiding/rust-raiding-costs-defence.md",
+      "category": "Building & Raiding",
+      "document_type": "deep-dive",
+      "review_due": "2026-11-08",
+      "created": "2026-10-08",
+      "related": [
+        "rust-building-raiding-foundation",
+        "rust-game-mechanics-foundation",
+        "rust-items-crafting-foundation",
+        "rust-server-administration-foundation",
+        "rust-modding-plugins-foundation",
+        "rust-updates-meta-foundation",
+        "rust-combat-damage-model",
+        "rust-weapons-ammo",
+        "rust-server-convars-reference",
+        "rust-plugin-development-hooks",
+        "rust-update-timeline-2026"
+      ]
+    },
+    {
+      "id": "rust-combat-damage-model",
+      "title": "Rust Combat and Damage Model",
+      "topic": "Combat and damage",
+      "tier": "2",
+      "market": "Global",
+      "version": "1.0.0",
+      "status": "frozen",
+      "confidence": "Medium",
+      "path": "docs/game-mechanics/rust-combat-damage-model.md",
+      "category": "Game Mechanics",
+      "document_type": "deep-dive",
+      "review_due": "2026-11-08",
+      "created": "2026-10-08",
+      "related": [
+        "rust-game-mechanics-foundation",
+        "rust-items-crafting-foundation",
+        "rust-building-raiding-foundation",
+        "rust-server-administration-foundation",
+        "rust-modding-plugins-foundation",
+        "rust-updates-meta-foundation",
+        "rust-weapons-ammo",
+        "rust-raiding-costs-defence",
+        "rust-server-convars-reference",
+        "rust-plugin-development-hooks",
+        "rust-update-timeline-2026"
+      ]
+    },
+    {
+      "id": "rust-plugin-development-hooks",
+      "title": "Rust Plugin Development and Hooks",
+      "topic": "Plugin development",
+      "tier": "2",
+      "market": "Global",
+      "version": "1.0.0",
+      "status": "frozen",
+      "confidence": "Medium",
+      "path": "docs/modding-plugins/rust-plugin-development-hooks.md",
+      "category": "Modding & Plugins",
+      "document_type": "deep-dive",
+      "review_due": "2026-11-08",
+      "created": "2026-10-08",
+      "related": [
+        "rust-modding-plugins-foundation",
+        "rust-game-mechanics-foundation",
+        "rust-items-crafting-foundation",
+        "rust-building-raiding-foundation",
+        "rust-server-administration-foundation",
+        "rust-updates-meta-foundation",
+        "rust-combat-damage-model",
+        "rust-weapons-ammo",
+        "rust-raiding-costs-defence",
+        "rust-server-convars-reference",
+        "rust-update-timeline-2026"
+      ]
+    },
+    {
+      "id": "rust-weapons-ammo",
+      "title": "Rust Weapons and Ammunition",
+      "topic": "Weapons and ammo",
+      "tier": "2",
+      "market": "Global",
+      "version": "1.0.0",
+      "status": "frozen",
+      "confidence": "Medium",
+      "path": "docs/items-crafting/rust-weapons-ammo.md",
+      "category": "Items & Crafting",
+      "document_type": "deep-dive",
+      "review_due": "2026-11-08",
+      "created": "2026-10-08",
+      "related": [
+        "rust-items-crafting-foundation",
+        "rust-game-mechanics-foundation",
+        "rust-building-raiding-foundation",
+        "rust-server-administration-foundation",
+        "rust-modding-plugins-foundation",
+        "rust-updates-meta-foundation",
+        "rust-combat-damage-model",
+        "rust-raiding-costs-defence",
+        "rust-server-convars-reference",
+        "rust-plugin-development-hooks",
+        "rust-update-timeline-2026"
+      ]
     }
   ],
   "edges": [
@@ -225,6 +393,42 @@
       "target": "known"
     },
     {
+      "from": "rust-update-timeline-2026",
+      "to": "rust-updates-meta-foundation",
+      "rel": "deepens",
+      "target": "known"
+    },
+    {
+      "from": "rust-server-convars-reference",
+      "to": "rust-server-administration-foundation",
+      "rel": "deepens",
+      "target": "known"
+    },
+    {
+      "from": "rust-raiding-costs-defence",
+      "to": "rust-building-raiding-foundation",
+      "rel": "deepens",
+      "target": "known"
+    },
+    {
+      "from": "rust-combat-damage-model",
+      "to": "rust-game-mechanics-foundation",
+      "rel": "deepens",
+      "target": "known"
+    },
+    {
+      "from": "rust-plugin-development-hooks",
+      "to": "rust-modding-plugins-foundation",
+      "rel": "deepens",
+      "target": "known"
+    },
+    {
+      "from": "rust-weapons-ammo",
+      "to": "rust-items-crafting-foundation",
+      "rel": "deepens",
+      "target": "known"
+    },
+    {
       "from": "rust-items-crafting-foundation",
       "to": "rust-game-mechanics-foundation",
       "rel": "related",
@@ -311,6 +515,366 @@
     {
       "from": "rust-updates-meta-foundation",
       "to": "rust-building-raiding-foundation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-update-timeline-2026",
+      "to": "rust-game-mechanics-foundation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-update-timeline-2026",
+      "to": "rust-items-crafting-foundation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-update-timeline-2026",
+      "to": "rust-building-raiding-foundation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-update-timeline-2026",
+      "to": "rust-server-administration-foundation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-update-timeline-2026",
+      "to": "rust-modding-plugins-foundation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-update-timeline-2026",
+      "to": "rust-combat-damage-model",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-update-timeline-2026",
+      "to": "rust-weapons-ammo",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-update-timeline-2026",
+      "to": "rust-raiding-costs-defence",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-update-timeline-2026",
+      "to": "rust-server-convars-reference",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-update-timeline-2026",
+      "to": "rust-plugin-development-hooks",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-server-convars-reference",
+      "to": "rust-game-mechanics-foundation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-server-convars-reference",
+      "to": "rust-items-crafting-foundation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-server-convars-reference",
+      "to": "rust-building-raiding-foundation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-server-convars-reference",
+      "to": "rust-modding-plugins-foundation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-server-convars-reference",
+      "to": "rust-updates-meta-foundation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-server-convars-reference",
+      "to": "rust-combat-damage-model",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-server-convars-reference",
+      "to": "rust-weapons-ammo",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-server-convars-reference",
+      "to": "rust-raiding-costs-defence",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-server-convars-reference",
+      "to": "rust-plugin-development-hooks",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-server-convars-reference",
+      "to": "rust-update-timeline-2026",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-raiding-costs-defence",
+      "to": "rust-game-mechanics-foundation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-raiding-costs-defence",
+      "to": "rust-items-crafting-foundation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-raiding-costs-defence",
+      "to": "rust-server-administration-foundation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-raiding-costs-defence",
+      "to": "rust-modding-plugins-foundation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-raiding-costs-defence",
+      "to": "rust-updates-meta-foundation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-raiding-costs-defence",
+      "to": "rust-combat-damage-model",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-raiding-costs-defence",
+      "to": "rust-weapons-ammo",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-raiding-costs-defence",
+      "to": "rust-server-convars-reference",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-raiding-costs-defence",
+      "to": "rust-plugin-development-hooks",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-raiding-costs-defence",
+      "to": "rust-update-timeline-2026",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-combat-damage-model",
+      "to": "rust-items-crafting-foundation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-combat-damage-model",
+      "to": "rust-building-raiding-foundation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-combat-damage-model",
+      "to": "rust-server-administration-foundation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-combat-damage-model",
+      "to": "rust-modding-plugins-foundation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-combat-damage-model",
+      "to": "rust-updates-meta-foundation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-combat-damage-model",
+      "to": "rust-weapons-ammo",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-combat-damage-model",
+      "to": "rust-raiding-costs-defence",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-combat-damage-model",
+      "to": "rust-server-convars-reference",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-combat-damage-model",
+      "to": "rust-plugin-development-hooks",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-combat-damage-model",
+      "to": "rust-update-timeline-2026",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-plugin-development-hooks",
+      "to": "rust-game-mechanics-foundation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-plugin-development-hooks",
+      "to": "rust-items-crafting-foundation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-plugin-development-hooks",
+      "to": "rust-building-raiding-foundation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-plugin-development-hooks",
+      "to": "rust-server-administration-foundation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-plugin-development-hooks",
+      "to": "rust-updates-meta-foundation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-plugin-development-hooks",
+      "to": "rust-combat-damage-model",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-plugin-development-hooks",
+      "to": "rust-weapons-ammo",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-plugin-development-hooks",
+      "to": "rust-raiding-costs-defence",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-plugin-development-hooks",
+      "to": "rust-server-convars-reference",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-plugin-development-hooks",
+      "to": "rust-update-timeline-2026",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-weapons-ammo",
+      "to": "rust-game-mechanics-foundation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-weapons-ammo",
+      "to": "rust-building-raiding-foundation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-weapons-ammo",
+      "to": "rust-server-administration-foundation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-weapons-ammo",
+      "to": "rust-modding-plugins-foundation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-weapons-ammo",
+      "to": "rust-updates-meta-foundation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-weapons-ammo",
+      "to": "rust-combat-damage-model",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-weapons-ammo",
+      "to": "rust-raiding-costs-defence",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-weapons-ammo",
+      "to": "rust-server-convars-reference",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-weapons-ammo",
+      "to": "rust-plugin-development-hooks",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-weapons-ammo",
+      "to": "rust-update-timeline-2026",
       "rel": "related",
       "target": "known"
     }
