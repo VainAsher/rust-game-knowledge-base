@@ -262,3 +262,55 @@ reddit.com, x.com / twitter.com, discord.com, youtube.com, steamcommunity.com, s
 | S234 | XGamingServer | Practitioner | XGamingServer | https://xgamingserver.com/docs/rust/server-config |
 | S235 | HostHavoc | Practitioner | HostHavoc | https://hosthavoc.com/blog/rust-server-performance-optimization |
 | S236 | GameServerKings | Practitioner | GameServerKings | https://www.gameserverkings.com/knowledge-base/rust/how-to-host-a-rust-server/ |
+| S237 | Facepunch Rust Wiki | Primary | Facepunch Rust Wiki | https://wiki.facepunch.com/rust/Teams |
+| S238 | XGamingServer | Practitioner | XGamingServer | https://xgamingserver.com/blog/rust-clans-teams-guide/ |
+| S239 | Corrosion Hour | Practitioner | Corrosion Hour | https://www.corrosionhour.com/rust-clan-system-guide/ |
+| S240 | Guild Order | Practitioner | Guild Order | https://guildorder.com/games/rust/wiki/the-clan-system-and-its-limits |
+| S241 | Facepunch | Primary | Facepunch | https://rust.facepunch.com/news/devblog-74 |
+| S242 | Facepunch | Primary | Facepunch | https://rust.facepunch.com/news/devblog-69 |
+| S243 | Facepunch | Primary | Facepunch | https://rust.facepunch.com/news/devblog-132 |
+| S244 | Facepunch Rust Wiki | Primary | Facepunch Rust Wiki | https://wiki.facepunch.com/rust/Workshop_FAQ |
+| S245 | Facepunch | Primary | Facepunch | https://rust.facepunch.com/news/permanent-store |
+| S246 | Facepunch Rust Wiki | Primary | Facepunch Rust Wiki | https://wiki.facepunch.com/rust/Getting_Skin_Accepted |
+| S247 | Facepunch Rust Wiki | Primary | Facepunch Rust Wiki | https://wiki.facepunch.com/rust/item/hoodie |
+| S248 | Facepunch Rust Wiki | Primary | Facepunch Rust Wiki | https://wiki.facepunch.com/rust/Clothing_Slots |
+| S249 | Facepunch Rust Wiki | Primary | Facepunch Rust Wiki | https://wiki.facepunch.com/rust/item/metal.plate.torso |
+| S250 | Facepunch Rust Wiki | Primary | Facepunch Rust Wiki | https://wiki.facepunch.com/rust/item/heavy.plate.jacket |
+| S251 | Facepunch Rust Wiki | Primary | Facepunch Rust Wiki | https://wiki.facepunch.com/rust/item/heavy.plate.pants |
+| S252 | Facepunch Rust Wiki | Primary | Facepunch Rust Wiki | https://wiki.facepunch.com/rust/item/heavy.plate.helmet |
+| S253 | Facepunch Rust Wiki | Primary | Facepunch Rust Wiki | https://wiki.facepunch.com/rust/item/jacket |
+| S254 | Facepunch Rust Wiki | Primary | Facepunch Rust Wiki | https://wiki.facepunch.com/rust/item/pants |
+| S255 | Facepunch Rust Wiki | Primary | Facepunch Rust Wiki | https://wiki.facepunch.com/rust/item/roadsign.kilt |
+| S256 | Facepunch Rust Wiki | Primary | Facepunch Rust Wiki | https://wiki.facepunch.com/rust/item/coffeecan.helmet |
+| S257 | Facepunch Rust Wiki | Primary | Facepunch Rust Wiki | https://wiki.facepunch.com/rust/item/riot.helmet |
+| S258 | Facepunch Rust Wiki | Primary | Facepunch Rust Wiki | https://wiki.facepunch.com/rust/item/wood.armor.jacket |
+| S259 | Facepunch Rust Wiki | Primary | Facepunch Rust Wiki | https://wiki.facepunch.com/rust/item/wood.armor.pants |
+| S260 | Facepunch Rust Wiki | Primary | Facepunch Rust Wiki | https://wiki.facepunch.com/rust/item/attire.hide.vest |
+| S261 | XGamingServer | Practitioner | XGamingServer | https://xgamingserver.com/blog/rust-armor-clothing-guide/ |
+| S262 | Facepunch | Primary | Facepunch | https://rust.facepunch.com/news/going-deep |
+| S263 | Facepunch Rust Wiki | Primary | Facepunch Rust Wiki | https://wiki.facepunch.com/rust/Fishing |
+| S264 | Facepunch Rust Wiki | Primary | Facepunch Rust Wiki | https://wiki.facepunch.com/rust/item/fishingrod.handmade |
+| S265 | Facepunch Rust Wiki | Primary | Facepunch Rust Wiki | https://wiki.facepunch.com/rust/item/fishing.tackle |
+| S266 | Facepunch Rust Wiki | Primary | Facepunch Rust Wiki | https://wiki.facepunch.com/rust/item/fish.salmon |
+| S267 | Facepunch Rust Wiki | Primary | Facepunch Rust Wiki | https://wiki.facepunch.com/rust/item/fish.catfish |
+| S268 | Facepunch Rust Wiki | Primary | Facepunch Rust Wiki | https://wiki.facepunch.com/rust/item/fish.sardine |
+| S269 | Facepunch Rust Wiki | Primary | Facepunch Rust Wiki | https://wiki.facepunch.com/rust/item/fish.orangeroughy |
+| S270 | Facepunch Rust Wiki | Primary | Facepunch Rust Wiki | https://wiki.facepunch.com/rust/item/worm |
+| S271 | Facepunch | Primary | Facepunch | https://rust.facepunch.com/blog/devblog170/ |
+| S272 | Rust Wiki (Facepunch) | Primary | Rust Wiki (Facepunch) | https://wiki.facepunch.com/rust/Ore_nodes |
+| S273 | Rust Wiki (Facepunch) | Primary | Rust Wiki (Facepunch) | https://wiki.facepunch.com/rust/item/stonehatchet |
+| S274 | Rust Wiki (Facepunch) | Primary | Rust Wiki (Facepunch) | https://wiki.facepunch.com/rust/item/rock |
+| S275 | Rust Wiki (Facepunch) | Primary | Rust Wiki (Facepunch) | https://wiki.facepunch.com/rust/item/hatchet |
+| S276 | Rust Wiki (Facepunch) | Primary | Rust Wiki (Facepunch) | https://wiki.facepunch.com/rust/item/pickaxe |
+| S277 | Rust Wiki (Facepunch) | Primary | Rust Wiki (Facepunch) | https://wiki.facepunch.com/rust/item/axe.salvaged |
+| S278 | Rust Wiki (Facepunch) | Primary | Rust Wiki (Facepunch) | https://wiki.facepunch.com/rust/item/icepick.salvaged |
+| S279 | Rust Wiki (Facepunch) | Primary | Rust Wiki (Facepunch) | https://wiki.facepunch.com/rust/item/chainsaw |
+| S280 | Rust Wiki (Facepunch) | Primary | Rust Wiki (Facepunch) | https://wiki.facepunch.com/rust/item/jackhammer |
+| S281 | Rust Wiki (Facepunch) | Primary | Rust Wiki (Facepunch) | https://wiki.facepunch.com/rust/Recycler |
+| S282 | Rust Wiki (Facepunch) | Primary | Rust Wiki (Facepunch) | https://wiki.facepunch.com/rust/item/stones |
+| S283 | Rust Wiki (Facepunch) | Primary | Rust Wiki (Facepunch) | https://wiki.facepunch.com/rust/item/mining.quarry |
+| S284 | XGamingServer | Practitioner | XGamingServer | https://xgamingserver.com/docs/rust/gather-rates |
+| S285 | Facepunch | Primary | Facepunch | https://rust.facepunch.com/news/polish-and-progress |
+| S286 | Facepunch | Primary | Facepunch | https://rust.facepunch.com/blog/softcore-gamemode-update/ |
+| S287 | Facepunch Rust Wiki | Primary | Facepunch Rust Wiki | https://wiki.facepunch.com/rust/item/vending.machine |
+| S288 | Rustafied | Practitioner | Rustafied | https://www.rustafied.com/updates/2017/2/9/vending-machines-how-they-work |

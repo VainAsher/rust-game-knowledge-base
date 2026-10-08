@@ -1,5 +1,10 @@
 # Changelog
 
+## Cluster 5 - 2026-10-08
+
+- Five depth documents frozen at v1.0.0: fishing, economy and trading, clothing and armour, tools and gathering, skins and cosmetics.
+- `rust-teams-clans` added at v0.1.0, held in-review (Low confidence, community-only values).
+
 ## Cluster 4 - 2026-10-08
 
 - Five depth documents frozen at v1.0.0: electricity and logic, turrets and deployables, permissions and RCON, server performance, game modes.

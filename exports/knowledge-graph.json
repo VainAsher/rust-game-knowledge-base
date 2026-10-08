@@ -730,6 +730,160 @@
         "rust-server-permissions-rcon",
         "rust-game-modes"
       ]
+    },
+    {
+      "id": "rust-teams-clans",
+      "title": "Rust Teams and Clans",
+      "topic": "Teams, clans and social systems",
+      "tier": "2",
+      "market": "Global",
+      "version": "0.1.0",
+      "status": "in-review",
+      "confidence": "Low",
+      "path": "docs/game-mechanics/rust-teams-clans.md",
+      "category": "Game Mechanics",
+      "document_type": "deep-dive",
+      "review_due": "2026-11-08",
+      "created": "2026-10-08",
+      "related": [
+        "rust-game-mechanics-foundation",
+        "rust-game-modes",
+        "rust-server-convars-reference",
+        "rust-turrets-deployables",
+        "rust-raiding-costs-defence",
+        "rust-update-timeline-2026",
+        "rust-moderation-anti-cheat",
+        "rust-building-raiding-foundation"
+      ]
+    },
+    {
+      "id": "rust-skins-cosmetics",
+      "title": "Rust Skins and Cosmetics",
+      "topic": "Skins and cosmetics",
+      "tier": "2",
+      "market": "Global",
+      "version": "1.0.0",
+      "status": "frozen",
+      "confidence": "Medium",
+      "path": "docs/updates-meta/rust-skins-cosmetics.md",
+      "category": "Game Updates & Meta",
+      "document_type": "deep-dive",
+      "review_due": "2026-11-08",
+      "created": "2026-10-08",
+      "related": [
+        "rust-updates-meta-foundation",
+        "rust-clothing-armour",
+        "rust-economy-trading",
+        "rust-server-administration-foundation",
+        "rust-moderation-anti-cheat",
+        "rust-modding-plugins-foundation"
+      ]
+    },
+    {
+      "id": "rust-clothing-armour",
+      "title": "Rust Clothing and Armour",
+      "topic": "Clothing and armour",
+      "tier": "2",
+      "market": "Global",
+      "version": "1.0.0",
+      "status": "frozen",
+      "confidence": "Medium",
+      "path": "docs/items-crafting/rust-clothing-armour.md",
+      "category": "Items & Crafting",
+      "document_type": "deep-dive",
+      "review_due": "2026-11-08",
+      "created": "2026-10-08",
+      "related": [
+        "rust-items-crafting-foundation",
+        "rust-game-mechanics-foundation",
+        "rust-combat-damage-model",
+        "rust-weapons-ammo",
+        "rust-raiding-costs-defence",
+        "rust-monuments-loot",
+        "rust-skins-cosmetics",
+        "rust-tools-gathering"
+      ]
+    },
+    {
+      "id": "rust-fishing",
+      "title": "Rust Fishing",
+      "topic": "Fishing",
+      "tier": "2",
+      "market": "Global",
+      "version": "1.0.0",
+      "status": "frozen",
+      "confidence": "Medium",
+      "path": "docs/game-mechanics/rust-fishing.md",
+      "category": "Game Mechanics",
+      "document_type": "deep-dive",
+      "review_due": "2026-11-08",
+      "created": "2026-10-08",
+      "related": [
+        "rust-game-mechanics-foundation",
+        "rust-farming-food",
+        "rust-vehicles",
+        "rust-monuments-loot",
+        "rust-wildlife-npcs",
+        "rust-server-convars-reference",
+        "rust-update-timeline-2026"
+      ]
+    },
+    {
+      "id": "rust-tools-gathering",
+      "title": "Rust Tools and Gathering",
+      "topic": "Tools and gathering",
+      "tier": "2",
+      "market": "Global",
+      "version": "1.0.0",
+      "status": "frozen",
+      "confidence": "Medium",
+      "path": "docs/items-crafting/rust-tools-gathering.md",
+      "category": "Items & Crafting",
+      "document_type": "deep-dive",
+      "review_due": "2026-11-08",
+      "created": "2026-10-08",
+      "related": [
+        "rust-items-crafting-foundation",
+        "rust-game-mechanics-foundation",
+        "rust-server-administration-foundation",
+        "rust-modding-plugins-foundation",
+        "rust-updates-meta-foundation",
+        "rust-server-convars-reference",
+        "rust-update-timeline-2026",
+        "rust-combat-damage-model",
+        "rust-weapons-ammo",
+        "rust-wildlife-npcs",
+        "rust-monuments-loot",
+        "rust-farming-food",
+        "rust-clothing-armour"
+      ]
+    },
+    {
+      "id": "rust-economy-trading",
+      "title": "Rust Economy and Trading",
+      "topic": "Economy, scrap and trading",
+      "tier": "2",
+      "market": "Global",
+      "version": "1.0.0",
+      "status": "frozen",
+      "confidence": "Medium",
+      "path": "docs/items-crafting/rust-economy-trading.md",
+      "category": "Items & Crafting",
+      "document_type": "deep-dive",
+      "review_due": "2026-11-08",
+      "created": "2026-10-08",
+      "related": [
+        "rust-items-crafting-foundation",
+        "rust-monuments-loot",
+        "rust-turrets-deployables",
+        "rust-vehicles",
+        "rust-farming-food",
+        "rust-server-convars-reference",
+        "rust-update-timeline-2026",
+        "rust-game-modes",
+        "rust-raiding-costs-defence",
+        "rust-electricity-logic"
+      ]
     }
   ],
   "edges": [
@@ -932,6 +1086,276 @@
       "target": "known"
     },
     {
+      "from": "rust-teams-clans",
+      "to": "rust-game-mechanics-foundation",
+      "rel": "deepens",
+      "target": "known"
+    },
+    {
+      "from": "rust-teams-clans",
+      "to": "rust-game-modes",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-teams-clans",
+      "to": "rust-server-convars-reference",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-teams-clans",
+      "to": "rust-turrets-deployables",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-teams-clans",
+      "to": "rust-raiding-costs-defence",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-teams-clans",
+      "to": "rust-building-raiding-foundation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-skins-cosmetics",
+      "to": "rust-updates-meta-foundation",
+      "rel": "deepens",
+      "target": "known"
+    },
+    {
+      "from": "rust-skins-cosmetics",
+      "to": "rust-clothing-armour",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-skins-cosmetics",
+      "to": "rust-economy-trading",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-skins-cosmetics",
+      "to": "rust-server-administration-foundation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-skins-cosmetics",
+      "to": "rust-moderation-anti-cheat",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-skins-cosmetics",
+      "to": "rust-modding-plugins-foundation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-clothing-armour",
+      "to": "rust-items-crafting-foundation",
+      "rel": "deepens",
+      "target": "known"
+    },
+    {
+      "from": "rust-clothing-armour",
+      "to": "rust-combat-damage-model",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-clothing-armour",
+      "to": "rust-game-mechanics-foundation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-clothing-armour",
+      "to": "rust-weapons-ammo",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-clothing-armour",
+      "to": "rust-raiding-costs-defence",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-clothing-armour",
+      "to": "rust-monuments-loot",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-clothing-armour",
+      "to": "rust-skins-cosmetics",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-clothing-armour",
+      "to": "rust-tools-gathering",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-fishing",
+      "to": "rust-game-mechanics-foundation",
+      "rel": "deepens",
+      "target": "known"
+    },
+    {
+      "from": "rust-fishing",
+      "to": "rust-farming-food",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-fishing",
+      "to": "rust-vehicles",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-fishing",
+      "to": "rust-monuments-loot",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-fishing",
+      "to": "rust-wildlife-npcs",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-fishing",
+      "to": "rust-server-convars-reference",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-fishing",
+      "to": "rust-update-timeline-2026",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-tools-gathering",
+      "to": "rust-items-crafting-foundation",
+      "rel": "deepens",
+      "target": "known"
+    },
+    {
+      "from": "rust-tools-gathering",
+      "to": "rust-combat-damage-model",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-tools-gathering",
+      "to": "rust-weapons-ammo",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-tools-gathering",
+      "to": "rust-wildlife-npcs",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-tools-gathering",
+      "to": "rust-monuments-loot",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-tools-gathering",
+      "to": "rust-server-convars-reference",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-tools-gathering",
+      "to": "rust-update-timeline-2026",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-tools-gathering",
+      "to": "rust-farming-food",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-economy-trading",
+      "to": "rust-items-crafting-foundation",
+      "rel": "deepens",
+      "target": "known"
+    },
+    {
+      "from": "rust-economy-trading",
+      "to": "rust-monuments-loot",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-economy-trading",
+      "to": "rust-turrets-deployables",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-economy-trading",
+      "to": "rust-vehicles",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-economy-trading",
+      "to": "rust-farming-food",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-economy-trading",
+      "to": "rust-server-convars-reference",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-economy-trading",
+      "to": "rust-update-timeline-2026",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-economy-trading",
+      "to": "rust-game-modes",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-economy-trading",
+      "to": "rust-raiding-costs-defence",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-economy-trading",
+      "to": "rust-electricity-logic",
+      "rel": "related",
+      "target": "known"
+    },
+    {
       "from": "rust-items-crafting-foundation",
       "to": "rust-game-mechanics-foundation",
       "rel": "related",
@@ -2668,6 +3092,48 @@
     {
       "from": "rust-server-performance",
       "to": "rust-game-modes",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-teams-clans",
+      "to": "rust-update-timeline-2026",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-teams-clans",
+      "to": "rust-moderation-anti-cheat",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-tools-gathering",
+      "to": "rust-game-mechanics-foundation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-tools-gathering",
+      "to": "rust-server-administration-foundation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-tools-gathering",
+      "to": "rust-modding-plugins-foundation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-tools-gathering",
+      "to": "rust-updates-meta-foundation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-tools-gathering",
+      "to": "rust-clothing-armour",
       "rel": "related",
       "target": "known"
     }

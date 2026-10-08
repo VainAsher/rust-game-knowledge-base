@@ -30,6 +30,12 @@ Catalogue of every document in the Rust (Facepunch) Game Knowledge Base. Owned b
 | rust-turrets-deployables | Rust Turrets and Defensive Deployables | Turrets and deployables | 2 | Global | 1.0.0 | frozen | Medium | `docs/building-raiding/rust-turrets-deployables.md` |
 | rust-electricity-logic | Rust Electricity and Logic | Electricity and logic | 2 | Global | 1.0.0 | frozen | Medium | `docs/game-mechanics/rust-electricity-logic.md` |
 | rust-server-performance | Rust Server Performance | Server performance and hardware | 2 | Global | 1.0.0 | frozen | Medium | `docs/server-administration/rust-server-performance.md` |
+| rust-teams-clans | Rust Teams and Clans | Teams, clans and social systems | 2 | Global | 0.1.0 | in-review | Low | `docs/game-mechanics/rust-teams-clans.md` |
+| rust-skins-cosmetics | Rust Skins and Cosmetics | Skins and cosmetics | 2 | Global | 1.0.0 | frozen | Medium | `docs/updates-meta/rust-skins-cosmetics.md` |
+| rust-clothing-armour | Rust Clothing and Armour | Clothing and armour | 2 | Global | 1.0.0 | frozen | Medium | `docs/items-crafting/rust-clothing-armour.md` |
+| rust-fishing | Rust Fishing | Fishing | 2 | Global | 1.0.0 | frozen | Medium | `docs/game-mechanics/rust-fishing.md` |
+| rust-tools-gathering | Rust Tools and Gathering | Tools and gathering | 2 | Global | 1.0.0 | frozen | Medium | `docs/items-crafting/rust-tools-gathering.md` |
+| rust-economy-trading | Rust Economy and Trading | Economy, scrap and trading | 2 | Global | 1.0.0 | frozen | Medium | `docs/items-crafting/rust-economy-trading.md` |
 
 ## Knowledge graph
 
@@ -68,6 +74,51 @@ Catalogue of every document in the Rust (Facepunch) Game Knowledge Base. Owned b
 - `rust-turrets-deployables` *deepens* `rust-building-raiding-foundation`
 - `rust-electricity-logic` *deepens* `rust-game-mechanics-foundation`
 - `rust-server-performance` *deepens* `rust-server-administration-foundation`
+- `rust-teams-clans` *deepens* `rust-game-mechanics-foundation`
+- `rust-teams-clans` *related* `rust-game-modes`
+- `rust-teams-clans` *related* `rust-server-convars-reference`
+- `rust-teams-clans` *related* `rust-turrets-deployables`
+- `rust-teams-clans` *related* `rust-raiding-costs-defence`
+- `rust-teams-clans` *related* `rust-building-raiding-foundation`
+- `rust-skins-cosmetics` *deepens* `rust-updates-meta-foundation`
+- `rust-skins-cosmetics` *related* `rust-clothing-armour`
+- `rust-skins-cosmetics` *related* `rust-economy-trading`
+- `rust-skins-cosmetics` *related* `rust-server-administration-foundation`
+- `rust-skins-cosmetics` *related* `rust-moderation-anti-cheat`
+- `rust-skins-cosmetics` *related* `rust-modding-plugins-foundation`
+- `rust-clothing-armour` *deepens* `rust-items-crafting-foundation`
+- `rust-clothing-armour` *related* `rust-combat-damage-model`
+- `rust-clothing-armour` *related* `rust-game-mechanics-foundation`
+- `rust-clothing-armour` *related* `rust-weapons-ammo`
+- `rust-clothing-armour` *related* `rust-raiding-costs-defence`
+- `rust-clothing-armour` *related* `rust-monuments-loot`
+- `rust-clothing-armour` *related* `rust-skins-cosmetics`
+- `rust-clothing-armour` *related* `rust-tools-gathering`
+- `rust-fishing` *deepens* `rust-game-mechanics-foundation`
+- `rust-fishing` *related* `rust-farming-food`
+- `rust-fishing` *related* `rust-vehicles`
+- `rust-fishing` *related* `rust-monuments-loot`
+- `rust-fishing` *related* `rust-wildlife-npcs`
+- `rust-fishing` *related* `rust-server-convars-reference`
+- `rust-fishing` *related* `rust-update-timeline-2026`
+- `rust-tools-gathering` *deepens* `rust-items-crafting-foundation`
+- `rust-tools-gathering` *related* `rust-combat-damage-model`
+- `rust-tools-gathering` *related* `rust-weapons-ammo`
+- `rust-tools-gathering` *related* `rust-wildlife-npcs`
+- `rust-tools-gathering` *related* `rust-monuments-loot`
+- `rust-tools-gathering` *related* `rust-server-convars-reference`
+- `rust-tools-gathering` *related* `rust-update-timeline-2026`
+- `rust-tools-gathering` *related* `rust-farming-food`
+- `rust-economy-trading` *deepens* `rust-items-crafting-foundation`
+- `rust-economy-trading` *related* `rust-monuments-loot`
+- `rust-economy-trading` *related* `rust-turrets-deployables`
+- `rust-economy-trading` *related* `rust-vehicles`
+- `rust-economy-trading` *related* `rust-farming-food`
+- `rust-economy-trading` *related* `rust-server-convars-reference`
+- `rust-economy-trading` *related* `rust-update-timeline-2026`
+- `rust-economy-trading` *related* `rust-game-modes`
+- `rust-economy-trading` *related* `rust-raiding-costs-defence`
+- `rust-economy-trading` *related* `rust-electricity-logic`
 
 ## Proposed taxonomy (pending human approval, nothing generated yet)
 

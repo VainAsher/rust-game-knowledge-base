@@ -1,7 +1,8 @@
 # Project Status
 
-- **Phase:** Clusters 1-4 built (6 foundations + 18 depth docs), 8 Oct 2026. Game build checked: Livestock Update (1 Oct 2026).
-- **Documents:** 24. Twenty-two frozen at v1.0.0 (Medium confidence); two held at v0.1.0 / in-review, Low confidence. `rust-raiding-costs-defence` is held at v0.1.0 / in-review, Low confidence.
+- **Phase:** Clusters 1-5 built (6 foundations + 24 depth docs), 8 Oct 2026. Game build checked: Livestock Update (1 Oct 2026).
+- **Documents:** 30. Twenty-seven frozen at v1.0.0 (Medium confidence); three held at v0.1.0 / in-review, Low confidence (raiding-costs, wildlife-npcs, teams-clans). `rust-raiding-costs-defence` is held at v0.1.0 / in-review, Low confidence.
+- **Also held:** `rust-teams-clans` (clan cap, ranks and vanilla team size community-only; only Facepunch figure is softcore max 4 from a 2021 post).
 - **Also held:** `rust-wildlife-npcs` (all health values community-only, patrol heli health conflicts 9895.6 vs ~10,000).
 - **Why raiding-costs held:** every HP, damage and explosive-count figure is third-party and unverified; sources conflict (e.g. armoured door 1,000 vs 800 HP). Needs a human decision: freeze as Low, or find in-game data.
 - **Next:** remaining depth docs per category; review volatile values after the 5 Nov 2026 update. Mandatory Halloween update 22 Oct 2026 18:00 BST (per Facepunch Livestock post).
@@ -33,3 +34,13 @@
 - Performance: tickrate, gc and saveinterval convars are practitioner-only and conflict between guides.
 - Game modes: official availability of Hardcore conflicts (wiki says shut Nov 2023, devblog says returned Aug 2025); Oct 2026 mode rules unchecked.
 - Permissions: which commands each auth level can run, and the April 2026 RCON connection-limit convar names, unsourced.
+
+## Cluster 5 gaps and follow-ups
+
+- Frozen `rust-server-convars-reference` lists `relationshipmanager.maxteamsize`; the teams worker could not verify that name from an opened source. Re-check and revise (v1.0.1) if wrong.
+- Recycler: wiki shows 60%/40% outputs but Power Trip says green 50% (60% powered), red 75%. Tools and economy docs treat the wiki as stale; verify in game.
+- Gather-rate gap NOT closed: no primary source defines the wiki's gather damage/bonus columns or resources per hit.
+- Economy: NPC buy/sell price tables, rentable shop costs, vending machine HP and order cap unsourced.
+- Skins: cosmetic-only rule rests on 2015 devblogs; creator revenue share not in any official source (deliberately omitted).
+- Fishing: no bait values, catch odds, rod durability or overfishing timers; fish trap and village wiki pages 404.
+- Clothing: stacking maths of layers not stated; several garments unsourced.

@@ -23,3 +23,9 @@ rust-server-permissions-rcon,Rust Server Permissions and RCON,Permissions and RC
 rust-turrets-deployables,Rust Turrets and Defensive Deployables,Turrets and deployables,2,Global,deep-dive,Building & Raiding,1.0.0,frozen,Medium,2026-11-08,docs/building-raiding/rust-turrets-deployables.md
 rust-electricity-logic,Rust Electricity and Logic,Electricity and logic,2,Global,deep-dive,Game Mechanics,1.0.0,frozen,Medium,2026-11-08,docs/game-mechanics/rust-electricity-logic.md
 rust-server-performance,Rust Server Performance,Server performance and hardware,2,Global,deep-dive,Server Administration,1.0.0,frozen,Medium,2026-11-08,docs/server-administration/rust-server-performance.md
+rust-teams-clans,Rust Teams and Clans,"Teams, clans and social systems",2,Global,deep-dive,Game Mechanics,0.1.0,in-review,Low,2026-11-08,docs/game-mechanics/rust-teams-clans.md
+rust-skins-cosmetics,Rust Skins and Cosmetics,Skins and cosmetics,2,Global,deep-dive,Game Updates & Meta,1.0.0,frozen,Medium,2026-11-08,docs/updates-meta/rust-skins-cosmetics.md
+rust-clothing-armour,Rust Clothing and Armour,Clothing and armour,2,Global,deep-dive,Items & Crafting,1.0.0,frozen,Medium,2026-11-08,docs/items-crafting/rust-clothing-armour.md
+rust-fishing,Rust Fishing,Fishing,2,Global,deep-dive,Game Mechanics,1.0.0,frozen,Medium,2026-11-08,docs/game-mechanics/rust-fishing.md
+rust-tools-gathering,Rust Tools and Gathering,Tools and gathering,2,Global,deep-dive,Items & Crafting,1.0.0,frozen,Medium,2026-11-08,docs/items-crafting/rust-tools-gathering.md
+rust-economy-trading,Rust Economy and Trading,"Economy, scrap and trading",2,Global,deep-dive,Items & Crafting,1.0.0,frozen,Medium,2026-11-08,docs/items-crafting/rust-economy-trading.md

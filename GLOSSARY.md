@@ -83,3 +83,19 @@ Shared terms for the Rust KB. Rows are added by the orchestrator from worker ret
 | Server FPS | The server's frame rate, readable with the fps command on the server. | - |
 | UsePlayerUpdateJobs | Server var for threaded player updates; default 2 since Spring Clean, levels 3 and 4 experimental. | - |
 | Server profiler | Built-in profiler enabled with -enableProfiler; profile.perfsnapshot records up to 10 frames. | - |
+| Clan Table | Deployable at which Rust clans are created and managed; found at the Outpost and Bandit Camp and craftable after research (crafting and location details are community-sourced). | - |
+| Group limit | A server-rule cap on how many players may play together, set by admins or plugins and not a Facepunch-documented game rule. | - |
+| Skin | An alternate appearance for an existing item or deployable; Facepunch said in 2015 that Workshop skins have no differing properties. | - |
+| Workshop skinnable | An item the Steam Workshop tooling lets creators reskin; all ladder hatches were added in the October 2026 update. | - |
+| Facepunch DLC | Per the server guidelines, paid content packs (building skins, decor, hazmat skins, instruments) and approved in-game purchases. | - |
+| Contributor Agreement | Agreement a Workshop creator must accept before items are publicly visible or eligible for the game. | - |
+| Layer 1 / Layer 2 | The clothing layer worn underneath and the armour layer on top for the Head, Chest and Legs slots. | - |
+| Dual-layer item | An item that occupies both layers of one slot, so nothing else can be worn in that slot. | - |
+| Negative protection | A listed protection value below zero, such as Cold -34% on the Metal Chest Plate, which increases damage taken of that type. | - |
+| Lure slot | The Handmade Fishing Rod slot in which bait is equipped. | - |
+| Overfished | A fishing area where too many catches within a time window make casts return only junk until it repopulates (added Spring Clean, 2 Apr 2026). | - |
+| Ore node | A stone, sulfur or metal rock formation harvested with a pickaxe-class tool. | - |
+| Hotspot | A shimmering weak point on an ore node; hits give 150% yield rising to 300% on consecutive hits, with no increase in the node's total resources. | - |
+| Safe Zone Recycler | The protected (yellow) recycler at Outpost and Bandit Camp, 40% efficiency. | - |
+| Marketplace | Drone-delivery terminals at Bandit Camp and Outpost that order from public vending machines and NPC shops for a scrap fee. | - |
+| Rentable shop | Apartment Complex stall rented with scrap; managed like a vending machine, not drone-accessible, takeover-able after 6 hours. | - |

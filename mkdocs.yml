@@ -53,10 +53,15 @@ nav:
       - "Rust Turrets and Defensive Deployables": building-raiding/rust-turrets-deployables.md
       - "Rust Combat and Damage Model": game-mechanics/rust-combat-damage-model.md
       - "Rust Electricity and Logic": game-mechanics/rust-electricity-logic.md
+      - "Rust Fishing": game-mechanics/rust-fishing.md
       - "Rust Monuments and Loot": game-mechanics/rust-monuments-loot.md
+      - "Rust Teams and Clans": game-mechanics/rust-teams-clans.md
       - "Rust Vehicles": game-mechanics/rust-vehicles.md
       - "Rust Wildlife and NPCs": game-mechanics/rust-wildlife-npcs.md
+      - "Rust Clothing and Armour": items-crafting/rust-clothing-armour.md
+      - "Rust Economy and Trading": items-crafting/rust-economy-trading.md
       - "Rust Farming and Food": items-crafting/rust-farming-food.md
+      - "Rust Tools and Gathering": items-crafting/rust-tools-gathering.md
       - "Rust Weapons and Ammunition": items-crafting/rust-weapons-ammo.md
       - "Rust Carbon versus Oxide": modding-plugins/rust-carbon-vs-oxide.md
       - "Rust Plugin Development and Hooks": modding-plugins/rust-plugin-development-hooks.md
@@ -66,4 +71,5 @@ nav:
       - "Rust Server Permissions and RCON": server-administration/rust-server-permissions-rcon.md
       - "Rust Wipes and Map Generation": server-administration/rust-wipes-map-generation.md
       - "Rust Game Modes and Server Types": updates-meta/rust-game-modes.md
+      - "Rust Skins and Cosmetics": updates-meta/rust-skins-cosmetics.md
       - "Rust Update Timeline 2026": updates-meta/rust-update-timeline-2026.md

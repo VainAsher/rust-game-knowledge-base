@@ -9,9 +9,12 @@ graph LR
   end
   subgraph Tier2["Tier 2"]
     rust_carbon_vs_oxide["rust-carbon-vs-oxide"]
+    rust_clothing_armour["rust-clothing-armour"]
     rust_combat_damage_model["rust-combat-damage-model"]
+    rust_economy_trading["rust-economy-trading"]
     rust_electricity_logic["rust-electricity-logic"]
     rust_farming_food["rust-farming-food"]
+    rust_fishing["rust-fishing"]
     rust_game_modes["rust-game-modes"]
     rust_moderation_anti_cheat["rust-moderation-anti-cheat"]
     rust_monuments_loot["rust-monuments-loot"]
@@ -20,6 +23,9 @@ graph LR
     rust_server_convars_reference["rust-server-convars-reference"]
     rust_server_performance["rust-server-performance"]
     rust_server_permissions_rcon["rust-server-permissions-rcon"]
+    rust_skins_cosmetics["rust-skins-cosmetics"]
+    rust_teams_clans["rust-teams-clans"]
+    rust_tools_gathering["rust-tools-gathering"]
     rust_turrets_deployables["rust-turrets-deployables"]
     rust_update_timeline_2026["rust-update-timeline-2026"]
     rust_vehicles["rust-vehicles"]
@@ -60,6 +66,51 @@ graph LR
   rust_turrets_deployables -->|deepens| rust_building_raiding_foundation
   rust_electricity_logic -->|deepens| rust_game_mechanics_foundation
   rust_server_performance -->|deepens| rust_server_administration_foundation
+  rust_teams_clans -->|deepens| rust_game_mechanics_foundation
+  rust_teams_clans -->|related| rust_game_modes
+  rust_teams_clans -->|related| rust_server_convars_reference
+  rust_teams_clans -->|related| rust_turrets_deployables
+  rust_teams_clans -->|related| rust_raiding_costs_defence
+  rust_teams_clans -->|related| rust_building_raiding_foundation
+  rust_skins_cosmetics -->|deepens| rust_updates_meta_foundation
+  rust_skins_cosmetics -->|related| rust_clothing_armour
+  rust_skins_cosmetics -->|related| rust_economy_trading
+  rust_skins_cosmetics -->|related| rust_server_administration_foundation
+  rust_skins_cosmetics -->|related| rust_moderation_anti_cheat
+  rust_skins_cosmetics -->|related| rust_modding_plugins_foundation
+  rust_clothing_armour -->|deepens| rust_items_crafting_foundation
+  rust_clothing_armour -->|related| rust_combat_damage_model
+  rust_clothing_armour -->|related| rust_game_mechanics_foundation
+  rust_clothing_armour -->|related| rust_weapons_ammo
+  rust_clothing_armour -->|related| rust_raiding_costs_defence
+  rust_clothing_armour -->|related| rust_monuments_loot
+  rust_clothing_armour -->|related| rust_skins_cosmetics
+  rust_clothing_armour -->|related| rust_tools_gathering
+  rust_fishing -->|deepens| rust_game_mechanics_foundation
+  rust_fishing -->|related| rust_farming_food
+  rust_fishing -->|related| rust_vehicles
+  rust_fishing -->|related| rust_monuments_loot
+  rust_fishing -->|related| rust_wildlife_npcs
+  rust_fishing -->|related| rust_server_convars_reference
+  rust_fishing -->|related| rust_update_timeline_2026
+  rust_tools_gathering -->|deepens| rust_items_crafting_foundation
+  rust_tools_gathering -->|related| rust_combat_damage_model
+  rust_tools_gathering -->|related| rust_weapons_ammo
+  rust_tools_gathering -->|related| rust_wildlife_npcs
+  rust_tools_gathering -->|related| rust_monuments_loot
+  rust_tools_gathering -->|related| rust_server_convars_reference
+  rust_tools_gathering -->|related| rust_update_timeline_2026
+  rust_tools_gathering -->|related| rust_farming_food
+  rust_economy_trading -->|deepens| rust_items_crafting_foundation
+  rust_economy_trading -->|related| rust_monuments_loot
+  rust_economy_trading -->|related| rust_turrets_deployables
+  rust_economy_trading -->|related| rust_vehicles
+  rust_economy_trading -->|related| rust_farming_food
+  rust_economy_trading -->|related| rust_server_convars_reference
+  rust_economy_trading -->|related| rust_update_timeline_2026
+  rust_economy_trading -->|related| rust_game_modes
+  rust_economy_trading -->|related| rust_raiding_costs_defence
+  rust_economy_trading -->|related| rust_electricity_logic
   rust_items_crafting_foundation -->|related| rust_game_mechanics_foundation
   rust_building_raiding_foundation -->|related| rust_game_mechanics_foundation
   rust_building_raiding_foundation -->|related| rust_items_crafting_foundation
@@ -350,3 +401,10 @@ graph LR
   rust_server_performance -->|related| rust_wildlife_npcs
   rust_server_performance -->|related| rust_server_permissions_rcon
   rust_server_performance -->|related| rust_game_modes
+  rust_teams_clans -->|related| rust_update_timeline_2026
+  rust_teams_clans -->|related| rust_moderation_anti_cheat
+  rust_tools_gathering -->|related| rust_game_mechanics_foundation
+  rust_tools_gathering -->|related| rust_server_administration_foundation
+  rust_tools_gathering -->|related| rust_modding_plugins_foundation
+  rust_tools_gathering -->|related| rust_updates_meta_foundation
+  rust_tools_gathering -->|related| rust_clothing_armour
