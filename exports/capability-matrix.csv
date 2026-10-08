@@ -11,3 +11,9 @@ rust-raiding-costs-defence,Rust Raiding Costs and Base Defence,Raid costs and de
 rust-combat-damage-model,Rust Combat and Damage Model,Combat and damage,2,Global,deep-dive,Game Mechanics,1.0.0,frozen,Medium,2026-11-08,docs/game-mechanics/rust-combat-damage-model.md
 rust-plugin-development-hooks,Rust Plugin Development and Hooks,Plugin development,2,Global,deep-dive,Modding & Plugins,1.0.0,frozen,Medium,2026-11-08,docs/modding-plugins/rust-plugin-development-hooks.md
 rust-weapons-ammo,Rust Weapons and Ammunition,Weapons and ammo,2,Global,deep-dive,Items & Crafting,1.0.0,frozen,Medium,2026-11-08,docs/items-crafting/rust-weapons-ammo.md
+rust-moderation-anti-cheat,Rust Moderation and Anti-Cheat,"Moderation, bans and anti-cheat",2,Global,deep-dive,Server Administration,1.0.0,frozen,Medium,2026-11-08,docs/server-administration/rust-moderation-anti-cheat.md
+rust-wipes-map-generation,Rust Wipes and Map Generation,Wipes and map generation,2,Global,deep-dive,Server Administration,1.0.0,frozen,Medium,2026-11-08,docs/server-administration/rust-wipes-map-generation.md
+rust-farming-food,Rust Farming and Food,"Farming, food and cooking",2,Global,deep-dive,Items & Crafting,1.0.0,frozen,Medium,2026-11-08,docs/items-crafting/rust-farming-food.md
+rust-carbon-vs-oxide,Rust Carbon versus Oxide,Carbon versus Oxide comparison,2,Global,deep-dive,Modding & Plugins,1.0.0,frozen,Medium,2026-11-08,docs/modding-plugins/rust-carbon-vs-oxide.md
+rust-monuments-loot,Rust Monuments and Loot,Monuments and loot,2,Global,deep-dive,Game Mechanics,1.0.0,frozen,Medium,2026-11-08,docs/game-mechanics/rust-monuments-loot.md
+rust-vehicles,Rust Vehicles,Vehicles and transport,2,Global,deep-dive,Game Mechanics,1.0.0,frozen,Medium,2026-11-08,docs/game-mechanics/rust-vehicles.md

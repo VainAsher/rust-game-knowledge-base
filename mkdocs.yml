@@ -51,7 +51,13 @@ nav:
   - "Tier 2 — Subject deep-dives":
       - "Rust Raiding Costs and Base Defence": building-raiding/rust-raiding-costs-defence.md
       - "Rust Combat and Damage Model": game-mechanics/rust-combat-damage-model.md
+      - "Rust Monuments and Loot": game-mechanics/rust-monuments-loot.md
+      - "Rust Vehicles": game-mechanics/rust-vehicles.md
+      - "Rust Farming and Food": items-crafting/rust-farming-food.md
       - "Rust Weapons and Ammunition": items-crafting/rust-weapons-ammo.md
+      - "Rust Carbon versus Oxide": modding-plugins/rust-carbon-vs-oxide.md
       - "Rust Plugin Development and Hooks": modding-plugins/rust-plugin-development-hooks.md
+      - "Rust Moderation and Anti-Cheat": server-administration/rust-moderation-anti-cheat.md
       - "Rust Server Convars Reference": server-administration/rust-server-convars-reference.md
+      - "Rust Wipes and Map Generation": server-administration/rust-wipes-map-generation.md
       - "Rust Update Timeline 2026": updates-meta/rust-update-timeline-2026.md

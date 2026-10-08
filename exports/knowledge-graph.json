@@ -299,6 +299,210 @@
         "rust-plugin-development-hooks",
         "rust-update-timeline-2026"
       ]
+    },
+    {
+      "id": "rust-moderation-anti-cheat",
+      "title": "Rust Moderation and Anti-Cheat",
+      "topic": "Moderation, bans and anti-cheat",
+      "tier": "2",
+      "market": "Global",
+      "version": "1.0.0",
+      "status": "frozen",
+      "confidence": "Medium",
+      "path": "docs/server-administration/rust-moderation-anti-cheat.md",
+      "category": "Server Administration",
+      "document_type": "deep-dive",
+      "review_due": "2026-11-08",
+      "created": "2026-10-08",
+      "related": [
+        "rust-server-administration-foundation",
+        "rust-server-convars-reference",
+        "rust-game-mechanics-foundation",
+        "rust-items-crafting-foundation",
+        "rust-building-raiding-foundation",
+        "rust-modding-plugins-foundation",
+        "rust-updates-meta-foundation",
+        "rust-combat-damage-model",
+        "rust-weapons-ammo",
+        "rust-raiding-costs-defence",
+        "rust-plugin-development-hooks",
+        "rust-update-timeline-2026",
+        "rust-monuments-loot",
+        "rust-farming-food",
+        "rust-vehicles",
+        "rust-wipes-map-generation",
+        "rust-carbon-vs-oxide"
+      ]
+    },
+    {
+      "id": "rust-wipes-map-generation",
+      "title": "Rust Wipes and Map Generation",
+      "topic": "Wipes and map generation",
+      "tier": "2",
+      "market": "Global",
+      "version": "1.0.0",
+      "status": "frozen",
+      "confidence": "Medium",
+      "path": "docs/server-administration/rust-wipes-map-generation.md",
+      "category": "Server Administration",
+      "document_type": "deep-dive",
+      "review_due": "2026-11-08",
+      "created": "2026-10-08",
+      "related": [
+        "rust-server-administration-foundation",
+        "rust-game-mechanics-foundation",
+        "rust-items-crafting-foundation",
+        "rust-building-raiding-foundation",
+        "rust-modding-plugins-foundation",
+        "rust-updates-meta-foundation",
+        "rust-combat-damage-model",
+        "rust-weapons-ammo",
+        "rust-raiding-costs-defence",
+        "rust-server-convars-reference",
+        "rust-plugin-development-hooks",
+        "rust-update-timeline-2026",
+        "rust-monuments-loot",
+        "rust-farming-food",
+        "rust-vehicles",
+        "rust-moderation-anti-cheat",
+        "rust-carbon-vs-oxide"
+      ]
+    },
+    {
+      "id": "rust-farming-food",
+      "title": "Rust Farming and Food",
+      "topic": "Farming, food and cooking",
+      "tier": "2",
+      "market": "Global",
+      "version": "1.0.0",
+      "status": "frozen",
+      "confidence": "Medium",
+      "path": "docs/items-crafting/rust-farming-food.md",
+      "category": "Items & Crafting",
+      "document_type": "deep-dive",
+      "review_due": "2026-11-08",
+      "created": "2026-10-08",
+      "related": [
+        "rust-items-crafting-foundation",
+        "rust-game-mechanics-foundation",
+        "rust-building-raiding-foundation",
+        "rust-server-administration-foundation",
+        "rust-modding-plugins-foundation",
+        "rust-updates-meta-foundation",
+        "rust-combat-damage-model",
+        "rust-weapons-ammo",
+        "rust-raiding-costs-defence",
+        "rust-server-convars-reference",
+        "rust-plugin-development-hooks",
+        "rust-update-timeline-2026",
+        "rust-monuments-loot",
+        "rust-vehicles",
+        "rust-wipes-map-generation",
+        "rust-moderation-anti-cheat",
+        "rust-carbon-vs-oxide"
+      ]
+    },
+    {
+      "id": "rust-carbon-vs-oxide",
+      "title": "Rust Carbon versus Oxide",
+      "topic": "Carbon versus Oxide comparison",
+      "tier": "2",
+      "market": "Global",
+      "version": "1.0.0",
+      "status": "frozen",
+      "confidence": "Medium",
+      "path": "docs/modding-plugins/rust-carbon-vs-oxide.md",
+      "category": "Modding & Plugins",
+      "document_type": "deep-dive",
+      "review_due": "2026-11-08",
+      "created": "2026-10-08",
+      "related": [
+        "rust-modding-plugins-foundation",
+        "rust-game-mechanics-foundation",
+        "rust-items-crafting-foundation",
+        "rust-building-raiding-foundation",
+        "rust-server-administration-foundation",
+        "rust-updates-meta-foundation",
+        "rust-combat-damage-model",
+        "rust-weapons-ammo",
+        "rust-raiding-costs-defence",
+        "rust-server-convars-reference",
+        "rust-plugin-development-hooks",
+        "rust-update-timeline-2026",
+        "rust-monuments-loot",
+        "rust-farming-food",
+        "rust-vehicles",
+        "rust-wipes-map-generation",
+        "rust-moderation-anti-cheat"
+      ]
+    },
+    {
+      "id": "rust-monuments-loot",
+      "title": "Rust Monuments and Loot",
+      "topic": "Monuments and loot",
+      "tier": "2",
+      "market": "Global",
+      "version": "1.0.0",
+      "status": "frozen",
+      "confidence": "Medium",
+      "path": "docs/game-mechanics/rust-monuments-loot.md",
+      "category": "Game Mechanics",
+      "document_type": "deep-dive",
+      "review_due": "2026-11-08",
+      "created": "2026-10-08",
+      "related": [
+        "rust-game-mechanics-foundation",
+        "rust-items-crafting-foundation",
+        "rust-building-raiding-foundation",
+        "rust-server-administration-foundation",
+        "rust-modding-plugins-foundation",
+        "rust-updates-meta-foundation",
+        "rust-combat-damage-model",
+        "rust-weapons-ammo",
+        "rust-raiding-costs-defence",
+        "rust-server-convars-reference",
+        "rust-plugin-development-hooks",
+        "rust-update-timeline-2026",
+        "rust-farming-food",
+        "rust-vehicles",
+        "rust-wipes-map-generation",
+        "rust-moderation-anti-cheat",
+        "rust-carbon-vs-oxide"
+      ]
+    },
+    {
+      "id": "rust-vehicles",
+      "title": "Rust Vehicles",
+      "topic": "Vehicles and transport",
+      "tier": "2",
+      "market": "Global",
+      "version": "1.0.0",
+      "status": "frozen",
+      "confidence": "Medium",
+      "path": "docs/game-mechanics/rust-vehicles.md",
+      "category": "Game Mechanics",
+      "document_type": "deep-dive",
+      "review_due": "2026-11-08",
+      "created": "2026-10-08",
+      "related": [
+        "rust-game-mechanics-foundation",
+        "rust-items-crafting-foundation",
+        "rust-building-raiding-foundation",
+        "rust-server-administration-foundation",
+        "rust-modding-plugins-foundation",
+        "rust-updates-meta-foundation",
+        "rust-combat-damage-model",
+        "rust-weapons-ammo",
+        "rust-raiding-costs-defence",
+        "rust-server-convars-reference",
+        "rust-plugin-development-hooks",
+        "rust-update-timeline-2026",
+        "rust-monuments-loot",
+        "rust-farming-food",
+        "rust-wipes-map-generation",
+        "rust-moderation-anti-cheat",
+        "rust-carbon-vs-oxide"
+      ]
     }
   ],
   "edges": [
@@ -429,6 +633,42 @@
       "target": "known"
     },
     {
+      "from": "rust-moderation-anti-cheat",
+      "to": "rust-server-administration-foundation",
+      "rel": "deepens",
+      "target": "known"
+    },
+    {
+      "from": "rust-wipes-map-generation",
+      "to": "rust-server-administration-foundation",
+      "rel": "deepens",
+      "target": "known"
+    },
+    {
+      "from": "rust-farming-food",
+      "to": "rust-items-crafting-foundation",
+      "rel": "deepens",
+      "target": "known"
+    },
+    {
+      "from": "rust-carbon-vs-oxide",
+      "to": "rust-modding-plugins-foundation",
+      "rel": "deepens",
+      "target": "known"
+    },
+    {
+      "from": "rust-monuments-loot",
+      "to": "rust-game-mechanics-foundation",
+      "rel": "deepens",
+      "target": "known"
+    },
+    {
+      "from": "rust-vehicles",
+      "to": "rust-game-mechanics-foundation",
+      "rel": "deepens",
+      "target": "known"
+    },
+    {
       "from": "rust-items-crafting-foundation",
       "to": "rust-game-mechanics-foundation",
       "rel": "related",
@@ -875,6 +1115,582 @@
     {
       "from": "rust-weapons-ammo",
       "to": "rust-update-timeline-2026",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-moderation-anti-cheat",
+      "to": "rust-server-convars-reference",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-moderation-anti-cheat",
+      "to": "rust-game-mechanics-foundation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-moderation-anti-cheat",
+      "to": "rust-items-crafting-foundation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-moderation-anti-cheat",
+      "to": "rust-building-raiding-foundation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-moderation-anti-cheat",
+      "to": "rust-modding-plugins-foundation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-moderation-anti-cheat",
+      "to": "rust-updates-meta-foundation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-moderation-anti-cheat",
+      "to": "rust-combat-damage-model",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-moderation-anti-cheat",
+      "to": "rust-weapons-ammo",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-moderation-anti-cheat",
+      "to": "rust-raiding-costs-defence",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-moderation-anti-cheat",
+      "to": "rust-plugin-development-hooks",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-moderation-anti-cheat",
+      "to": "rust-update-timeline-2026",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-moderation-anti-cheat",
+      "to": "rust-monuments-loot",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-moderation-anti-cheat",
+      "to": "rust-farming-food",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-moderation-anti-cheat",
+      "to": "rust-vehicles",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-moderation-anti-cheat",
+      "to": "rust-wipes-map-generation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-moderation-anti-cheat",
+      "to": "rust-carbon-vs-oxide",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-wipes-map-generation",
+      "to": "rust-game-mechanics-foundation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-wipes-map-generation",
+      "to": "rust-items-crafting-foundation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-wipes-map-generation",
+      "to": "rust-building-raiding-foundation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-wipes-map-generation",
+      "to": "rust-modding-plugins-foundation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-wipes-map-generation",
+      "to": "rust-updates-meta-foundation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-wipes-map-generation",
+      "to": "rust-combat-damage-model",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-wipes-map-generation",
+      "to": "rust-weapons-ammo",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-wipes-map-generation",
+      "to": "rust-raiding-costs-defence",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-wipes-map-generation",
+      "to": "rust-server-convars-reference",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-wipes-map-generation",
+      "to": "rust-plugin-development-hooks",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-wipes-map-generation",
+      "to": "rust-update-timeline-2026",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-wipes-map-generation",
+      "to": "rust-monuments-loot",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-wipes-map-generation",
+      "to": "rust-farming-food",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-wipes-map-generation",
+      "to": "rust-vehicles",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-wipes-map-generation",
+      "to": "rust-moderation-anti-cheat",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-wipes-map-generation",
+      "to": "rust-carbon-vs-oxide",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-farming-food",
+      "to": "rust-game-mechanics-foundation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-farming-food",
+      "to": "rust-building-raiding-foundation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-farming-food",
+      "to": "rust-server-administration-foundation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-farming-food",
+      "to": "rust-modding-plugins-foundation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-farming-food",
+      "to": "rust-updates-meta-foundation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-farming-food",
+      "to": "rust-combat-damage-model",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-farming-food",
+      "to": "rust-weapons-ammo",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-farming-food",
+      "to": "rust-raiding-costs-defence",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-farming-food",
+      "to": "rust-server-convars-reference",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-farming-food",
+      "to": "rust-plugin-development-hooks",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-farming-food",
+      "to": "rust-update-timeline-2026",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-farming-food",
+      "to": "rust-monuments-loot",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-farming-food",
+      "to": "rust-vehicles",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-farming-food",
+      "to": "rust-wipes-map-generation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-farming-food",
+      "to": "rust-moderation-anti-cheat",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-farming-food",
+      "to": "rust-carbon-vs-oxide",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-carbon-vs-oxide",
+      "to": "rust-game-mechanics-foundation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-carbon-vs-oxide",
+      "to": "rust-items-crafting-foundation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-carbon-vs-oxide",
+      "to": "rust-building-raiding-foundation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-carbon-vs-oxide",
+      "to": "rust-server-administration-foundation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-carbon-vs-oxide",
+      "to": "rust-updates-meta-foundation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-carbon-vs-oxide",
+      "to": "rust-combat-damage-model",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-carbon-vs-oxide",
+      "to": "rust-weapons-ammo",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-carbon-vs-oxide",
+      "to": "rust-raiding-costs-defence",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-carbon-vs-oxide",
+      "to": "rust-server-convars-reference",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-carbon-vs-oxide",
+      "to": "rust-plugin-development-hooks",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-carbon-vs-oxide",
+      "to": "rust-update-timeline-2026",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-carbon-vs-oxide",
+      "to": "rust-monuments-loot",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-carbon-vs-oxide",
+      "to": "rust-farming-food",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-carbon-vs-oxide",
+      "to": "rust-vehicles",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-carbon-vs-oxide",
+      "to": "rust-wipes-map-generation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-carbon-vs-oxide",
+      "to": "rust-moderation-anti-cheat",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-monuments-loot",
+      "to": "rust-items-crafting-foundation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-monuments-loot",
+      "to": "rust-building-raiding-foundation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-monuments-loot",
+      "to": "rust-server-administration-foundation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-monuments-loot",
+      "to": "rust-modding-plugins-foundation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-monuments-loot",
+      "to": "rust-updates-meta-foundation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-monuments-loot",
+      "to": "rust-combat-damage-model",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-monuments-loot",
+      "to": "rust-weapons-ammo",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-monuments-loot",
+      "to": "rust-raiding-costs-defence",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-monuments-loot",
+      "to": "rust-server-convars-reference",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-monuments-loot",
+      "to": "rust-plugin-development-hooks",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-monuments-loot",
+      "to": "rust-update-timeline-2026",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-monuments-loot",
+      "to": "rust-farming-food",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-monuments-loot",
+      "to": "rust-vehicles",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-monuments-loot",
+      "to": "rust-wipes-map-generation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-monuments-loot",
+      "to": "rust-moderation-anti-cheat",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-monuments-loot",
+      "to": "rust-carbon-vs-oxide",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-vehicles",
+      "to": "rust-items-crafting-foundation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-vehicles",
+      "to": "rust-building-raiding-foundation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-vehicles",
+      "to": "rust-server-administration-foundation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-vehicles",
+      "to": "rust-modding-plugins-foundation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-vehicles",
+      "to": "rust-updates-meta-foundation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-vehicles",
+      "to": "rust-combat-damage-model",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-vehicles",
+      "to": "rust-weapons-ammo",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-vehicles",
+      "to": "rust-raiding-costs-defence",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-vehicles",
+      "to": "rust-server-convars-reference",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-vehicles",
+      "to": "rust-plugin-development-hooks",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-vehicles",
+      "to": "rust-update-timeline-2026",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-vehicles",
+      "to": "rust-monuments-loot",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-vehicles",
+      "to": "rust-farming-food",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-vehicles",
+      "to": "rust-wipes-map-generation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-vehicles",
+      "to": "rust-moderation-anti-cheat",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-vehicles",
+      "to": "rust-carbon-vs-oxide",
       "rel": "related",
       "target": "known"
     }

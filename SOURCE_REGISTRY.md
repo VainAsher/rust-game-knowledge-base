@@ -159,3 +159,45 @@ reddit.com, x.com / twitter.com, discord.com, youtube.com, steamcommunity.com, s
 | S131 | Facepunch | Primary | Facepunch | https://rust.facepunch.com/news/surviving-12-years |
 | S132 | Facepunch | Primary | Facepunch | https://rust.facepunch.com/news/community-update-268 |
 | S133 | Facepunch | Primary | Facepunch | https://rust.facepunch.com/news/naval |
+| S134 | Facepunch | Primary | Facepunch | https://rust.facepunch.com/news/devblog-186 |
+| S135 | Facepunch Wiki | Primary | Facepunch Wiki | https://wiki.facepunch.com/rust/Map_Data |
+| S136 | Facepunch Wiki | Primary | Facepunch Wiki | https://wiki.facepunch.com/rust/Hosting_a_custom_map |
+| S137 | Facepunch Wiki | Primary | Facepunch Wiki | https://wiki.facepunch.com/rust/Map_Editors |
+| S138 | Facepunch Wiki | Primary | Facepunch Wiki | https://wiki.facepunch.com/rust/Custom_Maps |
+| S139 | Facepunch Wiki | Primary | Facepunch Wiki | https://wiki.facepunch.com/rust/FAQ_and_Troubleshooting |
+| S140 | Facepunch Rust Wiki | Primary | Facepunch Rust Wiki | https://wiki.facepunch.com/rust/Farming |
+| S141 | Facepunch Rust Wiki | Primary | Facepunch Rust Wiki | https://wiki.facepunch.com/rust/Farming_Basics |
+| S142 | Facepunch Rust Wiki | Primary | Facepunch Rust Wiki | https://wiki.facepunch.com/rust/item/cookingworkbench |
+| S143 | Facepunch Rust Wiki | Primary | Facepunch Rust Wiki | https://wiki.facepunch.com/rust/item/planter.small |
+| S144 | Facepunch Rust Wiki | Primary | Facepunch Rust Wiki | https://wiki.facepunch.com/rust/item/pie.hunters |
+| S145 | Facepunch Rust Wiki | Primary | Facepunch Rust Wiki | https://wiki.facepunch.com/rust/item/seed.corn |
+| S146 | Facepunch Rust Wiki | Primary | Facepunch Rust Wiki | https://wiki.facepunch.com/rust/item/composter |
+| S147 | Facepunch Rust Wiki | Primary | Facepunch Rust Wiki | https://wiki.facepunch.com/rust/item/chicken.cooked |
+| S148 | Facepunch Rust Wiki | Primary | Facepunch Rust Wiki | https://wiki.facepunch.com/rust/item/pumpkin |
+| S149 | CarbonCommunity | Primary | CarbonCommunity | https://api.github.com/repos/CarbonCommunity/Carbon/releases?per_page=12 |
+| S150 | OxideMod | Primary | OxideMod | https://api.github.com/repos/OxideMod/Oxide.Rust/releases?per_page=12 |
+| S151 | Facepunch Rust Wiki | Primary | Facepunch Rust Wiki | https://wiki.facepunch.com/rust/Carbon |
+| S152 | CarbonCommunity | Primary | CarbonCommunity | https://api.github.com/repos/CarbonCommunity/Carbon |
+| S153 | OxideMod | Primary | OxideMod | https://api.github.com/repos/OxideMod/Oxide.Rust |
+| S154 | CarbonCommunity | Practitioner | CarbonCommunity | https://raw.githubusercontent.com/CarbonCommunity/Carbon/main/LICENSE |
+| S155 | Facepunch Wiki | Primary | Facepunch Wiki | https://wiki.facepunch.com/rust/map |
+| S156 | Facepunch Wiki | Primary | Facepunch Wiki | https://wiki.facepunch.com/rust/item/keycard_green |
+| S157 | Facepunch Wiki | Primary | Facepunch Wiki | https://wiki.facepunch.com/rust/item/keycard_blue |
+| S158 | Facepunch Wiki | Primary | Facepunch Wiki | https://wiki.facepunch.com/rust/item/keycard_red |
+| S159 | Facepunch Wiki | Primary | Facepunch Wiki | https://wiki.facepunch.com/rust/item/fuse |
+| S160 | Facepunch Wiki | Primary | Facepunch Wiki | https://wiki.facepunch.com/rust/Outpost |
+| S161 | Facepunch Wiki | Primary | Facepunch Wiki | https://wiki.facepunch.com/rust/Safe_Zone_Recycler |
+| S162 | Facepunch | Primary | Facepunch | https://rust.facepunch.com/news/the-puzzle-update |
+| S163 | Facepunch | Primary | Facepunch | https://rust.facepunch.com/news/vehicle-update |
+| S164 | Facepunch Rust Wiki | Primary | Facepunch Rust Wiki | https://wiki.facepunch.com/rust/item/boatbuildingstation |
+| S165 | Facepunch Rust Wiki | Primary | Facepunch Rust Wiki | https://wiki.facepunch.com/rust/item/boat.planner |
+| S166 | Facepunch Rust Wiki | Primary | Facepunch Rust Wiki | https://wiki.facepunch.com/rust/item/kayak |
+| S167 | Facepunch Rust Wiki | Primary | Facepunch Rust Wiki | https://wiki.facepunch.com/rust/item/smallengine |
+| S168 | Facepunch Rust Wiki | Primary | Facepunch Rust Wiki | https://wiki.facepunch.com/rust/item/vehicle.1mod.engine |
+| S169 | Facepunch Rust Wiki | Primary | Facepunch Rust Wiki | https://wiki.facepunch.com/rust/item/horse.saddle.single |
+| S170 | Facepunch Rust Wiki | Primary | Facepunch Rust Wiki | https://wiki.facepunch.com/rust/vehicle_parts |
+| S171 | Facepunch Rust Wiki | Primary | Facepunch Rust Wiki | https://wiki.facepunch.com/rust/item/minihelicopter.repair |
+| S172 | Facepunch Rust Wiki | Primary | Facepunch Rust Wiki | https://wiki.facepunch.com/rust/item/scraptransportheli.repair |
+| S173 | XGamingServer | Practitioner | XGamingServer | https://xgamingserver.com/blog/rust-vehicles-guide-horses-cars-boats |
+| S174 | Rustafied | Practitioner | Rustafied | https://www.rustafied.com/updates/2020/7/2/modular-vehicles-are-here |
+| S175 | Rustafied | Practitioner | Rustafied | https://www.rustafied.com/updates/2019/9/2/meet-the-scrap-transport-helicopter |

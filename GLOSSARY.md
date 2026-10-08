@@ -45,3 +45,23 @@ Shared terms for the Rust KB. Rows are added by the orchestrator from worker ret
 | Data file | Plugin-managed JSON persistence in oxide/data, as opposed to the admin-edited config in oxide/config. | - |
 | Ammo family | The ammunition group a weapon accepts: 5.56 Rifle, Pistol, 12 Gauge or Arrow. | - |
 | Tech tree price | The Scrap cost of unlocking a recipe at a workbench, listed separately from the Research Table price. | - |
+| Centralized banning | Optional external ban list; the server queries an operator-hosted HTTP API at join time (server.bansServerEndpoint) and it can also carry mutes. | - |
+| Premium server | Facepunch server requiring a Steam inventory valued at $15 or more. | - |
+| Map wipe | Replacing the .sav file so entities, buildings and deployables reset. | - |
+| Blueprint wipe | Deleting player.blueprints so learned blueprints reset; a forced wipe alone does not do this. | - |
+| Protocol number | The number before a save file's extension; it rises at a forced wipe so the server starts a new file. | - |
+| levelurl | The +server.levelurl parameter pointing the server at a directly downloadable custom .map file. | - |
+| Gene (plant) | One of six slots on a plant, each G (growth), Y (yield), H (hardiness), W (water intake) or X (empty). | - |
+| Cooking Workbench | Deployable requiring Workbench Level 2 that mixes pies, bread, teas, fuel and ammunition recipes. | - |
+| Stable vendor | NPC at a Stable that buys grown cows and sheep and wool, with three offers per sale (Livestock Update). | - |
+| Harmony | C# runtime patching library; both Oxide and Carbon list Harmony 2.0 support. | - |
+| Dynamic hook loading | Carbon's stated behaviour of activating only the hooks that installed plugins use. | - |
+| Rolling release tag | A GitHub release whose tag name stays fixed while its contents are replaced, so tag history does not show release cadence. | - |
+| Heavy Fuse | A fuse inserted into special fuse boxes at the Power Plant to power the island-wide grid; its decay scales with server population. | - |
+| Monument Blocker | An obstacle added to monuments with red keycard puzzle rooms; unbroken blockers start to decay after 24 hours. | - |
+| Powergrid loot room | A locked room at a monument that unlocks once enough Heavy Fuses power the grid. | - |
+| Safe zone | A monument such as the Outpost or Bandit Camp where hostile actions make you a target for NPCs and turrets. | - |
+| Boat Building Station | Deployable placed in water to build or edit a player-built boat. | - |
+| Deep Sea | Offshore time-limited zone reached by sailing toward the map edge in a strong boat. | - |
+| Air Wolf | Air-vehicle vendor NPC at Bandit Camp; refuses sales until the helipad is repaired each wipe. | - |
+| DPV | Diver propulsion vehicle (wiki item skidoo). | - |

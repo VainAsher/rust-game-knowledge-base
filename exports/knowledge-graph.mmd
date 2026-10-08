@@ -8,12 +8,18 @@ graph LR
     rust_updates_meta_foundation["rust-updates-meta-foundation"]
   end
   subgraph Tier2["Tier 2"]
+    rust_carbon_vs_oxide["rust-carbon-vs-oxide"]
     rust_combat_damage_model["rust-combat-damage-model"]
+    rust_farming_food["rust-farming-food"]
+    rust_moderation_anti_cheat["rust-moderation-anti-cheat"]
+    rust_monuments_loot["rust-monuments-loot"]
     rust_plugin_development_hooks["rust-plugin-development-hooks"]
     rust_raiding_costs_defence["rust-raiding-costs-defence"]
     rust_server_convars_reference["rust-server-convars-reference"]
     rust_update_timeline_2026["rust-update-timeline-2026"]
+    rust_vehicles["rust-vehicles"]
     rust_weapons_ammo["rust-weapons-ammo"]
+    rust_wipes_map_generation["rust-wipes-map-generation"]
   end
   rust_game_mechanics_foundation -->|related| rust_items_crafting_foundation
   rust_game_mechanics_foundation -->|related| rust_building_raiding_foundation
@@ -36,6 +42,12 @@ graph LR
   rust_combat_damage_model -->|deepens| rust_game_mechanics_foundation
   rust_plugin_development_hooks -->|deepens| rust_modding_plugins_foundation
   rust_weapons_ammo -->|deepens| rust_items_crafting_foundation
+  rust_moderation_anti_cheat -->|deepens| rust_server_administration_foundation
+  rust_wipes_map_generation -->|deepens| rust_server_administration_foundation
+  rust_farming_food -->|deepens| rust_items_crafting_foundation
+  rust_carbon_vs_oxide -->|deepens| rust_modding_plugins_foundation
+  rust_monuments_loot -->|deepens| rust_game_mechanics_foundation
+  rust_vehicles -->|deepens| rust_game_mechanics_foundation
   rust_items_crafting_foundation -->|related| rust_game_mechanics_foundation
   rust_building_raiding_foundation -->|related| rust_game_mechanics_foundation
   rust_building_raiding_foundation -->|related| rust_items_crafting_foundation
@@ -111,3 +123,99 @@ graph LR
   rust_weapons_ammo -->|related| rust_server_convars_reference
   rust_weapons_ammo -->|related| rust_plugin_development_hooks
   rust_weapons_ammo -->|related| rust_update_timeline_2026
+  rust_moderation_anti_cheat -->|related| rust_server_convars_reference
+  rust_moderation_anti_cheat -->|related| rust_game_mechanics_foundation
+  rust_moderation_anti_cheat -->|related| rust_items_crafting_foundation
+  rust_moderation_anti_cheat -->|related| rust_building_raiding_foundation
+  rust_moderation_anti_cheat -->|related| rust_modding_plugins_foundation
+  rust_moderation_anti_cheat -->|related| rust_updates_meta_foundation
+  rust_moderation_anti_cheat -->|related| rust_combat_damage_model
+  rust_moderation_anti_cheat -->|related| rust_weapons_ammo
+  rust_moderation_anti_cheat -->|related| rust_raiding_costs_defence
+  rust_moderation_anti_cheat -->|related| rust_plugin_development_hooks
+  rust_moderation_anti_cheat -->|related| rust_update_timeline_2026
+  rust_moderation_anti_cheat -->|related| rust_monuments_loot
+  rust_moderation_anti_cheat -->|related| rust_farming_food
+  rust_moderation_anti_cheat -->|related| rust_vehicles
+  rust_moderation_anti_cheat -->|related| rust_wipes_map_generation
+  rust_moderation_anti_cheat -->|related| rust_carbon_vs_oxide
+  rust_wipes_map_generation -->|related| rust_game_mechanics_foundation
+  rust_wipes_map_generation -->|related| rust_items_crafting_foundation
+  rust_wipes_map_generation -->|related| rust_building_raiding_foundation
+  rust_wipes_map_generation -->|related| rust_modding_plugins_foundation
+  rust_wipes_map_generation -->|related| rust_updates_meta_foundation
+  rust_wipes_map_generation -->|related| rust_combat_damage_model
+  rust_wipes_map_generation -->|related| rust_weapons_ammo
+  rust_wipes_map_generation -->|related| rust_raiding_costs_defence
+  rust_wipes_map_generation -->|related| rust_server_convars_reference
+  rust_wipes_map_generation -->|related| rust_plugin_development_hooks
+  rust_wipes_map_generation -->|related| rust_update_timeline_2026
+  rust_wipes_map_generation -->|related| rust_monuments_loot
+  rust_wipes_map_generation -->|related| rust_farming_food
+  rust_wipes_map_generation -->|related| rust_vehicles
+  rust_wipes_map_generation -->|related| rust_moderation_anti_cheat
+  rust_wipes_map_generation -->|related| rust_carbon_vs_oxide
+  rust_farming_food -->|related| rust_game_mechanics_foundation
+  rust_farming_food -->|related| rust_building_raiding_foundation
+  rust_farming_food -->|related| rust_server_administration_foundation
+  rust_farming_food -->|related| rust_modding_plugins_foundation
+  rust_farming_food -->|related| rust_updates_meta_foundation
+  rust_farming_food -->|related| rust_combat_damage_model
+  rust_farming_food -->|related| rust_weapons_ammo
+  rust_farming_food -->|related| rust_raiding_costs_defence
+  rust_farming_food -->|related| rust_server_convars_reference
+  rust_farming_food -->|related| rust_plugin_development_hooks
+  rust_farming_food -->|related| rust_update_timeline_2026
+  rust_farming_food -->|related| rust_monuments_loot
+  rust_farming_food -->|related| rust_vehicles
+  rust_farming_food -->|related| rust_wipes_map_generation
+  rust_farming_food -->|related| rust_moderation_anti_cheat
+  rust_farming_food -->|related| rust_carbon_vs_oxide
+  rust_carbon_vs_oxide -->|related| rust_game_mechanics_foundation
+  rust_carbon_vs_oxide -->|related| rust_items_crafting_foundation
+  rust_carbon_vs_oxide -->|related| rust_building_raiding_foundation
+  rust_carbon_vs_oxide -->|related| rust_server_administration_foundation
+  rust_carbon_vs_oxide -->|related| rust_updates_meta_foundation
+  rust_carbon_vs_oxide -->|related| rust_combat_damage_model
+  rust_carbon_vs_oxide -->|related| rust_weapons_ammo
+  rust_carbon_vs_oxide -->|related| rust_raiding_costs_defence
+  rust_carbon_vs_oxide -->|related| rust_server_convars_reference
+  rust_carbon_vs_oxide -->|related| rust_plugin_development_hooks
+  rust_carbon_vs_oxide -->|related| rust_update_timeline_2026
+  rust_carbon_vs_oxide -->|related| rust_monuments_loot
+  rust_carbon_vs_oxide -->|related| rust_farming_food
+  rust_carbon_vs_oxide -->|related| rust_vehicles
+  rust_carbon_vs_oxide -->|related| rust_wipes_map_generation
+  rust_carbon_vs_oxide -->|related| rust_moderation_anti_cheat
+  rust_monuments_loot -->|related| rust_items_crafting_foundation
+  rust_monuments_loot -->|related| rust_building_raiding_foundation
+  rust_monuments_loot -->|related| rust_server_administration_foundation
+  rust_monuments_loot -->|related| rust_modding_plugins_foundation
+  rust_monuments_loot -->|related| rust_updates_meta_foundation
+  rust_monuments_loot -->|related| rust_combat_damage_model
+  rust_monuments_loot -->|related| rust_weapons_ammo
+  rust_monuments_loot -->|related| rust_raiding_costs_defence
+  rust_monuments_loot -->|related| rust_server_convars_reference
+  rust_monuments_loot -->|related| rust_plugin_development_hooks
+  rust_monuments_loot -->|related| rust_update_timeline_2026
+  rust_monuments_loot -->|related| rust_farming_food
+  rust_monuments_loot -->|related| rust_vehicles
+  rust_monuments_loot -->|related| rust_wipes_map_generation
+  rust_monuments_loot -->|related| rust_moderation_anti_cheat
+  rust_monuments_loot -->|related| rust_carbon_vs_oxide
+  rust_vehicles -->|related| rust_items_crafting_foundation
+  rust_vehicles -->|related| rust_building_raiding_foundation
+  rust_vehicles -->|related| rust_server_administration_foundation
+  rust_vehicles -->|related| rust_modding_plugins_foundation
+  rust_vehicles -->|related| rust_updates_meta_foundation
+  rust_vehicles -->|related| rust_combat_damage_model
+  rust_vehicles -->|related| rust_weapons_ammo
+  rust_vehicles -->|related| rust_raiding_costs_defence
+  rust_vehicles -->|related| rust_server_convars_reference
+  rust_vehicles -->|related| rust_plugin_development_hooks
+  rust_vehicles -->|related| rust_update_timeline_2026
+  rust_vehicles -->|related| rust_monuments_loot
+  rust_vehicles -->|related| rust_farming_food
+  rust_vehicles -->|related| rust_wipes_map_generation
+  rust_vehicles -->|related| rust_moderation_anti_cheat
+  rust_vehicles -->|related| rust_carbon_vs_oxide

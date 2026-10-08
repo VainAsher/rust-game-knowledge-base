@@ -1,5 +1,9 @@
 # Changelog
 
+## Cluster 3 - 2026-10-08
+
+- Six depth documents frozen at v1.0.0: monuments and loot, farming and food, vehicles, wipes and map generation, moderation and anti-cheat, Carbon versus Oxide.
+
 ## Cluster 2 - 2026-10-08
 
 - Five depth documents frozen at v1.0.0: combat and damage, weapons and ammo, server convars, plugin development and hooks, 2026 update timeline.

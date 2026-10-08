@@ -18,6 +18,12 @@ Catalogue of every document in the Rust (Facepunch) Game Knowledge Base. Owned b
 | rust-combat-damage-model | Rust Combat and Damage Model | Combat and damage | 2 | Global | 1.0.0 | frozen | Medium | `docs/game-mechanics/rust-combat-damage-model.md` |
 | rust-plugin-development-hooks | Rust Plugin Development and Hooks | Plugin development | 2 | Global | 1.0.0 | frozen | Medium | `docs/modding-plugins/rust-plugin-development-hooks.md` |
 | rust-weapons-ammo | Rust Weapons and Ammunition | Weapons and ammo | 2 | Global | 1.0.0 | frozen | Medium | `docs/items-crafting/rust-weapons-ammo.md` |
+| rust-moderation-anti-cheat | Rust Moderation and Anti-Cheat | Moderation, bans and anti-cheat | 2 | Global | 1.0.0 | frozen | Medium | `docs/server-administration/rust-moderation-anti-cheat.md` |
+| rust-wipes-map-generation | Rust Wipes and Map Generation | Wipes and map generation | 2 | Global | 1.0.0 | frozen | Medium | `docs/server-administration/rust-wipes-map-generation.md` |
+| rust-farming-food | Rust Farming and Food | Farming, food and cooking | 2 | Global | 1.0.0 | frozen | Medium | `docs/items-crafting/rust-farming-food.md` |
+| rust-carbon-vs-oxide | Rust Carbon versus Oxide | Carbon versus Oxide comparison | 2 | Global | 1.0.0 | frozen | Medium | `docs/modding-plugins/rust-carbon-vs-oxide.md` |
+| rust-monuments-loot | Rust Monuments and Loot | Monuments and loot | 2 | Global | 1.0.0 | frozen | Medium | `docs/game-mechanics/rust-monuments-loot.md` |
+| rust-vehicles | Rust Vehicles | Vehicles and transport | 2 | Global | 1.0.0 | frozen | Medium | `docs/game-mechanics/rust-vehicles.md` |
 
 ## Knowledge graph
 
@@ -44,6 +50,12 @@ Catalogue of every document in the Rust (Facepunch) Game Knowledge Base. Owned b
 - `rust-combat-damage-model` *deepens* `rust-game-mechanics-foundation`
 - `rust-plugin-development-hooks` *deepens* `rust-modding-plugins-foundation`
 - `rust-weapons-ammo` *deepens* `rust-items-crafting-foundation`
+- `rust-moderation-anti-cheat` *deepens* `rust-server-administration-foundation`
+- `rust-wipes-map-generation` *deepens* `rust-server-administration-foundation`
+- `rust-farming-food` *deepens* `rust-items-crafting-foundation`
+- `rust-carbon-vs-oxide` *deepens* `rust-modding-plugins-foundation`
+- `rust-monuments-loot` *deepens* `rust-game-mechanics-foundation`
+- `rust-vehicles` *deepens* `rust-game-mechanics-foundation`
 
 ## Proposed taxonomy (pending human approval, nothing generated yet)
 
