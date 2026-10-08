@@ -1,1 +1,7 @@
 id,title,topic,tier,market,document_type,category,version,status,confidence,review_due,path
+rust-game-mechanics-foundation,Rust Game Mechanics: Foundation,Core survival loop,1,Global,foundation,Game Mechanics,1.0.0,frozen,Medium,2026-11-08,docs/game-mechanics/rust-game-mechanics-foundation.md
+rust-items-crafting-foundation,Rust Items and Crafting: Foundation,"Resources, crafting and blueprints",1,Global,foundation,Items & Crafting,1.0.0,frozen,Medium,2026-11-08,docs/items-crafting/rust-items-crafting-foundation.md
+rust-building-raiding-foundation,Rust Building and Raiding: Foundation,"Building system, upkeep and raiding",1,Global,foundation,Building & Raiding,1.0.0,frozen,Medium,2026-11-08,docs/building-raiding/rust-building-raiding-foundation.md
+rust-server-administration-foundation,Rust Server Administration: Foundation,Dedicated server setup,1,Global,foundation,Server Administration,1.0.0,frozen,Medium,2026-11-08,docs/server-administration/rust-server-administration-foundation.md
+rust-modding-plugins-foundation,Rust Modding and Plugins: Foundation,Oxide/uMod and Carbon frameworks,1,Global,foundation,Modding & Plugins,1.0.0,frozen,Medium,2026-11-08,docs/modding-plugins/rust-modding-plugins-foundation.md
+rust-updates-meta-foundation,Rust Updates and Meta: Foundation,Update cadence and release history,1,Global,foundation,Game Updates & Meta,1.0.0,frozen,Medium,2026-11-08,docs/updates-meta/rust-updates-meta-foundation.md

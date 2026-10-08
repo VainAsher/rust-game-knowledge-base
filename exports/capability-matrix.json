@@ -1,1 +1,86 @@
-[]
+[
+  {
+    "id": "rust-game-mechanics-foundation",
+    "title": "Rust Game Mechanics: Foundation",
+    "topic": "Core survival loop",
+    "tier": "1",
+    "market": "Global",
+    "document_type": "foundation",
+    "category": "Game Mechanics",
+    "version": "1.0.0",
+    "status": "frozen",
+    "confidence": "Medium",
+    "review_due": "2026-11-08",
+    "path": "docs/game-mechanics/rust-game-mechanics-foundation.md"
+  },
+  {
+    "id": "rust-items-crafting-foundation",
+    "title": "Rust Items and Crafting: Foundation",
+    "topic": "Resources, crafting and blueprints",
+    "tier": "1",
+    "market": "Global",
+    "document_type": "foundation",
+    "category": "Items & Crafting",
+    "version": "1.0.0",
+    "status": "frozen",
+    "confidence": "Medium",
+    "review_due": "2026-11-08",
+    "path": "docs/items-crafting/rust-items-crafting-foundation.md"
+  },
+  {
+    "id": "rust-building-raiding-foundation",
+    "title": "Rust Building and Raiding: Foundation",
+    "topic": "Building system, upkeep and raiding",
+    "tier": "1",
+    "market": "Global",
+    "document_type": "foundation",
+    "category": "Building & Raiding",
+    "version": "1.0.0",
+    "status": "frozen",
+    "confidence": "Medium",
+    "review_due": "2026-11-08",
+    "path": "docs/building-raiding/rust-building-raiding-foundation.md"
+  },
+  {
+    "id": "rust-server-administration-foundation",
+    "title": "Rust Server Administration: Foundation",
+    "topic": "Dedicated server setup",
+    "tier": "1",
+    "market": "Global",
+    "document_type": "foundation",
+    "category": "Server Administration",
+    "version": "1.0.0",
+    "status": "frozen",
+    "confidence": "Medium",
+    "review_due": "2026-11-08",
+    "path": "docs/server-administration/rust-server-administration-foundation.md"
+  },
+  {
+    "id": "rust-modding-plugins-foundation",
+    "title": "Rust Modding and Plugins: Foundation",
+    "topic": "Oxide/uMod and Carbon frameworks",
+    "tier": "1",
+    "market": "Global",
+    "document_type": "foundation",
+    "category": "Modding & Plugins",
+    "version": "1.0.0",
+    "status": "frozen",
+    "confidence": "Medium",
+    "review_due": "2026-11-08",
+    "path": "docs/modding-plugins/rust-modding-plugins-foundation.md"
+  },
+  {
+    "id": "rust-updates-meta-foundation",
+    "title": "Rust Updates and Meta: Foundation",
+    "topic": "Update cadence and release history",
+    "tier": "1",
+    "market": "Global",
+    "document_type": "foundation",
+    "category": "Game Updates & Meta",
+    "version": "1.0.0",
+    "status": "frozen",
+    "confidence": "Medium",
+    "review_due": "2026-11-08",
+    "path": "docs/updates-meta/rust-updates-meta-foundation.md"
+  }
+]

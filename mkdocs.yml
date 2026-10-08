@@ -41,3 +41,10 @@ plugins:
   - search
 nav:
   - Home: index.md
+  - "Tier 1 — Category foundations":
+      - "Rust Building and Raiding: Foundation": building-raiding/rust-building-raiding-foundation.md
+      - "Rust Game Mechanics: Foundation": game-mechanics/rust-game-mechanics-foundation.md
+      - "Rust Items and Crafting: Foundation": items-crafting/rust-items-crafting-foundation.md
+      - "Rust Modding and Plugins: Foundation": modding-plugins/rust-modding-plugins-foundation.md
+      - "Rust Server Administration: Foundation": server-administration/rust-server-administration-foundation.md
+      - "Rust Updates and Meta: Foundation": updates-meta/rust-updates-meta-foundation.md

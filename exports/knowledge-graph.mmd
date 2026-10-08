@@ -1,1 +1,39 @@
 graph LR
+  subgraph Tier1["Tier 1"]
+    rust_building_raiding_foundation["rust-building-raiding-foundation"]
+    rust_game_mechanics_foundation["rust-game-mechanics-foundation"]
+    rust_items_crafting_foundation["rust-items-crafting-foundation"]
+    rust_modding_plugins_foundation["rust-modding-plugins-foundation"]
+    rust_server_administration_foundation["rust-server-administration-foundation"]
+    rust_updates_meta_foundation["rust-updates-meta-foundation"]
+  end
+  rust_game_mechanics_foundation -->|related| rust_items_crafting_foundation
+  rust_game_mechanics_foundation -->|related| rust_building_raiding_foundation
+  rust_game_mechanics_foundation -->|related| rust_server_administration_foundation
+  rust_game_mechanics_foundation -->|related| rust_modding_plugins_foundation
+  rust_game_mechanics_foundation -->|related| rust_updates_meta_foundation
+  rust_items_crafting_foundation -->|related| rust_building_raiding_foundation
+  rust_items_crafting_foundation -->|related| rust_server_administration_foundation
+  rust_items_crafting_foundation -->|related| rust_modding_plugins_foundation
+  rust_items_crafting_foundation -->|related| rust_updates_meta_foundation
+  rust_building_raiding_foundation -->|related| rust_server_administration_foundation
+  rust_building_raiding_foundation -->|related| rust_modding_plugins_foundation
+  rust_building_raiding_foundation -->|related| rust_updates_meta_foundation
+  rust_server_administration_foundation -->|related| rust_modding_plugins_foundation
+  rust_updates_meta_foundation -->|informs| rust_server_administration_foundation
+  rust_updates_meta_foundation -->|informs| rust_modding_plugins_foundation
+  rust_items_crafting_foundation -->|related| rust_game_mechanics_foundation
+  rust_building_raiding_foundation -->|related| rust_game_mechanics_foundation
+  rust_building_raiding_foundation -->|related| rust_items_crafting_foundation
+  rust_server_administration_foundation -->|related| rust_game_mechanics_foundation
+  rust_server_administration_foundation -->|related| rust_items_crafting_foundation
+  rust_server_administration_foundation -->|related| rust_building_raiding_foundation
+  rust_server_administration_foundation -->|related| rust_updates_meta_foundation
+  rust_modding_plugins_foundation -->|related| rust_game_mechanics_foundation
+  rust_modding_plugins_foundation -->|related| rust_items_crafting_foundation
+  rust_modding_plugins_foundation -->|related| rust_building_raiding_foundation
+  rust_modding_plugins_foundation -->|related| rust_server_administration_foundation
+  rust_modding_plugins_foundation -->|related| rust_updates_meta_foundation
+  rust_updates_meta_foundation -->|related| rust_game_mechanics_foundation
+  rust_updates_meta_foundation -->|related| rust_items_crafting_foundation
+  rust_updates_meta_foundation -->|related| rust_building_raiding_foundation

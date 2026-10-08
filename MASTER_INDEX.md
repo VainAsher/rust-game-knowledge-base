@@ -6,10 +6,32 @@ Catalogue of every document in the Rust (Facepunch) Game Knowledge Base. Owned b
 
 | ID | Title | Topic | Tier | Region | Version | Status | Confidence | Path |
 |----|-------|-------|------|--------|---------|--------|------------|------|
+| rust-game-mechanics-foundation | Rust Game Mechanics: Foundation | Core survival loop | 1 | Global | 1.0.0 | frozen | Medium | `docs/game-mechanics/rust-game-mechanics-foundation.md` |
+| rust-items-crafting-foundation | Rust Items and Crafting: Foundation | Resources, crafting and blueprints | 1 | Global | 1.0.0 | frozen | Medium | `docs/items-crafting/rust-items-crafting-foundation.md` |
+| rust-building-raiding-foundation | Rust Building and Raiding: Foundation | Building system, upkeep and raiding | 1 | Global | 1.0.0 | frozen | Medium | `docs/building-raiding/rust-building-raiding-foundation.md` |
+| rust-server-administration-foundation | Rust Server Administration: Foundation | Dedicated server setup | 1 | Global | 1.0.0 | frozen | Medium | `docs/server-administration/rust-server-administration-foundation.md` |
+| rust-modding-plugins-foundation | Rust Modding and Plugins: Foundation | Oxide/uMod and Carbon frameworks | 1 | Global | 1.0.0 | frozen | Medium | `docs/modding-plugins/rust-modding-plugins-foundation.md` |
+| rust-updates-meta-foundation | Rust Updates and Meta: Foundation | Update cadence and release history | 1 | Global | 1.0.0 | frozen | Medium | `docs/updates-meta/rust-updates-meta-foundation.md` |
 
 ## Knowledge graph
 
-<!-- Edges: "- `source-id` *relation* `target-id`". Add after documents exist. -->
+<!-- Edges: "- `source-id` *relation* `target-id`". -->
+
+- `rust-game-mechanics-foundation` *related* `rust-items-crafting-foundation`
+- `rust-game-mechanics-foundation` *related* `rust-building-raiding-foundation`
+- `rust-game-mechanics-foundation` *related* `rust-server-administration-foundation`
+- `rust-game-mechanics-foundation` *related* `rust-modding-plugins-foundation`
+- `rust-game-mechanics-foundation` *related* `rust-updates-meta-foundation`
+- `rust-items-crafting-foundation` *related* `rust-building-raiding-foundation`
+- `rust-items-crafting-foundation` *related* `rust-server-administration-foundation`
+- `rust-items-crafting-foundation` *related* `rust-modding-plugins-foundation`
+- `rust-items-crafting-foundation` *related* `rust-updates-meta-foundation`
+- `rust-building-raiding-foundation` *related* `rust-server-administration-foundation`
+- `rust-building-raiding-foundation` *related* `rust-modding-plugins-foundation`
+- `rust-building-raiding-foundation` *related* `rust-updates-meta-foundation`
+- `rust-server-administration-foundation` *related* `rust-modding-plugins-foundation`
+- `rust-updates-meta-foundation` *informs* `rust-server-administration-foundation`
+- `rust-updates-meta-foundation` *informs* `rust-modding-plugins-foundation`
 
 ## Proposed taxonomy (pending human approval, nothing generated yet)
 
