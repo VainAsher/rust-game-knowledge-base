@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.0.1 revisions and held-document freeze - 2026-10-08
+
+- Four held documents (raiding costs, wildlife and NPCs, teams and clans, plugin marketplaces) re-researched and frozen at v1.0.0, Low confidence.
+- v1.0.1: items foundation (Pivot or Die), server-administration foundation (query port 28016), convars reference (maxteamsize verified), permissions doc (open item tidied).
+
 ## Cluster 6 - 2026-10-08
 
 - Five depth documents frozen at v1.0.0: world events, research and blueprints, base building mechanics, server monetisation guidelines, system requirements and platforms.

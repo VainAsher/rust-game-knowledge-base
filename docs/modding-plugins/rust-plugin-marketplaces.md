@@ -1,8 +1,8 @@
 ---
 id: rust-plugin-marketplaces
 title: "Rust Plugin Marketplaces and Licensing"
-version: 0.1.0
-status: in-review
+version: 1.0.0
+status: frozen
 confidence: Low
 category: Modding & Plugins
 topic: "Plugin sources, licences and marketplaces"
@@ -23,8 +23,8 @@ game_build_checked: "Livestock update (1 Oct 2026); Rust 2634.289.1 hotfix era. 
 | Field | Value |
 |-------|-------|
 | Document ID | rust-plugin-marketplaces |
-| Version | 0.1.0 |
-| Status | in-review |
+| Version | 1.0.0 |
+| Status | frozen |
 | Confidence | Low |
 | Category | Modding & Plugins |
 | Region | Global |
@@ -46,6 +46,7 @@ Confidence is Low. Codefling claims rest on first-party policy pages and are sol
 - Codefling's refund policy says digital purchases are "generally final once a download has been completed", with exceptions for significant unresolved defects, material differences from the description and duplicate or incorrect charges [3].
 - Every Codefling file carries a six-month warranty from purchase; Codefling+ purchases get two further years, 30 months in total [5].
 - Codefling creators must provide updates and support for paid content for at least six months after first sale [4].
+- Codefling's upload guidelines require creators to choose a licence they have the right to apply, forbid DRM, remote kill switches, silent update checks and hidden commands, and say creators handle refund inquiries [16].
 - Codefling curators check submissions for malware, harmful code and security issues, but state that approval "is not a guarantee that every defect or risk has been found" [6].
 - Oxide's developer guidelines tell plugin authors not to include backdoors, spyware, intentional memory leaks or data miners, and to keep plugins updated after Oxide and game updates [8].
 - A hosting provider's 2026 guide lists most free plugins as coming from uMod, and lists paid items from Codefling and chaoscode.io [10].
@@ -76,6 +77,8 @@ Covered: where plugins are obtained, what the opened marketplace policy pages sa
 
 **Warranty and support.** The warranty runs six months from purchase, extends to 30 months for purchases made under an active Codefling+ subscription, and continues if the author leaves or stops supporting the file [5]. Buyers contact the author first, then submit a claim if there is no response, the issue stays unresolved or the file appears abandoned [5]. Codefling may assign a new maintainer to an abandoned file, with future proceeds going to that maintainer [4]. Creators must provide updates and support for at least six months after first sale [4].
 
+**Upload guidelines.** Codefling's upload guidelines tell creators to choose a licence they have the right to apply, make its terms available and follow third-party licences; forks need significant changes [16]. Files must not require external licence keys or activation servers, and analytics, tracking, silent update checks and remote kill switches are prohibited [16]. Destructive actions must be documented and need server-owner confirmation, no backdoors or hidden commands are allowed, reviewers may request source code, and mostly AI-generated files are generally not accepted [16]. Creators must list dependencies and extra costs before purchase and are responsible for support and refund inquiries [16].
+
 **Review and removal.** Curators look for malware, harmful code and security issues and test whether a file works as described; some trusted creators can publish before review finishes; a badge shows whether a file has been reviewed [6]. Later versions and later changes to the game, frameworks or dependencies are not covered by an earlier review [6]. A file deemed unacceptable is removed and pre-curation buyers are refunded, but removal does not remove the file from a buyer's server [6].
 
 **Service listings.** Codefling also lists custom-development services. Its page says it does not evaluate, test or guarantee external providers and will not intervene in disputes between customer and provider [9]. One example listing excludes unauthorised code changes and third-party plugin issues from support [9].
@@ -97,6 +100,7 @@ Codefling policy summary, all read 2026-10-08 and subject to change [3][4][5][6]
 | Licence disclosure | Required before purchase, including server count, modification and redistribution limits | [4] |
 | Sales fee | Deducted, percentage not stated | [4] |
 | Payout | Requested by creator; no withdrawal fee | [4] |
+| Upload rules | Own licence disclosed; no DRM, kill switches or silent update checks; dependencies and extra costs listed | [16] |
 | Curation checks | Malware, harmful code, security, works as described; licence not listed | [6] |
 | Disputes with service providers | Codefling will not intervene | [9] |
 
@@ -155,9 +159,10 @@ Plugin trust is part of server administration (rust-server-administration-founda
 
 # Open Questions
 
-- uMod approval, licence and monetisation rules: umod.org returned HTTP 403 to every fetch attempted (home, plugins, terms, approval guide, community threads). The foundation's open question on uMod licence and monetisation norms therefore remains unresolved. Search-result snippets mentioned an approval guide requiring a permissive open-source licence and forum threads on paid plugins, but those pages were not opened and are not cited.
+- uMod approval, licence and monetisation rules: umod.org returned HTTP 403 to every fetch attempted, in both passes (home, plugins, terms, approval guide, community threads). The foundation's open question on uMod licence and monetisation norms therefore remains unresolved. Search-result snippets mentioned an approval guide requiring a permissive open-source licence and forum threads on paid plugins, but those pages were not opened and are not cited.
 - Whether the Oxide documentation has a community guidelines page covering licensing: the plugin-guidelines and best-practices pages opened do not [8][15].
-- Codefling's sales fee percentage and its upload guidelines (the guidelines URL tried returned 404).
+- Codefling's sales fee percentage: the Creator Terms page (re-read on a second pass) and the upload guidelines [16] both say a fee is deducted without giving a number [4][16].
+- Second-pass attempts on uMod: web.archive.org snapshots could not be fetched at all in this environment, and umod.org approval-guide and forum URLs again returned HTTP 403. The Oxide plugin-guidelines page carries only an MIT footer and nothing on paid plugins or approval [8]. A web search snippet (not an opened page) says uMod's approval guide requires an open-source licence, but this is uncited here and unverified.
 - Terms for chaoscode.io, now redirecting to rusthq.com, and other paid sites: nothing readable [13].
 - Whether any named marketplace has published an incident report about a malicious plugin: none opened.
 - Whether Facepunch states any policy on third-party plugin sales: not researched in a source opened for this document.
@@ -179,6 +184,7 @@ Plugin trust is part of server administration (rust-server-administration-founda
 - [12] **OxideMod** — *Oxide.Rust repository (MIT per GitHub)*. https://github.com/OxideMod/Oxide.Rust. Accessed 2026-10-08.
 - [14] **Codefling** — *Disclaimer*. https://codefling.com/disclaimer. Accessed 2026-10-08.
 - [15] **Oxide** — *Best practices*. https://docs.oxidemod.com/guides/developers/best-practices. Accessed 2026-10-08.
+- [16] **Codefling** — *Upload Guidelines*. https://codefling.com/upload-guidelines. Accessed 2026-10-08.
 
 **Community & Practitioner Evidence**
 
@@ -208,4 +214,5 @@ See the Further Reading section below.
 
 | Version | Date | Author | Change | Approved By |
 |---------|------|--------|--------|-------------|
-| 0.1.0 | 2026-10-08 | Research Pipeline (virtual agent) | Initial draft. | — |
+| 0.1.0 | 2026-10-08 | Research Pipeline (virtual agent) | Initial draft; revision pass added Codefling upload guidelines [16], re-checked fee and uMod access. | — |
+| 1.0.0 | 2026-10-08 | Orchestrator | Frozen at Low confidence after a second research pass; core figures remain community or third-party sourced and are labelled as such. | Auto-approve mandate |

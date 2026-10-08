@@ -7,14 +7,14 @@ Catalogue of every document in the Rust (Facepunch) Game Knowledge Base. Owned b
 | ID | Title | Topic | Tier | Region | Version | Status | Confidence | Path |
 |----|-------|-------|------|--------|---------|--------|------------|------|
 | rust-game-mechanics-foundation | Rust Game Mechanics: Foundation | Core survival loop | 1 | Global | 1.0.0 | frozen | Medium | `docs/game-mechanics/rust-game-mechanics-foundation.md` |
-| rust-items-crafting-foundation | Rust Items and Crafting: Foundation | Resources, crafting and blueprints | 1 | Global | 1.0.0 | frozen | Medium | `docs/items-crafting/rust-items-crafting-foundation.md` |
+| rust-items-crafting-foundation | Rust Items and Crafting: Foundation | Resources, crafting and blueprints | 1 | Global | 1.0.1 | frozen | Medium | `docs/items-crafting/rust-items-crafting-foundation.md` |
 | rust-building-raiding-foundation | Rust Building and Raiding: Foundation | Building system, upkeep and raiding | 1 | Global | 1.0.0 | frozen | Medium | `docs/building-raiding/rust-building-raiding-foundation.md` |
-| rust-server-administration-foundation | Rust Server Administration: Foundation | Dedicated server setup | 1 | Global | 1.0.0 | frozen | Medium | `docs/server-administration/rust-server-administration-foundation.md` |
+| rust-server-administration-foundation | Rust Server Administration: Foundation | Dedicated server setup | 1 | Global | 1.0.1 | frozen | Medium | `docs/server-administration/rust-server-administration-foundation.md` |
 | rust-modding-plugins-foundation | Rust Modding and Plugins: Foundation | Oxide/uMod and Carbon frameworks | 1 | Global | 1.0.0 | frozen | Medium | `docs/modding-plugins/rust-modding-plugins-foundation.md` |
 | rust-updates-meta-foundation | Rust Updates and Meta: Foundation | Update cadence and release history | 1 | Global | 1.0.0 | frozen | Medium | `docs/updates-meta/rust-updates-meta-foundation.md` |
 | rust-update-timeline-2026 | Rust Update Timeline 2026 | 2026 update timeline | 2 | Global | 1.0.0 | frozen | Medium | `docs/updates-meta/rust-update-timeline-2026.md` |
-| rust-server-convars-reference | Rust Server Convars Reference | Server convars and config | 2 | Global | 1.0.0 | frozen | Medium | `docs/server-administration/rust-server-convars-reference.md` |
-| rust-raiding-costs-defence | Rust Raiding Costs and Base Defence | Raid costs and defence | 2 | Global | 0.1.0 | in-review | Low | `docs/building-raiding/rust-raiding-costs-defence.md` |
+| rust-server-convars-reference | Rust Server Convars Reference | Server convars and config | 2 | Global | 1.0.1 | frozen | Medium | `docs/server-administration/rust-server-convars-reference.md` |
+| rust-raiding-costs-defence | Rust Raiding Costs and Base Defence | Raid costs and defence | 2 | Global | 1.0.0 | frozen | Low | `docs/building-raiding/rust-raiding-costs-defence.md` |
 | rust-combat-damage-model | Rust Combat and Damage Model | Combat and damage | 2 | Global | 1.0.0 | frozen | Medium | `docs/game-mechanics/rust-combat-damage-model.md` |
 | rust-plugin-development-hooks | Rust Plugin Development and Hooks | Plugin development | 2 | Global | 1.0.0 | frozen | Medium | `docs/modding-plugins/rust-plugin-development-hooks.md` |
 | rust-weapons-ammo | Rust Weapons and Ammunition | Weapons and ammo | 2 | Global | 1.0.0 | frozen | Medium | `docs/items-crafting/rust-weapons-ammo.md` |
@@ -25,12 +25,12 @@ Catalogue of every document in the Rust (Facepunch) Game Knowledge Base. Owned b
 | rust-monuments-loot | Rust Monuments and Loot | Monuments and loot | 2 | Global | 1.0.0 | frozen | Medium | `docs/game-mechanics/rust-monuments-loot.md` |
 | rust-vehicles | Rust Vehicles | Vehicles and transport | 2 | Global | 1.0.0 | frozen | Medium | `docs/game-mechanics/rust-vehicles.md` |
 | rust-game-modes | Rust Game Modes and Server Types | Game modes and server types | 2 | Global | 1.0.0 | frozen | Medium | `docs/updates-meta/rust-game-modes.md` |
-| rust-wildlife-npcs | Rust Wildlife and NPCs | Wildlife and NPCs | 2 | Global | 0.1.0 | in-review | Low | `docs/game-mechanics/rust-wildlife-npcs.md` |
-| rust-server-permissions-rcon | Rust Server Permissions and RCON | Permissions and RCON | 2 | Global | 1.0.0 | frozen | Medium | `docs/server-administration/rust-server-permissions-rcon.md` |
+| rust-wildlife-npcs | Rust Wildlife and NPCs | Wildlife and NPCs | 2 | Global | 1.0.0 | frozen | Low | `docs/game-mechanics/rust-wildlife-npcs.md` |
+| rust-server-permissions-rcon | Rust Server Permissions and RCON | Permissions and RCON | 2 | Global | 1.0.1 | frozen | Medium | `docs/server-administration/rust-server-permissions-rcon.md` |
 | rust-turrets-deployables | Rust Turrets and Defensive Deployables | Turrets and deployables | 2 | Global | 1.0.0 | frozen | Medium | `docs/building-raiding/rust-turrets-deployables.md` |
 | rust-electricity-logic | Rust Electricity and Logic | Electricity and logic | 2 | Global | 1.0.0 | frozen | Medium | `docs/game-mechanics/rust-electricity-logic.md` |
 | rust-server-performance | Rust Server Performance | Server performance and hardware | 2 | Global | 1.0.0 | frozen | Medium | `docs/server-administration/rust-server-performance.md` |
-| rust-teams-clans | Rust Teams and Clans | Teams, clans and social systems | 2 | Global | 0.1.0 | in-review | Low | `docs/game-mechanics/rust-teams-clans.md` |
+| rust-teams-clans | Rust Teams and Clans | Teams, clans and social systems | 2 | Global | 1.0.0 | frozen | Low | `docs/game-mechanics/rust-teams-clans.md` |
 | rust-skins-cosmetics | Rust Skins and Cosmetics | Skins and cosmetics | 2 | Global | 1.0.0 | frozen | Medium | `docs/updates-meta/rust-skins-cosmetics.md` |
 | rust-clothing-armour | Rust Clothing and Armour | Clothing and armour | 2 | Global | 1.0.0 | frozen | Medium | `docs/items-crafting/rust-clothing-armour.md` |
 | rust-fishing | Rust Fishing | Fishing | 2 | Global | 1.0.0 | frozen | Medium | `docs/game-mechanics/rust-fishing.md` |
@@ -40,7 +40,7 @@ Catalogue of every document in the Rust (Facepunch) Game Knowledge Base. Owned b
 | rust-system-requirements-platforms | Rust System Requirements and Platforms | PC requirements, platforms and editions | 2 | Global | 1.0.0 | frozen | Medium | `docs/updates-meta/rust-system-requirements-platforms.md` |
 | rust-research-blueprints | Rust Research and Blueprints | Research table and blueprint costs | 2 | Global | 1.0.0 | frozen | Medium | `docs/items-crafting/rust-research-blueprints.md` |
 | rust-base-building-mechanics | Rust Base Building Mechanics | Structural mechanics and building rules | 2 | Global | 1.0.0 | frozen | Medium | `docs/building-raiding/rust-base-building-mechanics.md` |
-| rust-plugin-marketplaces | Rust Plugin Marketplaces and Licensing | Plugin sources, licences and marketplaces | 2 | Global | 0.1.0 | in-review | Low | `docs/modding-plugins/rust-plugin-marketplaces.md` |
+| rust-plugin-marketplaces | Rust Plugin Marketplaces and Licensing | Plugin sources, licences and marketplaces | 2 | Global | 1.0.0 | frozen | Low | `docs/modding-plugins/rust-plugin-marketplaces.md` |
 | rust-world-events | Rust World Events | Cargo ship, airdrops and map events | 2 | Global | 1.0.0 | frozen | Medium | `docs/game-mechanics/rust-world-events.md` |
 
 ## Knowledge graph

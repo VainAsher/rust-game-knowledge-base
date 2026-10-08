@@ -350,3 +350,8 @@ reddit.com, x.com / twitter.com, discord.com, youtube.com, steamcommunity.com, s
 | S322 | Facepunch Rust Wiki | Primary | Facepunch Rust Wiki | https://wiki.facepunch.com/rust/item/supply.signal |
 | S323 | Facepunch Rust Wiki | Primary | Facepunch Rust Wiki | https://wiki.facepunch.com/rust/helicopter-crate |
 | S324 | Facepunch Rust Wiki | Primary | Facepunch Rust Wiki | https://wiki.facepunch.com/rust/cargo-ship-scientist |
+| S325 | LOW.MS | Practitioner | LOW.MS | https://www.low.ms/knowledgebase/rust-server-settings-guide |
+| S326 | Corrosion Hour | Practitioner | Corrosion Hour | https://www.corrosionhour.com/how-to-kill-the-patrol-helicopter-in-rust/ |
+| S327 | Rustafied | Practitioner | Rustafied | https://www.rustafied.com/updates/2017/8/24/bradley-apc-is-here |
+| S328 | TradeIt.gg | Practitioner | TradeIt.gg | https://tradeit.gg/blog/how-many-hvs-do-you-need-for-bradley-in-rust/ |
+| S329 | Codefling | Primary | Codefling | https://codefling.com/upload-guidelines |

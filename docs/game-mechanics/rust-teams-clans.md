@@ -1,8 +1,8 @@
 ---
 id: rust-teams-clans
 title: "Rust Teams and Clans"
-version: 0.1.0
-status: in-review
+version: 1.0.0
+status: frozen
 confidence: Low
 category: Game Mechanics
 topic: "Teams, clans and social systems"
@@ -23,8 +23,8 @@ game_build_checked: "October 2026 update (Livestock Update, 1 Oct 2026); pages r
 | Field | Value |
 |-------|-------|
 | Document ID | rust-teams-clans |
-| Version | 0.1.0 |
-| Status | in-review |
+| Version | 1.0.0 |
+| Status | frozen |
 | Confidence | Low |
 | Category | Game Mechanics |
 | Region | Global |
@@ -47,7 +47,7 @@ Most numbers that players ask about are not in a Facepunch source I could open. 
 - Clans are described by Facepunch as "a more advanced version of teams where you can have more members with different roles/permissions", with a separate chat channel and announcement text, managed at Clan Tables [3].
 - The clan system is disabled in hardcore mode [3].
 - Tool Cupboard authorisation is per player: the placer is authorised automatically and others press E at the cupboard [4].
-- A community guide gives a default team size of 8, adjustable by convar; the Facepunch pages opened here state no vanilla default [6][2].
+- Two community guides give a default team size of 8; one names the convar `relationshipmanager.maxteamsize` (0 disables teams). Facepunch's Server Gamemodes wiki also names that convar for changing the maximum team and auth size under Softcore settings [10]; the Teams and Useful Commands wiki pages state neither the convar nor a default team size [9][6][2].
 - A community guide gives a clan cap of 100 and a convar `clan.maxmembercount` defaulting to 100; this is not Facepunch-confirmed [7].
 
 # Scope
@@ -78,8 +78,8 @@ Covers PC (Steam) Rust: team creation and limits, clan features, sharing and aut
 | Item | Value | Build / date | Source |
 |------|-------|--------------|--------|
 | Softcore max team size | 4, includes TC and Autoturret authorisers | Softcore launch, 4 Feb 2021 | [1] |
-| Vanilla default max team size | 8 (community claim; no Facepunch value found) | Guide dated 11 Jun 2026 | [6] |
-| Team size convar | `maxteamsize` (community-named; default not stated by Facepunch) | Guide dated 11 Jun 2026 | [6] |
+| Vanilla default max team size | 8 (two independent community guides; no Facepunch value found) | Guides dated 5 Mar and 11 Jun 2026 | [9][6] |
+| Team size convar | `relationshipmanager.maxteamsize` (full name with prefix; convar name confirmed on the Facepunch Server Gamemodes wiki under Softcore settings [10]; 0 disables teams per the guide [9]) | Guide dated 5 Mar 2026; Facepunch wiki | [9][10] |
 | Clan member cap | 100 (community claim) | Guide 28-30 Jun 2026 | [7] |
 | Clan convar | `clan.maxmembercount`, default 100, local backend only (community claim) | Guide 28-30 Jun 2026 | [7] |
 | Clan system in hardcore | Disabled | Common Ground, 2 Jul 2026 | [3] |
@@ -123,8 +123,8 @@ Covers PC (Steam) Rust: team creation and limits, clan features, sharing and aut
 
 # Open Questions
 
-- Vanilla default team size and convar: no Facepunch source found; resolve from the in-game convar or a server docs page.
-- Clan member cap, convar semantics, roles and cross-server persistence: resolve from in-game testing or a Facepunch devblog.
+- Vanilla default team size (8): community-sourced only [9][6]. The convar name `relationshipmanager.maxteamsize` is confirmed on Facepunch's Server Gamemodes wiki (Softcore settings) [10], but the Teams, Useful Commands and Common Ground pages state no default. Confirm the default with the in-game console.
+- Clan member cap, convar semantics, roles and cross-server persistence: the Common Ground post (rechecked 2026-10-08) names roles and permissions but gives no cap, rank names, convars or cross-server behaviour [3]. A search found no source for the `clan.maxmembercount` name beyond [7]; treat it as unverified.
 - Whether softcore team size is still 4 after Common Ground [3].
 - Proximity, team voice and clan chat rules: the Facepunch Chat wiki page was unreachable.
 - Whether the TC authorisation list has a numeric cap in vanilla [4].
@@ -139,12 +139,15 @@ Covers PC (Steam) Rust: team creation and limits, clan features, sharing and aut
 - [3] **Facepunch** — *Common Ground (2 Jul 2026)*. https://rust.facepunch.com/news/common-ground. Accessed 2026-10-08.
 - [4] **Facepunch Wiki** — *The Tool Cupboard*. https://wiki.facepunch.com/rust/the_tool_cupboard. Accessed 2026-10-08.
 - [5] **Facepunch Wiki** — *Code Lock*. https://wiki.facepunch.com/rust/item/lock.code. Accessed 2026-10-08.
+- [10] **Facepunch Wiki** — *Server Gamemodes*. https://wiki.facepunch.com/rust/server-gamemodes. Accessed 2026-10-08.
 
 **Community & Practitioner Evidence**
 
 - [6] **XGamingServer** — *Rust Teams & Clans Guide: Grouping Up and Sleeping Bags* (11 Jun 2026). https://xgamingserver.com/blog/rust-clans-teams-guide/. Accessed 2026-10-08.
 - [7] **Corrosion Hour** — *RUST Clan System Guide* (28 Jun 2026, updated 30 Jun). https://www.corrosionhour.com/rust-clan-system-guide/. Accessed 2026-10-08.
 - [8] **Guild Order** — *The Clan System and Its Limits* (updated Sept 2026). https://guildorder.com/games/rust/wiki/the-clan-system-and-its-limits. Accessed 2026-10-08.
+
+- [9] **LOW.MS** — *Rust Server Configuration Guide: server.cfg, ConVars, and Settings* (5 Mar 2026). https://www.low.ms/knowledgebase/rust-server-settings-guide. Accessed 2026-10-08.
 
 **Further Reading**
 
@@ -166,4 +169,5 @@ None beyond the references above.
 
 | Version | Date | Author | Change | Approved By |
 |---------|------|--------|--------|-------------|
-| 0.1.0 | 2026-10-08 | Research Pipeline (virtual agent) | Initial draft. | — |
+| 0.1.0 | 2026-10-08 | Research Pipeline (virtual agent) | Initial draft; revision pass added the community-named convar `relationshipmanager.maxteamsize` [9] and recorded rechecked Facepunch gaps. | — |
+| 1.0.0 | 2026-10-08 | Orchestrator | Frozen at Low confidence after a second research pass; core figures remain community or third-party sourced and are labelled as such. | Auto-approve mandate |

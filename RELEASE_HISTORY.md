@@ -8,3 +8,4 @@
 | cluster-4-depth-v1.0.0 | 2026-10-08 | 5 depth documents frozen; wildlife-npcs held in-review |
 | cluster-5-depth-v1.0.0 | 2026-10-08 | 5 depth documents frozen; teams-clans held in-review |
 | cluster-6-depth-v1.0.0 | 2026-10-08 | 5 depth documents frozen; plugin-marketplaces held in-review |
+| release-1.0 | 2026-10-08 | All 36 documents frozen; four documents at v1.0.1 |

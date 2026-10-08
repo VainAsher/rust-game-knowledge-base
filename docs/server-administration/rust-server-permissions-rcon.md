@@ -1,7 +1,7 @@
 ---
 id: rust-server-permissions-rcon
 title: "Rust Server Permissions and RCON"
-version: 1.0.0
+version: 1.0.1
 status: frozen
 confidence: Medium
 category: Server Administration
@@ -23,7 +23,7 @@ game_build_checked: "October 2026 update (Livestock Update, 1 Oct 2026)"
 | Field | Value |
 |-------|-------|
 | Document ID | rust-server-permissions-rcon |
-| Version | 1.0.0 |
+| Version | 1.0.1 |
 | Status | frozen |
 | Confidence | Medium |
 | Category | Server Administration |
@@ -70,7 +70,7 @@ Covers vanilla dedicated servers on PC: auth levels and the commands that manage
 
 **Default port reasoning.** The wiki states `rcon.port` defaults to the same value as `server.port`, and gives 28015 as the `server.port` default [1]. The companion server page states its default is the game port plus 67 or the RCON port plus 67, whichever is higher, which is 28082 if ports are unchanged [3]. 28015 plus 67 is 28082, so an RCON default of 28016 would have produced 28083; the two pages therefore agree.
 
-**Query port consequence.** `server.queryport` defaults to one more than the higher of `server.port` or `rcon.port` [1]. With both at 28015 that formula gives 28016, not the 28017 the foundation's table derived (see Open Questions).
+**Query port consequence.** `server.queryport` defaults to one more than the higher of `server.port` or `rcon.port` [1]. With both at 28015 that formula gives 28016, not the 28017 the foundation's table originally gave; the foundation was corrected to 28016 in v1.0.1.
 
 **Rust+ companion server.** `app.info` shows the port and connection settings in use. `app.port` sets the listening port, must be 10000 or higher, and needs a restart. `app.listenip` selects the network interface in complex setups and `app.publicip` overrides the address the app connects to. The TCP port must be reachable from the internet and the server must reach companion-rust.facepunch.com for registration and push notifications [3]. At start-up the server runs a connectivity test; on failure it logs "Rust+ companion server connectivity test failed! Disabling Rust+ features." The test is rate limited to 10 checks per IP every 5 minutes [3]. Rust+ is disabled with `app.port` set to -1, written `+app.port 1-` on the command line because of parser conflicts [3].
 
@@ -146,7 +146,7 @@ Checked against the October 2026 update [6] unless noted.
 
 - Exact names and defaults of the April 2026 RCON and Rust+ connection-limit convars were not on any Facepunch page opened; resolve with the `find rcon` and `find app` console output on a live server.
 - The `rcon.port` default is resolved from the wiki statement [1] plus the companion arithmetic [3], but no page states 28015 for RCON directly; confirm on a running server.
-- The foundation's reference table gives the query port as 28017 with default ports, while the wiki formula [1] yields 28016 if RCON also defaults to 28015; the foundation's value needs a check on a live server.
+- The foundation's query-port row was corrected to 28016 (v1.0.1) to match the wiki formula [1]. Still unverified on a live server: that `rcon.port` really defaults to 28015, which the formula depends on.
 - Which commands each auth level may run, and whether RCON clients are limited to a level, were not found on a primary page.
 - The wiki has no dedicated RCON page and the websocket URL format is not documented in the pages opened.
 
@@ -188,3 +188,4 @@ The Facepunch wiki pages above, and the in-game F1 console `find` command for li
 |---------|------|--------|--------|-------------|
 | 0.1.0 | 2026-10-08 | Research Pipeline (virtual agent) | Initial draft. | — |
 | 1.0.0 | 2026-10-08 | Orchestrator | Frozen after green QA (validate, genre audit, markdownlint, links live). | Auto-approve mandate |
+| 1.0.1 | 2026-10-08 | Orchestrator | Updated the query-port open item and note now that the foundation row is corrected to 28016. | Auto-approve mandate |

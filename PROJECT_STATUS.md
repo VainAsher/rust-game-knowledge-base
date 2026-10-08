@@ -1,57 +1,23 @@
 # Project Status
 
-- **Phase:** Clusters 1-6 built (6 foundations + 30 depth docs), 8 Oct 2026. Game build checked: Livestock Update (1 Oct 2026).
-- **Documents:** 36. Thirty-two frozen at v1.0.0 (Medium confidence); four held at v0.1.0 / in-review, Low confidence (raiding-costs, wildlife-npcs, teams-clans, plugin-marketplaces). `rust-raiding-costs-defence` is held at v0.1.0 / in-review, Low confidence.
-- **Also held:** `rust-plugin-marketplaces` (uMod returned 403 on every fetch, so uMod licence/monetisation norms are unverified; Codefling first-party pages only).
-- **Also held:** `rust-teams-clans` (clan cap, ranks and vanilla team size community-only; only Facepunch figure is softcore max 4 from a 2021 post).
-- **Also held:** `rust-wildlife-npcs` (all health values community-only, patrol heli health conflicts 9895.6 vs ~10,000).
-- **Why raiding-costs held:** every HP, damage and explosive-count figure is third-party and unverified; sources conflict (e.g. armoured door 1,000 vs 800 HP). Needs a human decision: freeze as Low, or find in-game data.
-- **Next:** remaining depth docs per category; review volatile values after the 5 Nov 2026 update. Mandatory Halloween update 22 Oct 2026 18:00 BST (per Facepunch Livestock post).
-- **Not published.** No GitHub repo or Pages until explicitly authorised.
+- **Phase:** Release 1 complete, 8 Oct 2026. Six foundations plus thirty depth documents, all frozen. Game build checked: Livestock Update (1 Oct 2026).
+- **Documents:** 36. Four are at v1.0.1 (items-crafting foundation, server-administration foundation, server-convars-reference, server-permissions-rcon); the rest v1.0.0. Confidence: 32 Medium, 4 Low (raiding-costs-defence, wildlife-npcs, teams-clans, plugin-marketplaces).
+- **Low-confidence documents** are frozen with their conflicts and community-only sourcing stated openly; none has a Facepunch source for its core figures.
+- **Next review:** after the 22 Oct 2026 mandatory update and the 5 Nov 2026 monthly update (inferred date).
 
-## Known gaps
+## Revisions in v1.0.1 (8 Oct 2026)
 
-- Combat: fall damage, explosion damage to players, non-head hit-zone multipliers, armour stacking unsourced.
-- Weapons: magazine size, fire rate, pellet counts mostly unsourced; wiki stats undated.
-- Raiding: structure HP, per-door costs, upkeep fractions, vanilla offline protection (see hold above).
-- Convars: gather-rate and EAC settings have no Facepunch source.
-- Plugins: conflicting-hook-return resolution, lang API, Carbon hook counts unverified.
-- Foundations (frozen v1.0.0) still carry their own Open Questions; the timeline doc adds Jan and Feb 2026 that the updates foundation omits.
+- Items foundation: updated for Pivot or Die (6 Nov 2025): tech-tree tax removed, workbench scrap crafting cost removed, blueprint wipe. Workbench 2/3 research cost of 30 scrap rests on undated wiki pages.
+- Server-administration foundation: query port row corrected from 28017 to 28016 per the wiki formula (server.queryport = 1 + higher of server.port or rcon.port). rcon.port default of 28015 still unverified on a live server.
+- Convars reference: `relationshipmanager.maxteamsize` confirmed on the Facepunch Server Gamemodes wiki (Softcore: team size 4); no Facepunch source for the vanilla default.
+- Permissions doc: open item about the query port tidied.
 
-## Cluster 3 gaps
+## Known gaps (all documented in each document's Open Questions)
 
-- Monuments: no per-monument loot tables or current card-tier table from a primary source; several wiki monument pages 404.
-- Farming: no growth times, yields or genetics numbers; livestock yields unpublished.
-- Vehicles: base stats for minicopter, scrap heli, modular car, horse come from 2019/2020 community posts.
-- Wipes: no explicit full-wipe definition or default world size/seed on Facepunch pages.
-- Anti-cheat: no EAC configuration published; encryption convar naming discrepancy.
-- Carbon licence conflict: project site says MIT, repo says GPL-3.0 (doc follows the repo). No independent performance benchmark.
-
-## Cluster 4 gaps and follow-ups
-
-- Possible correction to the frozen server-admin foundation: its table gives query port 28017, but the new permissions doc derives 28016 from the wiki formula (rcon.port default inferred = server.port 28015). Needs a live-server check, then a v1.0.1 revision if confirmed.
-- Electricity: small battery differs between wiki (15 rW / 400 rWm) and Nov 2019 devblog (10 / 150); wire limits and generator fuel burn unsourced.
-- Turrets: no range/health/damage on any Facepunch page; targeting rules from one community guide.
-- Performance: tickrate, gc and saveinterval convars are practitioner-only and conflict between guides.
-- Game modes: official availability of Hardcore conflicts (wiki says shut Nov 2023, devblog says returned Aug 2025); Oct 2026 mode rules unchecked.
-- Permissions: which commands each auth level can run, and the April 2026 RCON connection-limit convar names, unsourced.
-
-## Cluster 5 gaps and follow-ups
-
-- Frozen `rust-server-convars-reference` lists `relationshipmanager.maxteamsize`; the teams worker could not verify that name from an opened source. Re-check and revise (v1.0.1) if wrong.
-- Recycler: wiki shows 60%/40% outputs but Power Trip says green 50% (60% powered), red 75%. Tools and economy docs treat the wiki as stale; verify in game.
-- Gather-rate gap NOT closed: no primary source defines the wiki's gather damage/bonus columns or resources per hit.
-- Economy: NPC buy/sell price tables, rentable shop costs, vending machine HP and order cap unsourced.
-- Skins: cosmetic-only rule rests on 2015 devblogs; creator revenue share not in any official source (deliberately omitted).
-- Fishing: no bait values, catch odds, rod durability or overfishing timers; fish trap and village wiki pages 404.
-- Clothing: stacking maths of layers not stated; several garments unsourced.
-
-## Cluster 6 gaps and follow-ups
-
-- Possibly stale frozen text: `rust-research-blueprints` reports Workbench 2 and 3 now cost no scrap to craft (Pivot or Die, 6 Nov 2025; research cost 30 scrap) and a forced blueprint wipe on 6 Nov 2025. The frozen items foundation was written from Meta Shift (Oct 2025) and may need a v1.0.1 revision note.
-- Research: wiki tech-tree costs (125/250/500) do not clearly match Facepunch's rarity research costs (15/30/60/120); Meta Shift Part 2 and monthly BP wipes unsourced.
-- Events: spawn intervals for patrol heli, cargo ship, Chinook and airdrop have no current-build source (2015/2018 devblogs only, labelled).
-- Base building: current stability %, per-tier upgrade costs and tier HP unverified; tier HP (Stone 500, Metal 1000, Armored 2000) is from Devblog 190 (Dec 2017).
-- Monetisation: policy read via a summarising fetch, not raw text. Facepunch policy has no pay-to-win, logo or hosting-provider clause; a human should read facepunch.com/legal/servers before relying on this.
-- Platforms: Facepunch TPM/Secure Boot support article returned 403; Windows 10 status unstated.
-- Link checker: api.github.com now warn-only (unauthenticated limit 60/h; it 403s after repeated runs). Those 6 GitHub API links returned 200 on earlier runs but were not re-verified in the final run.
+- Structure HP, explosive damage, per-piece upkeep fractions, vanilla offline protection: no Facepunch source (only the 20% upkeep for high external walls and the 10-33% range, from Power Trip).
+- Wildlife/NPC/Bradley/heli health: community-only, with a 9895.6 vs ~10,000 heli conflict and a Bradley 500 vs 1000 health discrepancy by date.
+- Clans: member cap, ranks, `clan.maxmembercount` community-only. Vanilla team size 8 community-only.
+- uMod licence and monetisation norms: unverified (umod.org returns 403; web archive unavailable). Codefling fee percentage unstated.
+- Event spawn intervals, tier HP (2017), stability %, gather rates, recycler outputs (wiki 60/40% vs Power Trip 50/60/75%), NPC trade prices.
+- Server monetisation policy was read via a summarising fetch; read facepunch.com/legal/servers directly before relying on it.
+- Link checker: api.github.com is warn-only (60/h unauthenticated limit).

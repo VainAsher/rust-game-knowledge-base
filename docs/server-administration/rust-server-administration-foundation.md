@@ -1,7 +1,7 @@
 ---
 id: rust-server-administration-foundation
 title: "Rust Server Administration: Foundation"
-version: 1.0.0
+version: 1.0.1
 status: frozen
 confidence: Medium
 category: Server Administration
@@ -23,7 +23,7 @@ game_build_checked: "October 2026 update (Livestock Update, 1 Oct 2026)"
 | Field | Value |
 |-------|-------|
 | Document ID | rust-server-administration-foundation |
-| Version | 1.0.0 |
+| Version | 1.0.1 |
 | Status | frozen |
 | Confidence | Medium |
 | Category | Server Administration |
@@ -87,7 +87,7 @@ Checked against the October 2026 update [8] unless stated.
 |------|-------|--------|
 | Server app id | 258550 | [1] |
 | Game port | `server.port`, UDP, default 28015 | [1] |
-| Query port | `server.queryport`, UDP, derived default (28017 with default ports) | [1] |
+| Query port | `server.queryport`, UDP; wiki gives no literal default, only the rule "1 + server.port or rcon.port, whichever is greatest", which yields 28016 if `rcon.port` also defaults to 28015 (see Open Questions) | [1] |
 | RCON port | `rcon.port`, TCP (the wiki table says default equals `server.port`; see Open Questions) | [1] |
 | Seed range | 0 to 2147483647 | [1] |
 | World size | wiki suggests 1000 to 6000 | [1] |
@@ -158,6 +158,7 @@ Checked against the October 2026 update [8] unless stated.
 # Open Questions
 
 - The convars that enable secure mode and EAC settings (`server.secure` and similar) were not found on a Facepunch page opened for this document; resolve from the March 2026 devblog or a live server's `find` output.
+- Query port: version 1.0.0 stated 28017; the wiki page states only the formula, which gives 28016 with the stated defaults (server.port 28015, rcon.port equal to server.port), and names no literal number [1]. rust-server-permissions-rcon reaches the same 28016 and is consistent with this correction. A server whose rcon.port is set explicitly (for example 28016 or 28017) would shift the derived value; verify on a running server.
 - The RCON default port: the wiki table says it equals `server.port`, which sits oddly with the separate TCP/UDP description; verify on a running server.
 - The Rust+ port number is not stated on the page read.
 - A dedicated wiki page for RCON/WebRCON and a full convar list were not located.
@@ -202,3 +203,4 @@ The Facepunch wiki server-hosting section (custom maps, server browser tags, gam
 |---------|------|--------|--------|-------------|
 | 0.1.0 | 2026-10-08 | Research Pipeline (virtual agent) | Initial draft. | — |
 | 1.0.0 | 2026-10-08 | Orchestrator | Frozen after green QA (validate, genre audit, markdownlint, 100% links live). | Auto-approve mandate |
+| 1.0.1 | 2026-10-08 | Research Pipeline (virtual agent) | Corrected the query port row: the Creating-a-server wiki gives only a formula (1 + the greater of server.port or rcon.port), which yields 28016 with default ports, not 28017; recorded the open question and consistency with rust-server-permissions-rcon. | Auto-approve mandate |

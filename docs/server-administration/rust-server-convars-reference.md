@@ -1,7 +1,7 @@
 ---
 id: rust-server-convars-reference
 title: "Rust Server Convars Reference"
-version: 1.0.0
+version: 1.0.1
 status: frozen
 confidence: Medium
 category: Server Administration
@@ -23,7 +23,7 @@ game_build_checked: "October 2026 update (Livestock Update, 1 Oct 2026)"
 | Field | Value |
 |-------|-------|
 | Document ID | rust-server-convars-reference |
-| Version | 1.0.0 |
+| Version | 1.0.1 |
 | Status | frozen |
 | Confidence | Medium |
 | Category | Server Administration |
@@ -122,7 +122,7 @@ Checked against the October 2026 update unless stated. "Not stated" means the ci
 | `gamemodesoftcore.reclaim_fraction_belt` | 0.5 | Hotbar fraction reclaimable at terminals |
 | `gamemodesoftcore.reclaim_fraction_main` | 0.5 | Inventory fraction reclaimable |
 | `gamemodesoftcore.reclaim_fraction_wear` | 0 | Armour fraction reclaimable |
-| `relationshipmanager.maxteamsize` | Not stated | Maximum team size; Softcore uses 4 |
+| `relationshipmanager.maxteamsize` | Not stated for vanilla; Softcore team size is 4 | Maximum team and auth size; the Server Gamemodes wiki says it can be changed with this convar under Softcore Settings [4] |
 
 **Rust+ companion** [3]
 
@@ -253,3 +253,4 @@ The Facepunch wiki server pages (Creating a server, Server Wipe Timer, Centraliz
 |---------|------|--------|--------|-------------|
 | 0.1.0 | 2026-10-08 | Research Pipeline (virtual agent) | Initial draft. | — |
 | 1.0.0 | 2026-10-08 | Orchestrator | Frozen after green QA (validate, genre audit, markdownlint, links live). | Auto-approve mandate |
+| 1.0.1 | 2026-10-08 | Research Pipeline (virtual agent) | Verified `relationshipmanager.maxteamsize` on the Facepunch Server Gamemodes wiki (Softcore Settings) [4] and tightened the row; the Useful Commands and Teams wiki pages do not list it, and no vanilla default is stated by Facepunch. | Auto-approve mandate |
