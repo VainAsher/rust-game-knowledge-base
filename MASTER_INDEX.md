@@ -24,6 +24,12 @@ Catalogue of every document in the Rust (Facepunch) Game Knowledge Base. Owned b
 | rust-carbon-vs-oxide | Rust Carbon versus Oxide | Carbon versus Oxide comparison | 2 | Global | 1.0.0 | frozen | Medium | `docs/modding-plugins/rust-carbon-vs-oxide.md` |
 | rust-monuments-loot | Rust Monuments and Loot | Monuments and loot | 2 | Global | 1.0.0 | frozen | Medium | `docs/game-mechanics/rust-monuments-loot.md` |
 | rust-vehicles | Rust Vehicles | Vehicles and transport | 2 | Global | 1.0.0 | frozen | Medium | `docs/game-mechanics/rust-vehicles.md` |
+| rust-game-modes | Rust Game Modes and Server Types | Game modes and server types | 2 | Global | 1.0.0 | frozen | Medium | `docs/updates-meta/rust-game-modes.md` |
+| rust-wildlife-npcs | Rust Wildlife and NPCs | Wildlife and NPCs | 2 | Global | 0.1.0 | in-review | Low | `docs/game-mechanics/rust-wildlife-npcs.md` |
+| rust-server-permissions-rcon | Rust Server Permissions and RCON | Permissions and RCON | 2 | Global | 1.0.0 | frozen | Medium | `docs/server-administration/rust-server-permissions-rcon.md` |
+| rust-turrets-deployables | Rust Turrets and Defensive Deployables | Turrets and deployables | 2 | Global | 1.0.0 | frozen | Medium | `docs/building-raiding/rust-turrets-deployables.md` |
+| rust-electricity-logic | Rust Electricity and Logic | Electricity and logic | 2 | Global | 1.0.0 | frozen | Medium | `docs/game-mechanics/rust-electricity-logic.md` |
+| rust-server-performance | Rust Server Performance | Server performance and hardware | 2 | Global | 1.0.0 | frozen | Medium | `docs/server-administration/rust-server-performance.md` |
 
 ## Knowledge graph
 
@@ -56,6 +62,12 @@ Catalogue of every document in the Rust (Facepunch) Game Knowledge Base. Owned b
 - `rust-carbon-vs-oxide` *deepens* `rust-modding-plugins-foundation`
 - `rust-monuments-loot` *deepens* `rust-game-mechanics-foundation`
 - `rust-vehicles` *deepens* `rust-game-mechanics-foundation`
+- `rust-game-modes` *deepens* `rust-updates-meta-foundation`
+- `rust-wildlife-npcs` *deepens* `rust-game-mechanics-foundation`
+- `rust-server-permissions-rcon` *deepens* `rust-server-administration-foundation`
+- `rust-turrets-deployables` *deepens* `rust-building-raiding-foundation`
+- `rust-electricity-logic` *deepens* `rust-game-mechanics-foundation`
+- `rust-server-performance` *deepens* `rust-server-administration-foundation`
 
 ## Proposed taxonomy (pending human approval, nothing generated yet)
 

@@ -503,6 +503,233 @@
         "rust-moderation-anti-cheat",
         "rust-carbon-vs-oxide"
       ]
+    },
+    {
+      "id": "rust-game-modes",
+      "title": "Rust Game Modes and Server Types",
+      "topic": "Game modes and server types",
+      "tier": "2",
+      "market": "Global",
+      "version": "1.0.0",
+      "status": "frozen",
+      "confidence": "Medium",
+      "path": "docs/updates-meta/rust-game-modes.md",
+      "category": "Game Updates & Meta",
+      "document_type": "deep-dive",
+      "review_due": "2026-11-08",
+      "created": "2026-10-08",
+      "related": [
+        "rust-updates-meta-foundation",
+        "rust-game-mechanics-foundation",
+        "rust-items-crafting-foundation",
+        "rust-building-raiding-foundation",
+        "rust-server-administration-foundation",
+        "rust-modding-plugins-foundation",
+        "rust-combat-damage-model",
+        "rust-weapons-ammo",
+        "rust-raiding-costs-defence",
+        "rust-server-convars-reference",
+        "rust-plugin-development-hooks",
+        "rust-update-timeline-2026",
+        "rust-monuments-loot",
+        "rust-farming-food",
+        "rust-vehicles",
+        "rust-wipes-map-generation",
+        "rust-moderation-anti-cheat",
+        "rust-carbon-vs-oxide",
+        "rust-electricity-logic",
+        "rust-turrets-deployables",
+        "rust-wildlife-npcs",
+        "rust-server-permissions-rcon",
+        "rust-server-performance"
+      ]
+    },
+    {
+      "id": "rust-wildlife-npcs",
+      "title": "Rust Wildlife and NPCs",
+      "topic": "Wildlife and NPCs",
+      "tier": "2",
+      "market": "Global",
+      "version": "0.1.0",
+      "status": "in-review",
+      "confidence": "Low",
+      "path": "docs/game-mechanics/rust-wildlife-npcs.md",
+      "category": "Game Mechanics",
+      "document_type": "deep-dive",
+      "review_due": "2026-11-08",
+      "created": "2026-10-08",
+      "related": [
+        "rust-game-mechanics-foundation",
+        "rust-monuments-loot",
+        "rust-combat-damage-model",
+        "rust-weapons-ammo",
+        "rust-farming-food",
+        "rust-vehicles",
+        "rust-electricity-logic",
+        "rust-turrets-deployables",
+        "rust-server-performance",
+        "rust-game-modes"
+      ]
+    },
+    {
+      "id": "rust-server-permissions-rcon",
+      "title": "Rust Server Permissions and RCON",
+      "topic": "Permissions and RCON",
+      "tier": "2",
+      "market": "Global",
+      "version": "1.0.0",
+      "status": "frozen",
+      "confidence": "Medium",
+      "path": "docs/server-administration/rust-server-permissions-rcon.md",
+      "category": "Server Administration",
+      "document_type": "deep-dive",
+      "review_due": "2026-11-08",
+      "created": "2026-10-08",
+      "related": [
+        "rust-server-administration-foundation",
+        "rust-game-mechanics-foundation",
+        "rust-items-crafting-foundation",
+        "rust-building-raiding-foundation",
+        "rust-modding-plugins-foundation",
+        "rust-updates-meta-foundation",
+        "rust-combat-damage-model",
+        "rust-weapons-ammo",
+        "rust-raiding-costs-defence",
+        "rust-server-convars-reference",
+        "rust-plugin-development-hooks",
+        "rust-update-timeline-2026",
+        "rust-monuments-loot",
+        "rust-farming-food",
+        "rust-vehicles",
+        "rust-wipes-map-generation",
+        "rust-moderation-anti-cheat",
+        "rust-carbon-vs-oxide",
+        "rust-electricity-logic",
+        "rust-turrets-deployables",
+        "rust-wildlife-npcs",
+        "rust-server-performance",
+        "rust-game-modes"
+      ]
+    },
+    {
+      "id": "rust-turrets-deployables",
+      "title": "Rust Turrets and Defensive Deployables",
+      "topic": "Turrets and deployables",
+      "tier": "2",
+      "market": "Global",
+      "version": "1.0.0",
+      "status": "frozen",
+      "confidence": "Medium",
+      "path": "docs/building-raiding/rust-turrets-deployables.md",
+      "category": "Building & Raiding",
+      "document_type": "deep-dive",
+      "review_due": "2026-11-08",
+      "created": "2026-10-08",
+      "related": [
+        "rust-building-raiding-foundation",
+        "rust-game-mechanics-foundation",
+        "rust-items-crafting-foundation",
+        "rust-server-administration-foundation",
+        "rust-modding-plugins-foundation",
+        "rust-updates-meta-foundation",
+        "rust-combat-damage-model",
+        "rust-weapons-ammo",
+        "rust-raiding-costs-defence",
+        "rust-server-convars-reference",
+        "rust-plugin-development-hooks",
+        "rust-update-timeline-2026",
+        "rust-monuments-loot",
+        "rust-farming-food",
+        "rust-vehicles",
+        "rust-wipes-map-generation",
+        "rust-moderation-anti-cheat",
+        "rust-carbon-vs-oxide",
+        "rust-electricity-logic",
+        "rust-wildlife-npcs",
+        "rust-server-permissions-rcon",
+        "rust-server-performance",
+        "rust-game-modes"
+      ]
+    },
+    {
+      "id": "rust-electricity-logic",
+      "title": "Rust Electricity and Logic",
+      "topic": "Electricity and logic",
+      "tier": "2",
+      "market": "Global",
+      "version": "1.0.0",
+      "status": "frozen",
+      "confidence": "Medium",
+      "path": "docs/game-mechanics/rust-electricity-logic.md",
+      "category": "Game Mechanics",
+      "document_type": "deep-dive",
+      "review_due": "2026-11-08",
+      "created": "2026-10-08",
+      "related": [
+        "rust-game-mechanics-foundation",
+        "rust-items-crafting-foundation",
+        "rust-building-raiding-foundation",
+        "rust-server-administration-foundation",
+        "rust-modding-plugins-foundation",
+        "rust-updates-meta-foundation",
+        "rust-combat-damage-model",
+        "rust-weapons-ammo",
+        "rust-raiding-costs-defence",
+        "rust-server-convars-reference",
+        "rust-plugin-development-hooks",
+        "rust-update-timeline-2026",
+        "rust-monuments-loot",
+        "rust-farming-food",
+        "rust-vehicles",
+        "rust-wipes-map-generation",
+        "rust-moderation-anti-cheat",
+        "rust-carbon-vs-oxide",
+        "rust-turrets-deployables",
+        "rust-wildlife-npcs",
+        "rust-server-permissions-rcon",
+        "rust-server-performance",
+        "rust-game-modes"
+      ]
+    },
+    {
+      "id": "rust-server-performance",
+      "title": "Rust Server Performance",
+      "topic": "Server performance and hardware",
+      "tier": "2",
+      "market": "Global",
+      "version": "1.0.0",
+      "status": "frozen",
+      "confidence": "Medium",
+      "path": "docs/server-administration/rust-server-performance.md",
+      "category": "Server Administration",
+      "document_type": "deep-dive",
+      "review_due": "2026-11-08",
+      "created": "2026-10-08",
+      "related": [
+        "rust-server-administration-foundation",
+        "rust-game-mechanics-foundation",
+        "rust-items-crafting-foundation",
+        "rust-building-raiding-foundation",
+        "rust-modding-plugins-foundation",
+        "rust-updates-meta-foundation",
+        "rust-combat-damage-model",
+        "rust-weapons-ammo",
+        "rust-raiding-costs-defence",
+        "rust-server-convars-reference",
+        "rust-plugin-development-hooks",
+        "rust-update-timeline-2026",
+        "rust-monuments-loot",
+        "rust-farming-food",
+        "rust-vehicles",
+        "rust-wipes-map-generation",
+        "rust-moderation-anti-cheat",
+        "rust-carbon-vs-oxide",
+        "rust-electricity-logic",
+        "rust-turrets-deployables",
+        "rust-wildlife-npcs",
+        "rust-server-permissions-rcon",
+        "rust-game-modes"
+      ]
     }
   ],
   "edges": [
@@ -669,6 +896,42 @@
       "target": "known"
     },
     {
+      "from": "rust-game-modes",
+      "to": "rust-updates-meta-foundation",
+      "rel": "deepens",
+      "target": "known"
+    },
+    {
+      "from": "rust-wildlife-npcs",
+      "to": "rust-game-mechanics-foundation",
+      "rel": "deepens",
+      "target": "known"
+    },
+    {
+      "from": "rust-server-permissions-rcon",
+      "to": "rust-server-administration-foundation",
+      "rel": "deepens",
+      "target": "known"
+    },
+    {
+      "from": "rust-turrets-deployables",
+      "to": "rust-building-raiding-foundation",
+      "rel": "deepens",
+      "target": "known"
+    },
+    {
+      "from": "rust-electricity-logic",
+      "to": "rust-game-mechanics-foundation",
+      "rel": "deepens",
+      "target": "known"
+    },
+    {
+      "from": "rust-server-performance",
+      "to": "rust-server-administration-foundation",
+      "rel": "deepens",
+      "target": "known"
+    },
+    {
       "from": "rust-items-crafting-foundation",
       "to": "rust-game-mechanics-foundation",
       "rel": "related",
@@ -1691,6 +1954,720 @@
     {
       "from": "rust-vehicles",
       "to": "rust-carbon-vs-oxide",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-game-modes",
+      "to": "rust-game-mechanics-foundation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-game-modes",
+      "to": "rust-items-crafting-foundation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-game-modes",
+      "to": "rust-building-raiding-foundation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-game-modes",
+      "to": "rust-server-administration-foundation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-game-modes",
+      "to": "rust-modding-plugins-foundation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-game-modes",
+      "to": "rust-combat-damage-model",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-game-modes",
+      "to": "rust-weapons-ammo",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-game-modes",
+      "to": "rust-raiding-costs-defence",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-game-modes",
+      "to": "rust-server-convars-reference",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-game-modes",
+      "to": "rust-plugin-development-hooks",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-game-modes",
+      "to": "rust-update-timeline-2026",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-game-modes",
+      "to": "rust-monuments-loot",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-game-modes",
+      "to": "rust-farming-food",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-game-modes",
+      "to": "rust-vehicles",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-game-modes",
+      "to": "rust-wipes-map-generation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-game-modes",
+      "to": "rust-moderation-anti-cheat",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-game-modes",
+      "to": "rust-carbon-vs-oxide",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-game-modes",
+      "to": "rust-electricity-logic",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-game-modes",
+      "to": "rust-turrets-deployables",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-game-modes",
+      "to": "rust-wildlife-npcs",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-game-modes",
+      "to": "rust-server-permissions-rcon",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-game-modes",
+      "to": "rust-server-performance",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-wildlife-npcs",
+      "to": "rust-monuments-loot",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-wildlife-npcs",
+      "to": "rust-combat-damage-model",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-wildlife-npcs",
+      "to": "rust-weapons-ammo",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-wildlife-npcs",
+      "to": "rust-farming-food",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-wildlife-npcs",
+      "to": "rust-vehicles",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-wildlife-npcs",
+      "to": "rust-electricity-logic",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-wildlife-npcs",
+      "to": "rust-turrets-deployables",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-wildlife-npcs",
+      "to": "rust-server-performance",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-wildlife-npcs",
+      "to": "rust-game-modes",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-server-permissions-rcon",
+      "to": "rust-game-mechanics-foundation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-server-permissions-rcon",
+      "to": "rust-items-crafting-foundation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-server-permissions-rcon",
+      "to": "rust-building-raiding-foundation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-server-permissions-rcon",
+      "to": "rust-modding-plugins-foundation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-server-permissions-rcon",
+      "to": "rust-updates-meta-foundation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-server-permissions-rcon",
+      "to": "rust-combat-damage-model",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-server-permissions-rcon",
+      "to": "rust-weapons-ammo",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-server-permissions-rcon",
+      "to": "rust-raiding-costs-defence",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-server-permissions-rcon",
+      "to": "rust-server-convars-reference",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-server-permissions-rcon",
+      "to": "rust-plugin-development-hooks",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-server-permissions-rcon",
+      "to": "rust-update-timeline-2026",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-server-permissions-rcon",
+      "to": "rust-monuments-loot",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-server-permissions-rcon",
+      "to": "rust-farming-food",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-server-permissions-rcon",
+      "to": "rust-vehicles",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-server-permissions-rcon",
+      "to": "rust-wipes-map-generation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-server-permissions-rcon",
+      "to": "rust-moderation-anti-cheat",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-server-permissions-rcon",
+      "to": "rust-carbon-vs-oxide",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-server-permissions-rcon",
+      "to": "rust-electricity-logic",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-server-permissions-rcon",
+      "to": "rust-turrets-deployables",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-server-permissions-rcon",
+      "to": "rust-wildlife-npcs",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-server-permissions-rcon",
+      "to": "rust-server-performance",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-server-permissions-rcon",
+      "to": "rust-game-modes",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-turrets-deployables",
+      "to": "rust-game-mechanics-foundation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-turrets-deployables",
+      "to": "rust-items-crafting-foundation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-turrets-deployables",
+      "to": "rust-server-administration-foundation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-turrets-deployables",
+      "to": "rust-modding-plugins-foundation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-turrets-deployables",
+      "to": "rust-updates-meta-foundation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-turrets-deployables",
+      "to": "rust-combat-damage-model",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-turrets-deployables",
+      "to": "rust-weapons-ammo",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-turrets-deployables",
+      "to": "rust-raiding-costs-defence",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-turrets-deployables",
+      "to": "rust-server-convars-reference",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-turrets-deployables",
+      "to": "rust-plugin-development-hooks",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-turrets-deployables",
+      "to": "rust-update-timeline-2026",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-turrets-deployables",
+      "to": "rust-monuments-loot",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-turrets-deployables",
+      "to": "rust-farming-food",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-turrets-deployables",
+      "to": "rust-vehicles",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-turrets-deployables",
+      "to": "rust-wipes-map-generation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-turrets-deployables",
+      "to": "rust-moderation-anti-cheat",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-turrets-deployables",
+      "to": "rust-carbon-vs-oxide",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-turrets-deployables",
+      "to": "rust-electricity-logic",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-turrets-deployables",
+      "to": "rust-wildlife-npcs",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-turrets-deployables",
+      "to": "rust-server-permissions-rcon",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-turrets-deployables",
+      "to": "rust-server-performance",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-turrets-deployables",
+      "to": "rust-game-modes",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-electricity-logic",
+      "to": "rust-items-crafting-foundation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-electricity-logic",
+      "to": "rust-building-raiding-foundation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-electricity-logic",
+      "to": "rust-server-administration-foundation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-electricity-logic",
+      "to": "rust-modding-plugins-foundation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-electricity-logic",
+      "to": "rust-updates-meta-foundation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-electricity-logic",
+      "to": "rust-combat-damage-model",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-electricity-logic",
+      "to": "rust-weapons-ammo",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-electricity-logic",
+      "to": "rust-raiding-costs-defence",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-electricity-logic",
+      "to": "rust-server-convars-reference",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-electricity-logic",
+      "to": "rust-plugin-development-hooks",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-electricity-logic",
+      "to": "rust-update-timeline-2026",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-electricity-logic",
+      "to": "rust-monuments-loot",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-electricity-logic",
+      "to": "rust-farming-food",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-electricity-logic",
+      "to": "rust-vehicles",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-electricity-logic",
+      "to": "rust-wipes-map-generation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-electricity-logic",
+      "to": "rust-moderation-anti-cheat",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-electricity-logic",
+      "to": "rust-carbon-vs-oxide",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-electricity-logic",
+      "to": "rust-turrets-deployables",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-electricity-logic",
+      "to": "rust-wildlife-npcs",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-electricity-logic",
+      "to": "rust-server-permissions-rcon",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-electricity-logic",
+      "to": "rust-server-performance",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-electricity-logic",
+      "to": "rust-game-modes",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-server-performance",
+      "to": "rust-game-mechanics-foundation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-server-performance",
+      "to": "rust-items-crafting-foundation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-server-performance",
+      "to": "rust-building-raiding-foundation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-server-performance",
+      "to": "rust-modding-plugins-foundation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-server-performance",
+      "to": "rust-updates-meta-foundation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-server-performance",
+      "to": "rust-combat-damage-model",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-server-performance",
+      "to": "rust-weapons-ammo",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-server-performance",
+      "to": "rust-raiding-costs-defence",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-server-performance",
+      "to": "rust-server-convars-reference",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-server-performance",
+      "to": "rust-plugin-development-hooks",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-server-performance",
+      "to": "rust-update-timeline-2026",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-server-performance",
+      "to": "rust-monuments-loot",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-server-performance",
+      "to": "rust-farming-food",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-server-performance",
+      "to": "rust-vehicles",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-server-performance",
+      "to": "rust-wipes-map-generation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-server-performance",
+      "to": "rust-moderation-anti-cheat",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-server-performance",
+      "to": "rust-carbon-vs-oxide",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-server-performance",
+      "to": "rust-electricity-logic",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-server-performance",
+      "to": "rust-turrets-deployables",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-server-performance",
+      "to": "rust-wildlife-npcs",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-server-performance",
+      "to": "rust-server-permissions-rcon",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-server-performance",
+      "to": "rust-game-modes",
       "rel": "related",
       "target": "known"
     }

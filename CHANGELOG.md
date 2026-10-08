@@ -1,5 +1,10 @@
 # Changelog
 
+## Cluster 4 - 2026-10-08
+
+- Five depth documents frozen at v1.0.0: electricity and logic, turrets and deployables, permissions and RCON, server performance, game modes.
+- `rust-wildlife-npcs` added at v0.1.0, held in-review (Low confidence, community-only values).
+
 ## Cluster 3 - 2026-10-08
 
 - Six depth documents frozen at v1.0.0: monuments and loot, farming and food, vehicles, wipes and map generation, moderation and anti-cheat, Carbon versus Oxide.

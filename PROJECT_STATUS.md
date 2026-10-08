@@ -1,8 +1,9 @@
 # Project Status
 
-- **Phase:** Clusters 1-3 built (6 foundations + 12 depth docs), 8 Oct 2026. Game build checked: Livestock Update (1 Oct 2026).
-- **Documents:** 18. Seventeen frozen at v1.0.0 (Medium confidence). `rust-raiding-costs-defence` is held at v0.1.0 / in-review, Low confidence.
-- **Why held:** every HP, damage and explosive-count figure is third-party and unverified; sources conflict (e.g. armoured door 1,000 vs 800 HP). Needs a human decision: freeze as Low, or find in-game data.
+- **Phase:** Clusters 1-4 built (6 foundations + 18 depth docs), 8 Oct 2026. Game build checked: Livestock Update (1 Oct 2026).
+- **Documents:** 24. Twenty-two frozen at v1.0.0 (Medium confidence); two held at v0.1.0 / in-review, Low confidence. `rust-raiding-costs-defence` is held at v0.1.0 / in-review, Low confidence.
+- **Also held:** `rust-wildlife-npcs` (all health values community-only, patrol heli health conflicts 9895.6 vs ~10,000).
+- **Why raiding-costs held:** every HP, damage and explosive-count figure is third-party and unverified; sources conflict (e.g. armoured door 1,000 vs 800 HP). Needs a human decision: freeze as Low, or find in-game data.
 - **Next:** remaining depth docs per category; review volatile values after the 5 Nov 2026 update. Mandatory Halloween update 22 Oct 2026 18:00 BST (per Facepunch Livestock post).
 - **Not published.** No GitHub repo or Pages until explicitly authorised.
 
@@ -23,3 +24,12 @@
 - Wipes: no explicit full-wipe definition or default world size/seed on Facepunch pages.
 - Anti-cheat: no EAC configuration published; encryption convar naming discrepancy.
 - Carbon licence conflict: project site says MIT, repo says GPL-3.0 (doc follows the repo). No independent performance benchmark.
+
+## Cluster 4 gaps and follow-ups
+
+- Possible correction to the frozen server-admin foundation: its table gives query port 28017, but the new permissions doc derives 28016 from the wiki formula (rcon.port default inferred = server.port 28015). Needs a live-server check, then a v1.0.1 revision if confirmed.
+- Electricity: small battery differs between wiki (15 rW / 400 rWm) and Nov 2019 devblog (10 / 150); wire limits and generator fuel burn unsourced.
+- Turrets: no range/health/damage on any Facepunch page; targeting rules from one community guide.
+- Performance: tickrate, gc and saveinterval convars are practitioner-only and conflict between guides.
+- Game modes: official availability of Hardcore conflicts (wiki says shut Nov 2023, devblog says returned Aug 2025); Oct 2026 mode rules unchecked.
+- Permissions: which commands each auth level can run, and the April 2026 RCON connection-limit convar names, unsourced.

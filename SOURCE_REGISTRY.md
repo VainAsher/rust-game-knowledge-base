@@ -201,3 +201,64 @@ reddit.com, x.com / twitter.com, discord.com, youtube.com, steamcommunity.com, s
 | S173 | XGamingServer | Practitioner | XGamingServer | https://xgamingserver.com/blog/rust-vehicles-guide-horses-cars-boats |
 | S174 | Rustafied | Practitioner | Rustafied | https://www.rustafied.com/updates/2020/7/2/modular-vehicles-are-here |
 | S175 | Rustafied | Practitioner | Rustafied | https://www.rustafied.com/updates/2019/9/2/meet-the-scrap-transport-helicopter |
+| S176 | Facepunch | Primary | Facepunch | https://rust.facepunch.com/news/softcore-gamemode-update |
+| S177 | Facepunch | Primary | Facepunch | https://rust.facepunch.com/news/primitive |
+| S178 | Facepunch | Primary | Facepunch | https://rust.facepunch.com/news/hardcore |
+| S179 | Facepunch Rust Wiki | Primary | Facepunch Rust Wiki | https://wiki.facepunch.com/rust/bradley-crate |
+| S180 | Facepunch Rust Wiki | Primary | Facepunch Rust Wiki | https://wiki.facepunch.com/rust/item/meat.boar |
+| S181 | Corrosion Hour | Practitioner | Corrosion Hour | https://www.corrosionhour.com/rust-bestiary/ |
+| S182 | XGamingServer | Practitioner | XGamingServer | https://xgamingserver.com/blog/rust-bradley-patrol-helicopter-guide/ |
+| S183 | Rustafied | Practitioner | Rustafied | https://www.rustafied.com/updates/2021/6/3/the-contacts-update |
+| S184 | Facepunch | Practitioner | Facepunch | https://github.com/Facepunch/webrcon |
+| S185 | Facepunch Wiki | Primary | Facepunch Wiki | https://wiki.facepunch.com/rust/item/autoturret |
+| S186 | Facepunch Wiki | Primary | Facepunch Wiki | https://wiki.facepunch.com/rust/item/guntrap |
+| S187 | Facepunch Wiki | Primary | Facepunch Wiki | https://wiki.facepunch.com/rust/item/flameturret |
+| S188 | Facepunch Wiki | Primary | Facepunch Wiki | https://wiki.facepunch.com/rust/item/samsite |
+| S189 | Facepunch Wiki | Primary | Facepunch Wiki | https://wiki.facepunch.com/rust/item/ammo.rocket.sam |
+| S190 | Facepunch Wiki | Primary | Facepunch Wiki | https://wiki.facepunch.com/rust/item/ammo.handmade.shell |
+| S191 | Facepunch Wiki | Primary | Facepunch Wiki | https://wiki.facepunch.com/rust/item/barricade.wood |
+| S192 | Facepunch Wiki | Primary | Facepunch Wiki | https://wiki.facepunch.com/rust/item/barricade.stone |
+| S193 | Facepunch Wiki | Primary | Facepunch Wiki | https://wiki.facepunch.com/rust/item/barricade.metal |
+| S194 | Facepunch Wiki | Primary | Facepunch Wiki | https://wiki.facepunch.com/rust/item/barricade.woodwire |
+| S195 | Facepunch Wiki | Primary | Facepunch Wiki | https://wiki.facepunch.com/rust/item/barricade.sandbags |
+| S196 | Facepunch Wiki | Primary | Facepunch Wiki | https://wiki.facepunch.com/rust/item/trap.bear |
+| S197 | Facepunch Wiki | Primary | Facepunch Wiki | https://wiki.facepunch.com/rust/item/trap.landmine |
+| S198 | Facepunch Wiki | Primary | Facepunch Wiki | https://wiki.facepunch.com/rust/item/spikes.floor |
+| S199 | Facepunch Wiki | Primary | Facepunch Wiki | https://wiki.facepunch.com/rust/item/tincan.alarm |
+| S200 | Facepunch Wiki | Primary | Facepunch Wiki | https://wiki.facepunch.com/rust/item/smart.alarm |
+| S201 | XGamingServer | Practitioner | XGamingServer | https://xgamingserver.com/blog/rust-base-defense-turrets-traps/ |
+| S202 | Facepunch Rust Wiki | Primary | Facepunch Rust Wiki | https://wiki.facepunch.com/rust/item/electric.solarpanel.large |
+| S203 | Facepunch Rust Wiki | Primary | Facepunch Rust Wiki | https://wiki.facepunch.com/rust/item/generator.wind.scrap |
+| S204 | Facepunch Rust Wiki | Primary | Facepunch Rust Wiki | https://wiki.facepunch.com/rust/item/electric.fuelgenerator.small |
+| S205 | Facepunch Rust Wiki | Primary | Facepunch Rust Wiki | https://wiki.facepunch.com/rust/item/electric.battery.rechargable.large |
+| S206 | Facepunch Rust Wiki | Primary | Facepunch Rust Wiki | https://wiki.facepunch.com/rust/item/electric.battery.rechargable.medium |
+| S207 | Facepunch Rust Wiki | Primary | Facepunch Rust Wiki | https://wiki.facepunch.com/rust/item/electric.battery.rechargable.small |
+| S208 | Facepunch Rust Wiki | Primary | Facepunch Rust Wiki | https://wiki.facepunch.com/rust/item/wiretool |
+| S209 | Facepunch Rust Wiki | Primary | Facepunch Rust Wiki | https://wiki.facepunch.com/rust/item/electric.timer |
+| S210 | Facepunch Rust Wiki | Primary | Facepunch Rust Wiki | https://wiki.facepunch.com/rust/item/electric.counter |
+| S211 | Facepunch Rust Wiki | Primary | Facepunch Rust Wiki | https://wiki.facepunch.com/rust/item/electrical.memorycell |
+| S212 | Facepunch Rust Wiki | Primary | Facepunch Rust Wiki | https://wiki.facepunch.com/rust/item/electric.andswitch |
+| S213 | Facepunch Rust Wiki | Primary | Facepunch Rust Wiki | https://wiki.facepunch.com/rust/item/electric.orswitch |
+| S214 | Facepunch Rust Wiki | Primary | Facepunch Rust Wiki | https://wiki.facepunch.com/rust/item/electric.xorswitch |
+| S215 | Facepunch Rust Wiki | Primary | Facepunch Rust Wiki | https://wiki.facepunch.com/rust/item/electric.blocker |
+| S216 | Facepunch Rust Wiki | Primary | Facepunch Rust Wiki | https://wiki.facepunch.com/rust/item/electric.switch |
+| S217 | Facepunch Rust Wiki | Primary | Facepunch Rust Wiki | https://wiki.facepunch.com/rust/item/electric.splitter |
+| S218 | Facepunch Rust Wiki | Primary | Facepunch Rust Wiki | https://wiki.facepunch.com/rust/item/electric.random.switch |
+| S219 | Facepunch Rust Wiki | Primary | Facepunch Rust Wiki | https://wiki.facepunch.com/rust/item/electrical.branch |
+| S220 | Facepunch Rust Wiki | Primary | Facepunch Rust Wiki | https://wiki.facepunch.com/rust/item/electrical.combiner |
+| S221 | Facepunch Rust Wiki | Primary | Facepunch Rust Wiki | https://wiki.facepunch.com/rust/item/electric.hbhfsensor |
+| S222 | Facepunch Rust Wiki | Primary | Facepunch Rust Wiki | https://wiki.facepunch.com/rust/item/electric.button |
+| S223 | Facepunch Rust Wiki | Primary | Facepunch Rust Wiki | https://wiki.facepunch.com/rust/item/electric.pressurepad |
+| S224 | Facepunch | Primary | Facepunch | https://rust.facepunch.com/news/waves-of-change |
+| S225 | Facepunch | Primary | Facepunch | https://rust.facepunch.com/news/november-update |
+| S226 | Facepunch | Primary | Facepunch | https://rust.facepunch.com/news/season-s-beatings |
+| S227 | Facepunch | Primary | Facepunch | https://rust.facepunch.com/news/electric-anniversary |
+| S228 | Facepunch | Primary | Facepunch | https://rust.facepunch.com/news/night-vision-update |
+| S229 | Facepunch Wiki | Primary | Facepunch Wiki | https://wiki.facepunch.com/rust/Profiler |
+| S230 | Facepunch | Primary | Facepunch | https://rust.facepunch.com/news/industrial-update |
+| S231 | Facepunch | Primary | Facepunch | https://rust.facepunch.com/news/devblog-71 |
+| S232 | Facepunch | Primary | Facepunch | https://rust.facepunch.com/news/devblog-115 |
+| S233 | XGamingServer | Practitioner | XGamingServer | https://xgamingserver.com/blog/how-do-we-improve-rust-server-performance/ |
+| S234 | XGamingServer | Practitioner | XGamingServer | https://xgamingserver.com/docs/rust/server-config |
+| S235 | HostHavoc | Practitioner | HostHavoc | https://hosthavoc.com/blog/rust-server-performance-optimization |
+| S236 | GameServerKings | Practitioner | GameServerKings | https://www.gameserverkings.com/knowledge-base/rust/how-to-host-a-rust-server/ |

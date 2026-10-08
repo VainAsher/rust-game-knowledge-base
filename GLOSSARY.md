@@ -65,3 +65,21 @@ Shared terms for the Rust KB. Rows are added by the orchestrator from worker ret
 | Deep Sea | Offshore time-limited zone reached by sailing toward the map edge in a strong boat. | - |
 | Air Wolf | Air-vehicle vendor NPC at Bandit Camp; refuses sales until the helipad is repaired each wipe. | - |
 | DPV | Diver propulsion vehicle (wiki item skidoo). | - |
+| Game mode | The ruleset selected with server.gamemode at startup or gamemode.set at runtime (vanilla, softcore, hardcore, primitive, weapontest). | - |
+| Raid window | In softcore, the daily period (default 6 PM to 9 PM server time) in which raiding is unrestricted; outside it Tool Cupboards at least 1 hour old block raids on building blocks and doors. | - |
+| Server browser tag | A short code in a server's tag list that the browser filters on, grouped into wipe schedule, difficulty, type, modding and region. | - |
+| Primitive (game mode) | Restricted-items mode released Feb 2025 that removes rockets, C4, MLRS, metal building grades and several monuments. | - |
+| Livestock | Domesticated cows and sheep added by the Livestock Update that can be bred and sold to a Stable vendor. | - |
+| Bradley APC | Tracked armoured NPC vehicle that patrols the Launch Site monument and drops crates when destroyed. | - |
+| Patrol Helicopter | Roaming helicopter event that attacks players and drops locked crates when downed. | - |
+| WebRCON | Websocket form of Rust remote console, enabled with +rcon.web 1, with a Facepunch browser client. | - |
+| companion.id | File holding the server's identity to the Rust+ companion service; deleting it forces players to re-pair. | - |
+| rW | Unit the Facepunch wiki uses for an item's electrical power draw. | - |
+| TC privilege | Authorisation via a Tool Cupboard; the wiki ties flame and shotgun traps to it. | - |
+| Peacekeeper / Attack All | Auto turret targeting modes (green and red laser) per a community guide. | - |
+| rW (Rust Watt) | Unit of electrical power production and consumption on Rust item pages. | - |
+| rWm (Rust Watt Minutes) | Battery storage unit: minutes of discharge at 1 power unit the battery holds. | - |
+| Passthrough | Power a logic or switching component forwards to its output. | - |
+| Server FPS | The server's frame rate, readable with the fps command on the server. | - |
+| UsePlayerUpdateJobs | Server var for threaded player updates; default 2 since Spring Clean, levels 3 and 4 experimental. | - |
+| Server profiler | Built-in profiler enabled with -enableProfiler; profile.perfsnapshot records up to 10 frames. | - |

@@ -10,15 +10,21 @@ graph LR
   subgraph Tier2["Tier 2"]
     rust_carbon_vs_oxide["rust-carbon-vs-oxide"]
     rust_combat_damage_model["rust-combat-damage-model"]
+    rust_electricity_logic["rust-electricity-logic"]
     rust_farming_food["rust-farming-food"]
+    rust_game_modes["rust-game-modes"]
     rust_moderation_anti_cheat["rust-moderation-anti-cheat"]
     rust_monuments_loot["rust-monuments-loot"]
     rust_plugin_development_hooks["rust-plugin-development-hooks"]
     rust_raiding_costs_defence["rust-raiding-costs-defence"]
     rust_server_convars_reference["rust-server-convars-reference"]
+    rust_server_performance["rust-server-performance"]
+    rust_server_permissions_rcon["rust-server-permissions-rcon"]
+    rust_turrets_deployables["rust-turrets-deployables"]
     rust_update_timeline_2026["rust-update-timeline-2026"]
     rust_vehicles["rust-vehicles"]
     rust_weapons_ammo["rust-weapons-ammo"]
+    rust_wildlife_npcs["rust-wildlife-npcs"]
     rust_wipes_map_generation["rust-wipes-map-generation"]
   end
   rust_game_mechanics_foundation -->|related| rust_items_crafting_foundation
@@ -48,6 +54,12 @@ graph LR
   rust_carbon_vs_oxide -->|deepens| rust_modding_plugins_foundation
   rust_monuments_loot -->|deepens| rust_game_mechanics_foundation
   rust_vehicles -->|deepens| rust_game_mechanics_foundation
+  rust_game_modes -->|deepens| rust_updates_meta_foundation
+  rust_wildlife_npcs -->|deepens| rust_game_mechanics_foundation
+  rust_server_permissions_rcon -->|deepens| rust_server_administration_foundation
+  rust_turrets_deployables -->|deepens| rust_building_raiding_foundation
+  rust_electricity_logic -->|deepens| rust_game_mechanics_foundation
+  rust_server_performance -->|deepens| rust_server_administration_foundation
   rust_items_crafting_foundation -->|related| rust_game_mechanics_foundation
   rust_building_raiding_foundation -->|related| rust_game_mechanics_foundation
   rust_building_raiding_foundation -->|related| rust_items_crafting_foundation
@@ -219,3 +231,122 @@ graph LR
   rust_vehicles -->|related| rust_wipes_map_generation
   rust_vehicles -->|related| rust_moderation_anti_cheat
   rust_vehicles -->|related| rust_carbon_vs_oxide
+  rust_game_modes -->|related| rust_game_mechanics_foundation
+  rust_game_modes -->|related| rust_items_crafting_foundation
+  rust_game_modes -->|related| rust_building_raiding_foundation
+  rust_game_modes -->|related| rust_server_administration_foundation
+  rust_game_modes -->|related| rust_modding_plugins_foundation
+  rust_game_modes -->|related| rust_combat_damage_model
+  rust_game_modes -->|related| rust_weapons_ammo
+  rust_game_modes -->|related| rust_raiding_costs_defence
+  rust_game_modes -->|related| rust_server_convars_reference
+  rust_game_modes -->|related| rust_plugin_development_hooks
+  rust_game_modes -->|related| rust_update_timeline_2026
+  rust_game_modes -->|related| rust_monuments_loot
+  rust_game_modes -->|related| rust_farming_food
+  rust_game_modes -->|related| rust_vehicles
+  rust_game_modes -->|related| rust_wipes_map_generation
+  rust_game_modes -->|related| rust_moderation_anti_cheat
+  rust_game_modes -->|related| rust_carbon_vs_oxide
+  rust_game_modes -->|related| rust_electricity_logic
+  rust_game_modes -->|related| rust_turrets_deployables
+  rust_game_modes -->|related| rust_wildlife_npcs
+  rust_game_modes -->|related| rust_server_permissions_rcon
+  rust_game_modes -->|related| rust_server_performance
+  rust_wildlife_npcs -->|related| rust_monuments_loot
+  rust_wildlife_npcs -->|related| rust_combat_damage_model
+  rust_wildlife_npcs -->|related| rust_weapons_ammo
+  rust_wildlife_npcs -->|related| rust_farming_food
+  rust_wildlife_npcs -->|related| rust_vehicles
+  rust_wildlife_npcs -->|related| rust_electricity_logic
+  rust_wildlife_npcs -->|related| rust_turrets_deployables
+  rust_wildlife_npcs -->|related| rust_server_performance
+  rust_wildlife_npcs -->|related| rust_game_modes
+  rust_server_permissions_rcon -->|related| rust_game_mechanics_foundation
+  rust_server_permissions_rcon -->|related| rust_items_crafting_foundation
+  rust_server_permissions_rcon -->|related| rust_building_raiding_foundation
+  rust_server_permissions_rcon -->|related| rust_modding_plugins_foundation
+  rust_server_permissions_rcon -->|related| rust_updates_meta_foundation
+  rust_server_permissions_rcon -->|related| rust_combat_damage_model
+  rust_server_permissions_rcon -->|related| rust_weapons_ammo
+  rust_server_permissions_rcon -->|related| rust_raiding_costs_defence
+  rust_server_permissions_rcon -->|related| rust_server_convars_reference
+  rust_server_permissions_rcon -->|related| rust_plugin_development_hooks
+  rust_server_permissions_rcon -->|related| rust_update_timeline_2026
+  rust_server_permissions_rcon -->|related| rust_monuments_loot
+  rust_server_permissions_rcon -->|related| rust_farming_food
+  rust_server_permissions_rcon -->|related| rust_vehicles
+  rust_server_permissions_rcon -->|related| rust_wipes_map_generation
+  rust_server_permissions_rcon -->|related| rust_moderation_anti_cheat
+  rust_server_permissions_rcon -->|related| rust_carbon_vs_oxide
+  rust_server_permissions_rcon -->|related| rust_electricity_logic
+  rust_server_permissions_rcon -->|related| rust_turrets_deployables
+  rust_server_permissions_rcon -->|related| rust_wildlife_npcs
+  rust_server_permissions_rcon -->|related| rust_server_performance
+  rust_server_permissions_rcon -->|related| rust_game_modes
+  rust_turrets_deployables -->|related| rust_game_mechanics_foundation
+  rust_turrets_deployables -->|related| rust_items_crafting_foundation
+  rust_turrets_deployables -->|related| rust_server_administration_foundation
+  rust_turrets_deployables -->|related| rust_modding_plugins_foundation
+  rust_turrets_deployables -->|related| rust_updates_meta_foundation
+  rust_turrets_deployables -->|related| rust_combat_damage_model
+  rust_turrets_deployables -->|related| rust_weapons_ammo
+  rust_turrets_deployables -->|related| rust_raiding_costs_defence
+  rust_turrets_deployables -->|related| rust_server_convars_reference
+  rust_turrets_deployables -->|related| rust_plugin_development_hooks
+  rust_turrets_deployables -->|related| rust_update_timeline_2026
+  rust_turrets_deployables -->|related| rust_monuments_loot
+  rust_turrets_deployables -->|related| rust_farming_food
+  rust_turrets_deployables -->|related| rust_vehicles
+  rust_turrets_deployables -->|related| rust_wipes_map_generation
+  rust_turrets_deployables -->|related| rust_moderation_anti_cheat
+  rust_turrets_deployables -->|related| rust_carbon_vs_oxide
+  rust_turrets_deployables -->|related| rust_electricity_logic
+  rust_turrets_deployables -->|related| rust_wildlife_npcs
+  rust_turrets_deployables -->|related| rust_server_permissions_rcon
+  rust_turrets_deployables -->|related| rust_server_performance
+  rust_turrets_deployables -->|related| rust_game_modes
+  rust_electricity_logic -->|related| rust_items_crafting_foundation
+  rust_electricity_logic -->|related| rust_building_raiding_foundation
+  rust_electricity_logic -->|related| rust_server_administration_foundation
+  rust_electricity_logic -->|related| rust_modding_plugins_foundation
+  rust_electricity_logic -->|related| rust_updates_meta_foundation
+  rust_electricity_logic -->|related| rust_combat_damage_model
+  rust_electricity_logic -->|related| rust_weapons_ammo
+  rust_electricity_logic -->|related| rust_raiding_costs_defence
+  rust_electricity_logic -->|related| rust_server_convars_reference
+  rust_electricity_logic -->|related| rust_plugin_development_hooks
+  rust_electricity_logic -->|related| rust_update_timeline_2026
+  rust_electricity_logic -->|related| rust_monuments_loot
+  rust_electricity_logic -->|related| rust_farming_food
+  rust_electricity_logic -->|related| rust_vehicles
+  rust_electricity_logic -->|related| rust_wipes_map_generation
+  rust_electricity_logic -->|related| rust_moderation_anti_cheat
+  rust_electricity_logic -->|related| rust_carbon_vs_oxide
+  rust_electricity_logic -->|related| rust_turrets_deployables
+  rust_electricity_logic -->|related| rust_wildlife_npcs
+  rust_electricity_logic -->|related| rust_server_permissions_rcon
+  rust_electricity_logic -->|related| rust_server_performance
+  rust_electricity_logic -->|related| rust_game_modes
+  rust_server_performance -->|related| rust_game_mechanics_foundation
+  rust_server_performance -->|related| rust_items_crafting_foundation
+  rust_server_performance -->|related| rust_building_raiding_foundation
+  rust_server_performance -->|related| rust_modding_plugins_foundation
+  rust_server_performance -->|related| rust_updates_meta_foundation
+  rust_server_performance -->|related| rust_combat_damage_model
+  rust_server_performance -->|related| rust_weapons_ammo
+  rust_server_performance -->|related| rust_raiding_costs_defence
+  rust_server_performance -->|related| rust_server_convars_reference
+  rust_server_performance -->|related| rust_plugin_development_hooks
+  rust_server_performance -->|related| rust_update_timeline_2026
+  rust_server_performance -->|related| rust_monuments_loot
+  rust_server_performance -->|related| rust_farming_food
+  rust_server_performance -->|related| rust_vehicles
+  rust_server_performance -->|related| rust_wipes_map_generation
+  rust_server_performance -->|related| rust_moderation_anti_cheat
+  rust_server_performance -->|related| rust_carbon_vs_oxide
+  rust_server_performance -->|related| rust_electricity_logic
+  rust_server_performance -->|related| rust_turrets_deployables
+  rust_server_performance -->|related| rust_wildlife_npcs
+  rust_server_performance -->|related| rust_server_permissions_rcon
+  rust_server_performance -->|related| rust_game_modes
