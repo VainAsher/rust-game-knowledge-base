@@ -99,3 +99,21 @@ Shared terms for the Rust KB. Rows are added by the orchestrator from worker ret
 | Safe Zone Recycler | The protected (yellow) recycler at Outpost and Bandit Camp, 40% efficiency. | - |
 | Marketplace | Drone-delivery terminals at Bandit Camp and Outpost that order from public vending machines and NPC shops for a scrap fee. | - |
 | Rentable shop | Apartment Complex stall rented with scrap; managed like a vending machine, not drone-accessible, takeover-able after 6 hours. | - |
+| Community Server | A private, unofficial Rust server run by someone other than Facepunch, permitted under the Community Server and Hosting Guidelines. | - |
+| Delisting | Removal of a server from the in-game server browser, the first sanction the guidelines name for a breach. | - |
+| Queue skip | A paid priority-entry perk sold by many servers; not mentioned in the Facepunch policy text. | - |
+| TPM 2.0 | Hardware or firmware security module that Rust secure servers can require alongside Secure Boot. | - |
+| Secure Boot | Firmware setting required, with TPM, by servers that opt in to the secure requirement. | - |
+| Console Edition | PS5 and Xbox Series X and S version of Rust, developed and published by Double Eleven as a separate product. | - |
+| Tech tree tax | A scrap surcharge on workbench tech tree unlocks at higher bench tiers, removed in the 6 November 2025 Pivot or Die update. | - |
+| Tech tree | A per-workbench list of items that can be unlocked directly for scrap. | - |
+| Stability | Structural-integrity value of a placed building piece, shown as a percentage on unstable placements. | - |
+| Entity links | Socket connections between entities, used by the stability system since 2015. | - |
+| Conditional model | A piece model that appears only when neighbouring pieces are or are not connected, for example corners. | - |
+| High external wall | Tall freestanding wall that adds no upkeep and does not decay inside a Tool Cupboard radius. | - |
+| Curation (Codefling) | Codefling's review of submitted files against its upload guidelines for malware, harmful code, security and whether the file works as described; approval is not a guarantee. | - |
+| Warranty (Codefling) | Six-month warranty from purchase on every Codefling file, 30 months for purchases made under an active Codefling+ subscription, covering significant defects. | - |
+| Server event | A periodic, server-spawned occurrence (Cargo Ship, Patrol Helicopter, Chinook) rather than a fixed monument. | - |
+| Locked crate | A crate that must be hacked with a timer before it opens. | - |
+| Supply Signal | A purple smoke grenade that marks a location for an airdrop. | - |
+| Loot round | A Cargo Ship refill of its crates. | - |

@@ -8,6 +8,7 @@ graph LR
     rust_updates_meta_foundation["rust-updates-meta-foundation"]
   end
   subgraph Tier2["Tier 2"]
+    rust_base_building_mechanics["rust-base-building-mechanics"]
     rust_carbon_vs_oxide["rust-carbon-vs-oxide"]
     rust_clothing_armour["rust-clothing-armour"]
     rust_combat_damage_model["rust-combat-damage-model"]
@@ -19,11 +20,15 @@ graph LR
     rust_moderation_anti_cheat["rust-moderation-anti-cheat"]
     rust_monuments_loot["rust-monuments-loot"]
     rust_plugin_development_hooks["rust-plugin-development-hooks"]
+    rust_plugin_marketplaces["rust-plugin-marketplaces"]
     rust_raiding_costs_defence["rust-raiding-costs-defence"]
+    rust_research_blueprints["rust-research-blueprints"]
     rust_server_convars_reference["rust-server-convars-reference"]
+    rust_server_monetisation_guidelines["rust-server-monetisation-guidelines"]
     rust_server_performance["rust-server-performance"]
     rust_server_permissions_rcon["rust-server-permissions-rcon"]
     rust_skins_cosmetics["rust-skins-cosmetics"]
+    rust_system_requirements_platforms["rust-system-requirements-platforms"]
     rust_teams_clans["rust-teams-clans"]
     rust_tools_gathering["rust-tools-gathering"]
     rust_turrets_deployables["rust-turrets-deployables"]
@@ -32,6 +37,7 @@ graph LR
     rust_weapons_ammo["rust-weapons-ammo"]
     rust_wildlife_npcs["rust-wildlife-npcs"]
     rust_wipes_map_generation["rust-wipes-map-generation"]
+    rust_world_events["rust-world-events"]
   end
   rust_game_mechanics_foundation -->|related| rust_items_crafting_foundation
   rust_game_mechanics_foundation -->|related| rust_building_raiding_foundation
@@ -111,6 +117,48 @@ graph LR
   rust_economy_trading -->|related| rust_game_modes
   rust_economy_trading -->|related| rust_raiding_costs_defence
   rust_economy_trading -->|related| rust_electricity_logic
+  rust_server_monetisation_guidelines -->|deepens| rust_server_administration_foundation
+  rust_server_monetisation_guidelines -->|related| rust_skins_cosmetics
+  rust_server_monetisation_guidelines -->|related| rust_moderation_anti_cheat
+  rust_server_monetisation_guidelines -->|related| rust_modding_plugins_foundation
+  rust_server_monetisation_guidelines -->|related| rust_economy_trading
+  rust_server_monetisation_guidelines -->|related| rust_server_permissions_rcon
+  rust_server_monetisation_guidelines -->|related| rust_carbon_vs_oxide
+  rust_server_monetisation_guidelines -->|related| rust_updates_meta_foundation
+  rust_system_requirements_platforms -->|deepens| rust_updates_meta_foundation
+  rust_system_requirements_platforms -->|related| rust_moderation_anti_cheat
+  rust_system_requirements_platforms -->|related| rust_server_convars_reference
+  rust_system_requirements_platforms -->|related| rust_server_performance
+  rust_system_requirements_platforms -->|related| rust_update_timeline_2026
+  rust_system_requirements_platforms -->|related| rust_game_modes
+  rust_research_blueprints -->|deepens| rust_items_crafting_foundation
+  rust_research_blueprints -->|related| rust_updates_meta_foundation
+  rust_research_blueprints -->|related| rust_economy_trading
+  rust_research_blueprints -->|related| rust_monuments_loot
+  rust_research_blueprints -->|related| rust_tools_gathering
+  rust_research_blueprints -->|related| rust_wipes_map_generation
+  rust_base_building_mechanics -->|deepens| rust_building_raiding_foundation
+  rust_base_building_mechanics -->|related| rust_raiding_costs_defence
+  rust_base_building_mechanics -->|related| rust_turrets_deployables
+  rust_base_building_mechanics -->|related| rust_server_convars_reference
+  rust_base_building_mechanics -->|related| rust_skins_cosmetics
+  rust_base_building_mechanics -->|related| rust_update_timeline_2026
+  rust_plugin_marketplaces -->|deepens| rust_modding_plugins_foundation
+  rust_plugin_marketplaces -->|related| rust_carbon_vs_oxide
+  rust_plugin_marketplaces -->|related| rust_plugin_development_hooks
+  rust_plugin_marketplaces -->|related| rust_server_administration_foundation
+  rust_plugin_marketplaces -->|related| rust_server_permissions_rcon
+  rust_plugin_marketplaces -->|related| rust_moderation_anti_cheat
+  rust_plugin_marketplaces -->|related| rust_updates_meta_foundation
+  rust_plugin_marketplaces -->|related| rust_server_monetisation_guidelines
+  rust_world_events -->|deepens| rust_game_mechanics_foundation
+  rust_world_events -->|related| rust_wildlife_npcs
+  rust_world_events -->|related| rust_monuments_loot
+  rust_world_events -->|related| rust_vehicles
+  rust_world_events -->|related| rust_combat_damage_model
+  rust_world_events -->|related| rust_update_timeline_2026
+  rust_world_events -->|related| rust_server_convars_reference
+  rust_world_events -->|related| rust_updates_meta_foundation
   rust_items_crafting_foundation -->|related| rust_game_mechanics_foundation
   rust_building_raiding_foundation -->|related| rust_game_mechanics_foundation
   rust_building_raiding_foundation -->|related| rust_items_crafting_foundation
@@ -408,3 +456,10 @@ graph LR
   rust_tools_gathering -->|related| rust_modding_plugins_foundation
   rust_tools_gathering -->|related| rust_updates_meta_foundation
   rust_tools_gathering -->|related| rust_clothing_armour
+  rust_research_blueprints -->|related| rust_game_mechanics_foundation
+  rust_research_blueprints -->|related| rust_world_events
+  rust_research_blueprints -->|related| rust_base_building_mechanics
+  rust_base_building_mechanics -->|related| rust_game_mechanics_foundation
+  rust_base_building_mechanics -->|related| rust_server_administration_foundation
+  rust_base_building_mechanics -->|related| rust_updates_meta_foundation
+  rust_world_events -->|related| rust_raiding_costs_defence

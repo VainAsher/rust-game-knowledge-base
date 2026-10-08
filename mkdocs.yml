@@ -49,6 +49,7 @@ nav:
       - "Rust Server Administration: Foundation": server-administration/rust-server-administration-foundation.md
       - "Rust Updates and Meta: Foundation": updates-meta/rust-updates-meta-foundation.md
   - "Tier 2 — Subject deep-dives":
+      - "Rust Base Building Mechanics": building-raiding/rust-base-building-mechanics.md
       - "Rust Raiding Costs and Base Defence": building-raiding/rust-raiding-costs-defence.md
       - "Rust Turrets and Defensive Deployables": building-raiding/rust-turrets-deployables.md
       - "Rust Combat and Damage Model": game-mechanics/rust-combat-damage-model.md
@@ -58,18 +59,23 @@ nav:
       - "Rust Teams and Clans": game-mechanics/rust-teams-clans.md
       - "Rust Vehicles": game-mechanics/rust-vehicles.md
       - "Rust Wildlife and NPCs": game-mechanics/rust-wildlife-npcs.md
+      - "Rust World Events": game-mechanics/rust-world-events.md
       - "Rust Clothing and Armour": items-crafting/rust-clothing-armour.md
       - "Rust Economy and Trading": items-crafting/rust-economy-trading.md
       - "Rust Farming and Food": items-crafting/rust-farming-food.md
+      - "Rust Research and Blueprints": items-crafting/rust-research-blueprints.md
       - "Rust Tools and Gathering": items-crafting/rust-tools-gathering.md
       - "Rust Weapons and Ammunition": items-crafting/rust-weapons-ammo.md
       - "Rust Carbon versus Oxide": modding-plugins/rust-carbon-vs-oxide.md
       - "Rust Plugin Development and Hooks": modding-plugins/rust-plugin-development-hooks.md
+      - "Rust Plugin Marketplaces and Licensing": modding-plugins/rust-plugin-marketplaces.md
       - "Rust Moderation and Anti-Cheat": server-administration/rust-moderation-anti-cheat.md
       - "Rust Server Convars Reference": server-administration/rust-server-convars-reference.md
+      - "Rust Server Monetisation and Hosting Guidelines": server-administration/rust-server-monetisation-guidelines.md
       - "Rust Server Performance": server-administration/rust-server-performance.md
       - "Rust Server Permissions and RCON": server-administration/rust-server-permissions-rcon.md
       - "Rust Wipes and Map Generation": server-administration/rust-wipes-map-generation.md
       - "Rust Game Modes and Server Types": updates-meta/rust-game-modes.md
       - "Rust Skins and Cosmetics": updates-meta/rust-skins-cosmetics.md
+      - "Rust System Requirements and Platforms": updates-meta/rust-system-requirements-platforms.md
       - "Rust Update Timeline 2026": updates-meta/rust-update-timeline-2026.md

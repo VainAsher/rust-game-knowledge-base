@@ -29,3 +29,9 @@ rust-clothing-armour,Rust Clothing and Armour,Clothing and armour,2,Global,deep-
 rust-fishing,Rust Fishing,Fishing,2,Global,deep-dive,Game Mechanics,1.0.0,frozen,Medium,2026-11-08,docs/game-mechanics/rust-fishing.md
 rust-tools-gathering,Rust Tools and Gathering,Tools and gathering,2,Global,deep-dive,Items & Crafting,1.0.0,frozen,Medium,2026-11-08,docs/items-crafting/rust-tools-gathering.md
 rust-economy-trading,Rust Economy and Trading,"Economy, scrap and trading",2,Global,deep-dive,Items & Crafting,1.0.0,frozen,Medium,2026-11-08,docs/items-crafting/rust-economy-trading.md
+rust-server-monetisation-guidelines,Rust Server Monetisation and Hosting Guidelines,Facepunch community server guidelines,2,Global,deep-dive,Server Administration,1.0.0,frozen,Medium,2026-11-08,docs/server-administration/rust-server-monetisation-guidelines.md
+rust-system-requirements-platforms,Rust System Requirements and Platforms,"PC requirements, platforms and editions",2,Global,deep-dive,Game Updates & Meta,1.0.0,frozen,Medium,2026-11-08,docs/updates-meta/rust-system-requirements-platforms.md
+rust-research-blueprints,Rust Research and Blueprints,Research table and blueprint costs,2,Global,deep-dive,Items & Crafting,1.0.0,frozen,Medium,2026-11-08,docs/items-crafting/rust-research-blueprints.md
+rust-base-building-mechanics,Rust Base Building Mechanics,Structural mechanics and building rules,2,Global,deep-dive,Building & Raiding,1.0.0,frozen,Medium,2026-11-08,docs/building-raiding/rust-base-building-mechanics.md
+rust-plugin-marketplaces,Rust Plugin Marketplaces and Licensing,"Plugin sources, licences and marketplaces",2,Global,deep-dive,Modding & Plugins,0.1.0,in-review,Low,2026-11-08,docs/modding-plugins/rust-plugin-marketplaces.md
+rust-world-events,Rust World Events,"Cargo ship, airdrops and map events",2,Global,deep-dive,Game Mechanics,1.0.0,frozen,Medium,2026-11-08,docs/game-mechanics/rust-world-events.md

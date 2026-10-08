@@ -42,6 +42,7 @@ def clean_url(raw: str) -> str:
 BOT_BLOCK_HOSTS = {
     # Sites that legitimately 403 automated checkers but whose URLs are real.
     # Reported as WARN, not FAIL — a human should eyeball these periodically.
+    "api.github.com",  # unauthenticated rate limit (60/h) returns 403, not dead
     "www.reddit.com",
     "reddit.com",
     "old.reddit.com",

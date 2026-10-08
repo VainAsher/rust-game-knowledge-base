@@ -884,6 +884,157 @@
         "rust-raiding-costs-defence",
         "rust-electricity-logic"
       ]
+    },
+    {
+      "id": "rust-server-monetisation-guidelines",
+      "title": "Rust Server Monetisation and Hosting Guidelines",
+      "topic": "Facepunch community server guidelines",
+      "tier": "2",
+      "market": "Global",
+      "version": "1.0.0",
+      "status": "frozen",
+      "confidence": "Medium",
+      "path": "docs/server-administration/rust-server-monetisation-guidelines.md",
+      "category": "Server Administration",
+      "document_type": "deep-dive",
+      "review_due": "2026-11-08",
+      "created": "2026-10-08",
+      "related": [
+        "rust-server-administration-foundation",
+        "rust-skins-cosmetics",
+        "rust-moderation-anti-cheat",
+        "rust-modding-plugins-foundation",
+        "rust-economy-trading",
+        "rust-server-permissions-rcon",
+        "rust-carbon-vs-oxide",
+        "rust-updates-meta-foundation"
+      ]
+    },
+    {
+      "id": "rust-system-requirements-platforms",
+      "title": "Rust System Requirements and Platforms",
+      "topic": "PC requirements, platforms and editions",
+      "tier": "2",
+      "market": "Global",
+      "version": "1.0.0",
+      "status": "frozen",
+      "confidence": "Medium",
+      "path": "docs/updates-meta/rust-system-requirements-platforms.md",
+      "category": "Game Updates & Meta",
+      "document_type": "deep-dive",
+      "review_due": "2026-11-08",
+      "created": "2026-10-08",
+      "related": [
+        "rust-updates-meta-foundation",
+        "rust-moderation-anti-cheat",
+        "rust-server-convars-reference",
+        "rust-server-performance",
+        "rust-update-timeline-2026",
+        "rust-game-modes"
+      ]
+    },
+    {
+      "id": "rust-research-blueprints",
+      "title": "Rust Research and Blueprints",
+      "topic": "Research table and blueprint costs",
+      "tier": "2",
+      "market": "Global",
+      "version": "1.0.0",
+      "status": "frozen",
+      "confidence": "Medium",
+      "path": "docs/items-crafting/rust-research-blueprints.md",
+      "category": "Items & Crafting",
+      "document_type": "deep-dive",
+      "review_due": "2026-11-08",
+      "created": "2026-10-08",
+      "related": [
+        "rust-items-crafting-foundation",
+        "rust-updates-meta-foundation",
+        "rust-game-mechanics-foundation",
+        "rust-economy-trading",
+        "rust-monuments-loot",
+        "rust-tools-gathering",
+        "rust-wipes-map-generation",
+        "rust-world-events",
+        "rust-base-building-mechanics"
+      ]
+    },
+    {
+      "id": "rust-base-building-mechanics",
+      "title": "Rust Base Building Mechanics",
+      "topic": "Structural mechanics and building rules",
+      "tier": "2",
+      "market": "Global",
+      "version": "1.0.0",
+      "status": "frozen",
+      "confidence": "Medium",
+      "path": "docs/building-raiding/rust-base-building-mechanics.md",
+      "category": "Building & Raiding",
+      "document_type": "deep-dive",
+      "review_due": "2026-11-08",
+      "created": "2026-10-08",
+      "related": [
+        "rust-building-raiding-foundation",
+        "rust-raiding-costs-defence",
+        "rust-turrets-deployables",
+        "rust-server-convars-reference",
+        "rust-skins-cosmetics",
+        "rust-update-timeline-2026",
+        "rust-game-mechanics-foundation",
+        "rust-server-administration-foundation",
+        "rust-updates-meta-foundation"
+      ]
+    },
+    {
+      "id": "rust-plugin-marketplaces",
+      "title": "Rust Plugin Marketplaces and Licensing",
+      "topic": "Plugin sources, licences and marketplaces",
+      "tier": "2",
+      "market": "Global",
+      "version": "0.1.0",
+      "status": "in-review",
+      "confidence": "Low",
+      "path": "docs/modding-plugins/rust-plugin-marketplaces.md",
+      "category": "Modding & Plugins",
+      "document_type": "deep-dive",
+      "review_due": "2026-11-08",
+      "created": "2026-10-08",
+      "related": [
+        "rust-modding-plugins-foundation",
+        "rust-carbon-vs-oxide",
+        "rust-plugin-development-hooks",
+        "rust-server-administration-foundation",
+        "rust-updates-meta-foundation",
+        "rust-server-permissions-rcon",
+        "rust-moderation-anti-cheat",
+        "rust-server-monetisation-guidelines"
+      ]
+    },
+    {
+      "id": "rust-world-events",
+      "title": "Rust World Events",
+      "topic": "Cargo ship, airdrops and map events",
+      "tier": "2",
+      "market": "Global",
+      "version": "1.0.0",
+      "status": "frozen",
+      "confidence": "Medium",
+      "path": "docs/game-mechanics/rust-world-events.md",
+      "category": "Game Mechanics",
+      "document_type": "deep-dive",
+      "review_due": "2026-11-08",
+      "created": "2026-10-08",
+      "related": [
+        "rust-game-mechanics-foundation",
+        "rust-wildlife-npcs",
+        "rust-monuments-loot",
+        "rust-vehicles",
+        "rust-combat-damage-model",
+        "rust-updates-meta-foundation",
+        "rust-update-timeline-2026",
+        "rust-server-convars-reference",
+        "rust-raiding-costs-defence"
+      ]
     }
   ],
   "edges": [
@@ -1356,6 +1507,258 @@
       "target": "known"
     },
     {
+      "from": "rust-server-monetisation-guidelines",
+      "to": "rust-server-administration-foundation",
+      "rel": "deepens",
+      "target": "known"
+    },
+    {
+      "from": "rust-server-monetisation-guidelines",
+      "to": "rust-skins-cosmetics",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-server-monetisation-guidelines",
+      "to": "rust-moderation-anti-cheat",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-server-monetisation-guidelines",
+      "to": "rust-modding-plugins-foundation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-server-monetisation-guidelines",
+      "to": "rust-economy-trading",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-server-monetisation-guidelines",
+      "to": "rust-server-permissions-rcon",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-server-monetisation-guidelines",
+      "to": "rust-carbon-vs-oxide",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-server-monetisation-guidelines",
+      "to": "rust-updates-meta-foundation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-system-requirements-platforms",
+      "to": "rust-updates-meta-foundation",
+      "rel": "deepens",
+      "target": "known"
+    },
+    {
+      "from": "rust-system-requirements-platforms",
+      "to": "rust-moderation-anti-cheat",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-system-requirements-platforms",
+      "to": "rust-server-convars-reference",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-system-requirements-platforms",
+      "to": "rust-server-performance",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-system-requirements-platforms",
+      "to": "rust-update-timeline-2026",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-system-requirements-platforms",
+      "to": "rust-game-modes",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-research-blueprints",
+      "to": "rust-items-crafting-foundation",
+      "rel": "deepens",
+      "target": "known"
+    },
+    {
+      "from": "rust-research-blueprints",
+      "to": "rust-updates-meta-foundation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-research-blueprints",
+      "to": "rust-economy-trading",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-research-blueprints",
+      "to": "rust-monuments-loot",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-research-blueprints",
+      "to": "rust-tools-gathering",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-research-blueprints",
+      "to": "rust-wipes-map-generation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-base-building-mechanics",
+      "to": "rust-building-raiding-foundation",
+      "rel": "deepens",
+      "target": "known"
+    },
+    {
+      "from": "rust-base-building-mechanics",
+      "to": "rust-raiding-costs-defence",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-base-building-mechanics",
+      "to": "rust-turrets-deployables",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-base-building-mechanics",
+      "to": "rust-server-convars-reference",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-base-building-mechanics",
+      "to": "rust-skins-cosmetics",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-base-building-mechanics",
+      "to": "rust-update-timeline-2026",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-plugin-marketplaces",
+      "to": "rust-modding-plugins-foundation",
+      "rel": "deepens",
+      "target": "known"
+    },
+    {
+      "from": "rust-plugin-marketplaces",
+      "to": "rust-carbon-vs-oxide",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-plugin-marketplaces",
+      "to": "rust-plugin-development-hooks",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-plugin-marketplaces",
+      "to": "rust-server-administration-foundation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-plugin-marketplaces",
+      "to": "rust-server-permissions-rcon",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-plugin-marketplaces",
+      "to": "rust-moderation-anti-cheat",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-plugin-marketplaces",
+      "to": "rust-updates-meta-foundation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-plugin-marketplaces",
+      "to": "rust-server-monetisation-guidelines",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-world-events",
+      "to": "rust-game-mechanics-foundation",
+      "rel": "deepens",
+      "target": "known"
+    },
+    {
+      "from": "rust-world-events",
+      "to": "rust-wildlife-npcs",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-world-events",
+      "to": "rust-monuments-loot",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-world-events",
+      "to": "rust-vehicles",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-world-events",
+      "to": "rust-combat-damage-model",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-world-events",
+      "to": "rust-update-timeline-2026",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-world-events",
+      "to": "rust-server-convars-reference",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-world-events",
+      "to": "rust-updates-meta-foundation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
       "from": "rust-items-crafting-foundation",
       "to": "rust-game-mechanics-foundation",
       "rel": "related",
@@ -3134,6 +3537,48 @@
     {
       "from": "rust-tools-gathering",
       "to": "rust-clothing-armour",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-research-blueprints",
+      "to": "rust-game-mechanics-foundation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-research-blueprints",
+      "to": "rust-world-events",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-research-blueprints",
+      "to": "rust-base-building-mechanics",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-base-building-mechanics",
+      "to": "rust-game-mechanics-foundation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-base-building-mechanics",
+      "to": "rust-server-administration-foundation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-base-building-mechanics",
+      "to": "rust-updates-meta-foundation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rust-world-events",
+      "to": "rust-raiding-costs-defence",
       "rel": "related",
       "target": "known"
     }

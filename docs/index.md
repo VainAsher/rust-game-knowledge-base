@@ -5,9 +5,9 @@
 
 Evidence-based, source-cited reference for the PC/Steam survival game Rust — mechanics, items, building and raiding, server administration, modding and updates.
 
-**30 documents** across **30 topics** — every factual claim carries a citation to an official or authoritative source, assessed gaps are labelled and confidence-rated, and links, citations and structure are checked automatically in CI.
+**36 documents** across **36 topics** — every factual claim carries a citation to an official or authoritative source, assessed gaps are labelled and confidence-rated, and links, citations and structure are checked automatically in CI.
 
-*Confidence: 0 High · 27 Medium · 3 Low.*  *Market: Global 30.*
+*Confidence: 0 High · 32 Medium · 4 Low.*  *Market: Global 36.*
 
 ## Tier 1 — Category foundations
 
@@ -20,6 +20,7 @@ Evidence-based, source-cited reference for the PC/Steam survival game Rust — m
 
 ## Tier 2 — Subject deep-dives
 
+- [Rust Base Building Mechanics](building-raiding/rust-base-building-mechanics.md) — *Structural mechanics and building rules* (Global)
 - [Rust Raiding Costs and Base Defence](building-raiding/rust-raiding-costs-defence.md) — *Raid costs and defence* (Global)
 - [Rust Turrets and Defensive Deployables](building-raiding/rust-turrets-deployables.md) — *Turrets and deployables* (Global)
 - [Rust Combat and Damage Model](game-mechanics/rust-combat-damage-model.md) — *Combat and damage* (Global)
@@ -29,20 +30,25 @@ Evidence-based, source-cited reference for the PC/Steam survival game Rust — m
 - [Rust Teams and Clans](game-mechanics/rust-teams-clans.md) — *Teams, clans and social systems* (Global)
 - [Rust Vehicles](game-mechanics/rust-vehicles.md) — *Vehicles and transport* (Global)
 - [Rust Wildlife and NPCs](game-mechanics/rust-wildlife-npcs.md) — *Wildlife and NPCs* (Global)
+- [Rust World Events](game-mechanics/rust-world-events.md) — *Cargo ship, airdrops and map events* (Global)
 - [Rust Clothing and Armour](items-crafting/rust-clothing-armour.md) — *Clothing and armour* (Global)
 - [Rust Economy and Trading](items-crafting/rust-economy-trading.md) — *Economy, scrap and trading* (Global)
 - [Rust Farming and Food](items-crafting/rust-farming-food.md) — *Farming, food and cooking* (Global)
+- [Rust Research and Blueprints](items-crafting/rust-research-blueprints.md) — *Research table and blueprint costs* (Global)
 - [Rust Tools and Gathering](items-crafting/rust-tools-gathering.md) — *Tools and gathering* (Global)
 - [Rust Weapons and Ammunition](items-crafting/rust-weapons-ammo.md) — *Weapons and ammo* (Global)
 - [Rust Carbon versus Oxide](modding-plugins/rust-carbon-vs-oxide.md) — *Carbon versus Oxide comparison* (Global)
 - [Rust Plugin Development and Hooks](modding-plugins/rust-plugin-development-hooks.md) — *Plugin development* (Global)
+- [Rust Plugin Marketplaces and Licensing](modding-plugins/rust-plugin-marketplaces.md) — *Plugin sources, licences and marketplaces* (Global)
 - [Rust Moderation and Anti-Cheat](server-administration/rust-moderation-anti-cheat.md) — *Moderation, bans and anti-cheat* (Global)
 - [Rust Server Convars Reference](server-administration/rust-server-convars-reference.md) — *Server convars and config* (Global)
+- [Rust Server Monetisation and Hosting Guidelines](server-administration/rust-server-monetisation-guidelines.md) — *Facepunch community server guidelines* (Global)
 - [Rust Server Performance](server-administration/rust-server-performance.md) — *Server performance and hardware* (Global)
 - [Rust Server Permissions and RCON](server-administration/rust-server-permissions-rcon.md) — *Permissions and RCON* (Global)
 - [Rust Wipes and Map Generation](server-administration/rust-wipes-map-generation.md) — *Wipes and map generation* (Global)
 - [Rust Game Modes and Server Types](updates-meta/rust-game-modes.md) — *Game modes and server types* (Global)
 - [Rust Skins and Cosmetics](updates-meta/rust-skins-cosmetics.md) — *Skins and cosmetics* (Global)
+- [Rust System Requirements and Platforms](updates-meta/rust-system-requirements-platforms.md) — *PC requirements, platforms and editions* (Global)
 - [Rust Update Timeline 2026](updates-meta/rust-update-timeline-2026.md) — *2026 update timeline* (Global)
 
 ## Knowledge graph
@@ -60,6 +66,7 @@ Evidence-based, source-cited reference for the PC/Steam survival game Rust — m
         rust_updates_meta_foundation["rust-updates-meta-foundation"]
       end
       subgraph Tier2["Tier 2"]
+        rust_base_building_mechanics["rust-base-building-mechanics"]
         rust_carbon_vs_oxide["rust-carbon-vs-oxide"]
         rust_clothing_armour["rust-clothing-armour"]
         rust_combat_damage_model["rust-combat-damage-model"]
@@ -71,11 +78,15 @@ Evidence-based, source-cited reference for the PC/Steam survival game Rust — m
         rust_moderation_anti_cheat["rust-moderation-anti-cheat"]
         rust_monuments_loot["rust-monuments-loot"]
         rust_plugin_development_hooks["rust-plugin-development-hooks"]
+        rust_plugin_marketplaces["rust-plugin-marketplaces"]
         rust_raiding_costs_defence["rust-raiding-costs-defence"]
+        rust_research_blueprints["rust-research-blueprints"]
         rust_server_convars_reference["rust-server-convars-reference"]
+        rust_server_monetisation_guidelines["rust-server-monetisation-guidelines"]
         rust_server_performance["rust-server-performance"]
         rust_server_permissions_rcon["rust-server-permissions-rcon"]
         rust_skins_cosmetics["rust-skins-cosmetics"]
+        rust_system_requirements_platforms["rust-system-requirements-platforms"]
         rust_teams_clans["rust-teams-clans"]
         rust_tools_gathering["rust-tools-gathering"]
         rust_turrets_deployables["rust-turrets-deployables"]
@@ -84,6 +95,7 @@ Evidence-based, source-cited reference for the PC/Steam survival game Rust — m
         rust_weapons_ammo["rust-weapons-ammo"]
         rust_wildlife_npcs["rust-wildlife-npcs"]
         rust_wipes_map_generation["rust-wipes-map-generation"]
+        rust_world_events["rust-world-events"]
       end
       rust_game_mechanics_foundation -->|related| rust_items_crafting_foundation
       rust_game_mechanics_foundation -->|related| rust_building_raiding_foundation
@@ -163,6 +175,48 @@ Evidence-based, source-cited reference for the PC/Steam survival game Rust — m
       rust_economy_trading -->|related| rust_game_modes
       rust_economy_trading -->|related| rust_raiding_costs_defence
       rust_economy_trading -->|related| rust_electricity_logic
+      rust_server_monetisation_guidelines -->|deepens| rust_server_administration_foundation
+      rust_server_monetisation_guidelines -->|related| rust_skins_cosmetics
+      rust_server_monetisation_guidelines -->|related| rust_moderation_anti_cheat
+      rust_server_monetisation_guidelines -->|related| rust_modding_plugins_foundation
+      rust_server_monetisation_guidelines -->|related| rust_economy_trading
+      rust_server_monetisation_guidelines -->|related| rust_server_permissions_rcon
+      rust_server_monetisation_guidelines -->|related| rust_carbon_vs_oxide
+      rust_server_monetisation_guidelines -->|related| rust_updates_meta_foundation
+      rust_system_requirements_platforms -->|deepens| rust_updates_meta_foundation
+      rust_system_requirements_platforms -->|related| rust_moderation_anti_cheat
+      rust_system_requirements_platforms -->|related| rust_server_convars_reference
+      rust_system_requirements_platforms -->|related| rust_server_performance
+      rust_system_requirements_platforms -->|related| rust_update_timeline_2026
+      rust_system_requirements_platforms -->|related| rust_game_modes
+      rust_research_blueprints -->|deepens| rust_items_crafting_foundation
+      rust_research_blueprints -->|related| rust_updates_meta_foundation
+      rust_research_blueprints -->|related| rust_economy_trading
+      rust_research_blueprints -->|related| rust_monuments_loot
+      rust_research_blueprints -->|related| rust_tools_gathering
+      rust_research_blueprints -->|related| rust_wipes_map_generation
+      rust_base_building_mechanics -->|deepens| rust_building_raiding_foundation
+      rust_base_building_mechanics -->|related| rust_raiding_costs_defence
+      rust_base_building_mechanics -->|related| rust_turrets_deployables
+      rust_base_building_mechanics -->|related| rust_server_convars_reference
+      rust_base_building_mechanics -->|related| rust_skins_cosmetics
+      rust_base_building_mechanics -->|related| rust_update_timeline_2026
+      rust_plugin_marketplaces -->|deepens| rust_modding_plugins_foundation
+      rust_plugin_marketplaces -->|related| rust_carbon_vs_oxide
+      rust_plugin_marketplaces -->|related| rust_plugin_development_hooks
+      rust_plugin_marketplaces -->|related| rust_server_administration_foundation
+      rust_plugin_marketplaces -->|related| rust_server_permissions_rcon
+      rust_plugin_marketplaces -->|related| rust_moderation_anti_cheat
+      rust_plugin_marketplaces -->|related| rust_updates_meta_foundation
+      rust_plugin_marketplaces -->|related| rust_server_monetisation_guidelines
+      rust_world_events -->|deepens| rust_game_mechanics_foundation
+      rust_world_events -->|related| rust_wildlife_npcs
+      rust_world_events -->|related| rust_monuments_loot
+      rust_world_events -->|related| rust_vehicles
+      rust_world_events -->|related| rust_combat_damage_model
+      rust_world_events -->|related| rust_update_timeline_2026
+      rust_world_events -->|related| rust_server_convars_reference
+      rust_world_events -->|related| rust_updates_meta_foundation
       rust_items_crafting_foundation -->|related| rust_game_mechanics_foundation
       rust_building_raiding_foundation -->|related| rust_game_mechanics_foundation
       rust_building_raiding_foundation -->|related| rust_items_crafting_foundation
@@ -460,6 +514,13 @@ Evidence-based, source-cited reference for the PC/Steam survival game Rust — m
       rust_tools_gathering -->|related| rust_modding_plugins_foundation
       rust_tools_gathering -->|related| rust_updates_meta_foundation
       rust_tools_gathering -->|related| rust_clothing_armour
+      rust_research_blueprints -->|related| rust_game_mechanics_foundation
+      rust_research_blueprints -->|related| rust_world_events
+      rust_research_blueprints -->|related| rust_base_building_mechanics
+      rust_base_building_mechanics -->|related| rust_game_mechanics_foundation
+      rust_base_building_mechanics -->|related| rust_server_administration_foundation
+      rust_base_building_mechanics -->|related| rust_updates_meta_foundation
+      rust_world_events -->|related| rust_raiding_costs_defence
     ```
 
 ## Machine-readable exports

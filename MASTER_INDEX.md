@@ -36,6 +36,12 @@ Catalogue of every document in the Rust (Facepunch) Game Knowledge Base. Owned b
 | rust-fishing | Rust Fishing | Fishing | 2 | Global | 1.0.0 | frozen | Medium | `docs/game-mechanics/rust-fishing.md` |
 | rust-tools-gathering | Rust Tools and Gathering | Tools and gathering | 2 | Global | 1.0.0 | frozen | Medium | `docs/items-crafting/rust-tools-gathering.md` |
 | rust-economy-trading | Rust Economy and Trading | Economy, scrap and trading | 2 | Global | 1.0.0 | frozen | Medium | `docs/items-crafting/rust-economy-trading.md` |
+| rust-server-monetisation-guidelines | Rust Server Monetisation and Hosting Guidelines | Facepunch community server guidelines | 2 | Global | 1.0.0 | frozen | Medium | `docs/server-administration/rust-server-monetisation-guidelines.md` |
+| rust-system-requirements-platforms | Rust System Requirements and Platforms | PC requirements, platforms and editions | 2 | Global | 1.0.0 | frozen | Medium | `docs/updates-meta/rust-system-requirements-platforms.md` |
+| rust-research-blueprints | Rust Research and Blueprints | Research table and blueprint costs | 2 | Global | 1.0.0 | frozen | Medium | `docs/items-crafting/rust-research-blueprints.md` |
+| rust-base-building-mechanics | Rust Base Building Mechanics | Structural mechanics and building rules | 2 | Global | 1.0.0 | frozen | Medium | `docs/building-raiding/rust-base-building-mechanics.md` |
+| rust-plugin-marketplaces | Rust Plugin Marketplaces and Licensing | Plugin sources, licences and marketplaces | 2 | Global | 0.1.0 | in-review | Low | `docs/modding-plugins/rust-plugin-marketplaces.md` |
+| rust-world-events | Rust World Events | Cargo ship, airdrops and map events | 2 | Global | 1.0.0 | frozen | Medium | `docs/game-mechanics/rust-world-events.md` |
 
 ## Knowledge graph
 
@@ -119,6 +125,48 @@ Catalogue of every document in the Rust (Facepunch) Game Knowledge Base. Owned b
 - `rust-economy-trading` *related* `rust-game-modes`
 - `rust-economy-trading` *related* `rust-raiding-costs-defence`
 - `rust-economy-trading` *related* `rust-electricity-logic`
+- `rust-server-monetisation-guidelines` *deepens* `rust-server-administration-foundation`
+- `rust-server-monetisation-guidelines` *related* `rust-skins-cosmetics`
+- `rust-server-monetisation-guidelines` *related* `rust-moderation-anti-cheat`
+- `rust-server-monetisation-guidelines` *related* `rust-modding-plugins-foundation`
+- `rust-server-monetisation-guidelines` *related* `rust-economy-trading`
+- `rust-server-monetisation-guidelines` *related* `rust-server-permissions-rcon`
+- `rust-server-monetisation-guidelines` *related* `rust-carbon-vs-oxide`
+- `rust-server-monetisation-guidelines` *related* `rust-updates-meta-foundation`
+- `rust-system-requirements-platforms` *deepens* `rust-updates-meta-foundation`
+- `rust-system-requirements-platforms` *related* `rust-moderation-anti-cheat`
+- `rust-system-requirements-platforms` *related* `rust-server-convars-reference`
+- `rust-system-requirements-platforms` *related* `rust-server-performance`
+- `rust-system-requirements-platforms` *related* `rust-update-timeline-2026`
+- `rust-system-requirements-platforms` *related* `rust-game-modes`
+- `rust-research-blueprints` *deepens* `rust-items-crafting-foundation`
+- `rust-research-blueprints` *related* `rust-updates-meta-foundation`
+- `rust-research-blueprints` *related* `rust-economy-trading`
+- `rust-research-blueprints` *related* `rust-monuments-loot`
+- `rust-research-blueprints` *related* `rust-tools-gathering`
+- `rust-research-blueprints` *related* `rust-wipes-map-generation`
+- `rust-base-building-mechanics` *deepens* `rust-building-raiding-foundation`
+- `rust-base-building-mechanics` *related* `rust-raiding-costs-defence`
+- `rust-base-building-mechanics` *related* `rust-turrets-deployables`
+- `rust-base-building-mechanics` *related* `rust-server-convars-reference`
+- `rust-base-building-mechanics` *related* `rust-skins-cosmetics`
+- `rust-base-building-mechanics` *related* `rust-update-timeline-2026`
+- `rust-plugin-marketplaces` *deepens* `rust-modding-plugins-foundation`
+- `rust-plugin-marketplaces` *related* `rust-carbon-vs-oxide`
+- `rust-plugin-marketplaces` *related* `rust-plugin-development-hooks`
+- `rust-plugin-marketplaces` *related* `rust-server-administration-foundation`
+- `rust-plugin-marketplaces` *related* `rust-server-permissions-rcon`
+- `rust-plugin-marketplaces` *related* `rust-moderation-anti-cheat`
+- `rust-plugin-marketplaces` *related* `rust-updates-meta-foundation`
+- `rust-plugin-marketplaces` *related* `rust-server-monetisation-guidelines`
+- `rust-world-events` *deepens* `rust-game-mechanics-foundation`
+- `rust-world-events` *related* `rust-wildlife-npcs`
+- `rust-world-events` *related* `rust-monuments-loot`
+- `rust-world-events` *related* `rust-vehicles`
+- `rust-world-events` *related* `rust-combat-damage-model`
+- `rust-world-events` *related* `rust-update-timeline-2026`
+- `rust-world-events` *related* `rust-server-convars-reference`
+- `rust-world-events` *related* `rust-updates-meta-foundation`
 
 ## Proposed taxonomy (pending human approval, nothing generated yet)
 

@@ -314,3 +314,39 @@ reddit.com, x.com / twitter.com, discord.com, youtube.com, steamcommunity.com, s
 | S286 | Facepunch | Primary | Facepunch | https://rust.facepunch.com/blog/softcore-gamemode-update/ |
 | S287 | Facepunch Rust Wiki | Primary | Facepunch Rust Wiki | https://wiki.facepunch.com/rust/item/vending.machine |
 | S288 | Rustafied | Practitioner | Rustafied | https://www.rustafied.com/updates/2017/2/9/vending-machines-how-they-work |
+| S289 | Facepunch Studios | Primary | Facepunch Studios | https://facepunch.com/legal/modding |
+| S290 | GameServerKings | Practitioner | GameServerKings | https://www.gameserverkings.com/knowledge-base/rust/server-monetisation/ |
+| S291 | PayNow | Practitioner | PayNow | https://paynow.gg/blog/how-to-monetize-your-rust-server |
+| S292 | Facepunch Rust Wiki | Primary | Facepunch Rust Wiki | https://wiki.facepunch.com/rust/Purchase-and-Installation |
+| S293 | Double Eleven | Practitioner | Double Eleven | http://rust.double11.com/faq |
+| S294 | Facepunch | Primary | Facepunch | https://rust.facepunch.com/news/pivot-or-die |
+| S295 | Rustafied | Practitioner | Rustafied | https://www.rustafied.com/updates/2025/10/30/meta-shifts-bp-wipe-and-box-sorting |
+| S296 | Facepunch | Primary | Facepunch | https://rust.facepunch.com/news/devblog-190 |
+| S297 | Facepunch | Primary | Facepunch | https://rust.facepunch.com/news/devblog-196 |
+| S298 | Facepunch | Primary | Facepunch | https://rust.facepunch.com/news/devblog-35 |
+| S299 | Facepunch | Primary | Facepunch | https://rust.facepunch.com/news/devblog-85 |
+| S300 | Facepunch | Primary | Facepunch | https://rust.facepunch.com/news/friday-devblog-20 |
+| S301 | Facepunch | Primary | Facepunch | https://rust.facepunch.com/news/devblog-146 |
+| S302 | Facepunch Wiki | Primary | Facepunch Wiki | https://wiki.facepunch.com/rust/item/hammer |
+| S303 | Facepunch Wiki | Primary | Facepunch Wiki | https://wiki.facepunch.com/rust/item/wall.external.high |
+| S304 | XGamingServer | Practitioner | XGamingServer | https://xgamingserver.com/blog/rust-base-building-guide/ |
+| S305 | Codefling | Practitioner | Codefling | https://codefling.com/legal |
+| S306 | Codefling | Practitioner | Codefling | https://codefling.com/refunds |
+| S307 | Codefling | Practitioner | Codefling | https://codefling.com/creator |
+| S308 | Codefling | Practitioner | Codefling | https://codefling.com/warranty |
+| S309 | Codefling | Practitioner | Codefling | https://codefling.com/curation |
+| S310 | Codefling | Practitioner | Codefling | https://codefling.com/terms |
+| S311 | Codefling | Practitioner | Codefling | https://codefling.com/services/record/125-custom-rust-plugin-development-server-setup-support/ |
+| S312 | Codefling | Practitioner | Codefling | https://codefling.com/disclaimer |
+| S313 | RespawnHost | Practitioner | RespawnHost | https://respawnhost.com/de/wiki/games/rust/rust-best-plugins-2026/ |
+| S314 | RustHQ | Practitioner | RustHQ | https://rusthq.com/ |
+| S315 | Facepunch | Primary | Facepunch | https://rust.facepunch.com/news/the-cargo-ship-update |
+| S316 | Facepunch | Primary | Facepunch | https://rust.facepunch.com/news/the-hot-air-balloon-update |
+| S317 | Facepunch | Primary | Facepunch | https://rust.facepunch.com/news/meta-madness |
+| S318 | Facepunch | Primary | Facepunch | https://rust.facepunch.com/news/devblog-78 |
+| S319 | Facepunch | Primary | Facepunch | https://rust.facepunch.com/news/devblog-174 |
+| S320 | Facepunch | Primary | Facepunch | https://rust.facepunch.com/news/devblog-184 |
+| S321 | Facepunch Rust Wiki | Primary | Facepunch Rust Wiki | https://wiki.facepunch.com/rust/airdrop |
+| S322 | Facepunch Rust Wiki | Primary | Facepunch Rust Wiki | https://wiki.facepunch.com/rust/item/supply.signal |
+| S323 | Facepunch Rust Wiki | Primary | Facepunch Rust Wiki | https://wiki.facepunch.com/rust/helicopter-crate |
+| S324 | Facepunch Rust Wiki | Primary | Facepunch Rust Wiki | https://wiki.facepunch.com/rust/cargo-ship-scientist |

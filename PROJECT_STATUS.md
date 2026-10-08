@@ -1,7 +1,8 @@
 # Project Status
 
-- **Phase:** Clusters 1-5 built (6 foundations + 24 depth docs), 8 Oct 2026. Game build checked: Livestock Update (1 Oct 2026).
-- **Documents:** 30. Twenty-seven frozen at v1.0.0 (Medium confidence); three held at v0.1.0 / in-review, Low confidence (raiding-costs, wildlife-npcs, teams-clans). `rust-raiding-costs-defence` is held at v0.1.0 / in-review, Low confidence.
+- **Phase:** Clusters 1-6 built (6 foundations + 30 depth docs), 8 Oct 2026. Game build checked: Livestock Update (1 Oct 2026).
+- **Documents:** 36. Thirty-two frozen at v1.0.0 (Medium confidence); four held at v0.1.0 / in-review, Low confidence (raiding-costs, wildlife-npcs, teams-clans, plugin-marketplaces). `rust-raiding-costs-defence` is held at v0.1.0 / in-review, Low confidence.
+- **Also held:** `rust-plugin-marketplaces` (uMod returned 403 on every fetch, so uMod licence/monetisation norms are unverified; Codefling first-party pages only).
 - **Also held:** `rust-teams-clans` (clan cap, ranks and vanilla team size community-only; only Facepunch figure is softcore max 4 from a 2021 post).
 - **Also held:** `rust-wildlife-npcs` (all health values community-only, patrol heli health conflicts 9895.6 vs ~10,000).
 - **Why raiding-costs held:** every HP, damage and explosive-count figure is third-party and unverified; sources conflict (e.g. armoured door 1,000 vs 800 HP). Needs a human decision: freeze as Low, or find in-game data.
@@ -44,3 +45,13 @@
 - Skins: cosmetic-only rule rests on 2015 devblogs; creator revenue share not in any official source (deliberately omitted).
 - Fishing: no bait values, catch odds, rod durability or overfishing timers; fish trap and village wiki pages 404.
 - Clothing: stacking maths of layers not stated; several garments unsourced.
+
+## Cluster 6 gaps and follow-ups
+
+- Possibly stale frozen text: `rust-research-blueprints` reports Workbench 2 and 3 now cost no scrap to craft (Pivot or Die, 6 Nov 2025; research cost 30 scrap) and a forced blueprint wipe on 6 Nov 2025. The frozen items foundation was written from Meta Shift (Oct 2025) and may need a v1.0.1 revision note.
+- Research: wiki tech-tree costs (125/250/500) do not clearly match Facepunch's rarity research costs (15/30/60/120); Meta Shift Part 2 and monthly BP wipes unsourced.
+- Events: spawn intervals for patrol heli, cargo ship, Chinook and airdrop have no current-build source (2015/2018 devblogs only, labelled).
+- Base building: current stability %, per-tier upgrade costs and tier HP unverified; tier HP (Stone 500, Metal 1000, Armored 2000) is from Devblog 190 (Dec 2017).
+- Monetisation: policy read via a summarising fetch, not raw text. Facepunch policy has no pay-to-win, logo or hosting-provider clause; a human should read facepunch.com/legal/servers before relying on this.
+- Platforms: Facepunch TPM/Secure Boot support article returned 403; Windows 10 status unstated.
+- Link checker: api.github.com now warn-only (unauthenticated limit 60/h; it 403s after repeated runs). Those 6 GitHub API links returned 200 on earlier runs but were not re-verified in the final run.

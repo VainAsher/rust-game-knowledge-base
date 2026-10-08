@@ -7,3 +7,4 @@
 | cluster-3-depth-v1.0.0 | 2026-10-08 | 6 depth documents frozen |
 | cluster-4-depth-v1.0.0 | 2026-10-08 | 5 depth documents frozen; wildlife-npcs held in-review |
 | cluster-5-depth-v1.0.0 | 2026-10-08 | 5 depth documents frozen; teams-clans held in-review |
+| cluster-6-depth-v1.0.0 | 2026-10-08 | 5 depth documents frozen; plugin-marketplaces held in-review |

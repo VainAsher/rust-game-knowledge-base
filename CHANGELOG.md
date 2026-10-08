@@ -1,5 +1,11 @@
 # Changelog
 
+## Cluster 6 - 2026-10-08
+
+- Five depth documents frozen at v1.0.0: world events, research and blueprints, base building mechanics, server monetisation guidelines, system requirements and platforms.
+- `rust-plugin-marketplaces` added at v0.1.0, held in-review (Low confidence).
+- Link checker: api.github.com treated as warn-only (rate limit).
+
 ## Cluster 5 - 2026-10-08
 
 - Five depth documents frozen at v1.0.0: fishing, economy and trading, clothing and armour, tools and gathering, skins and cosmetics.
